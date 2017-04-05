@@ -46,9 +46,9 @@ a {
     font-size: 1.2em;
 }
 
-.contact .vertical.segment.first .eight.wide.column,
+.contact .vertical.segment.first .five.wide.column,
 .contact .vertical.segment.first .sixteen.wide.column{
-    padding-left: 0;
+    padding-left: 5px;
 }
 
 .contact .vertical.segment.first .divider.people{

@@ -28,7 +28,7 @@ a {
     margin-right: 2px;
 }
 
-.contact .vertical.segment {
+.contact .vertical.segment.first {
     background-color: rgba(0, 0, 0, 0.03) !important
 }
 

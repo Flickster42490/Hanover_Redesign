@@ -1,6 +1,29 @@
+@media (min-width: 1920px) {
+    body .index {
+        height: 101.5%;
+        background: url("../images/home-hero-image-large.png") no-repeat;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1366px) {
+    body .index {
+        height: 101.5%;
+        background: url("../images/home-hero-image-medium.png") no-repeat;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+        background-size: cover;
+    }
+}
+
 body .index {
-    height: 100%;
-    background: url("../images/index.png") no-repeat center center fixed;
+    height: 101.5%;
+    width: 103%;
+    background: url("../images/home-hero-image-small.png") no-repeat;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -15,11 +38,11 @@ body .index {
 .ui.grid.index h1.huge.inverted.header {
     font-family: Georgia, serif;
     font-weight: 300;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
 }
 
 .ui.grid.index h2.huge.inverted.header {
     font-family: Georgia, serif;
     font-weight: 300;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
 }

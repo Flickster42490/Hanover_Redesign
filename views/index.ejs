@@ -14,3 +14,24 @@
   </div>
 </div>
 
+<script>
+  $(function() {
+
+    //target active menu links
+    if (window.location.pathname === '/' || window.location.pathname === '/home')
+      $('.right.secondary.menu .item.home').addClass('active');
+
+
+    var movementStrength = 20;
+    var height = movementStrength / $(window).height();
+    var width = movementStrength / $(window).width();
+    $(".index").mousemove(function(e){
+      var pageX = e.pageX - ($(window).width() / 2);
+      var pageY = e.pageY - ($(window).height() / 2);
+      var newvalueX = width * pageX ;
+      var newvalueY = height * pageY;
+      $('.index').css("background-position", newvalueX+"px     "+newvalueY+"px");
+    });
+  });
+</script>
+

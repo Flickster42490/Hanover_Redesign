@@ -1,8 +1,4 @@
 $(function () {
-//target active menu links
-  if (window.location.pathname === '/' || window.location.pathname === '/home')
-    $('.right.secondary.menu .item.home').addClass('active');
-
 //init headhesive plugin
   var options = {
     offset: '#showHere',

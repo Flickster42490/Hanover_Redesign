@@ -18,6 +18,10 @@ router.get('/home', function (req, res, next) {
   res.render('index');
 });
 
+router.get('/login', function (req, res, next) {
+  res.render('login');
+});
+
 router.get('/portfolio', function (req, res, next) {
   res.render('portfolio', {page: "portfolio", headerTitle: 'Our Portfolio'});
 });

@@ -2,6 +2,7 @@
     background: transparent;
     position: absolute;
     z-index: 100;
+    margin-top: 0 !important;
 }
 
 .fluid.secondary.menu .active {
@@ -33,6 +34,7 @@
     visibility: hidden;
 }
 /*************************************************************************************************************/
+
 .headhesive--clone {
     /* Required styles */
     position: fixed !important;

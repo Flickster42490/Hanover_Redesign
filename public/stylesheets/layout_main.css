@@ -1,0 +1,26 @@
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Lato', san-serif;
+}
+
+.secondary.menu .active {
+    color: lightslategrey !important;
+}
+
+.secondary.menu .item:hover {
+    color: lightslategrey !important;
+}
+
+.top.fixed.menu {
+    height: 150px;
+}
+
+.menu img {
+    padding-top: 10px;
+    margin-left: -110px;
+}
+
+.right.menu .item {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+

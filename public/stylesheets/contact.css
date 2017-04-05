@@ -1,0 +1,41 @@
+a {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.contact.masthead.basic.segment {
+    margin: 0 0;
+    background: url("../images/contact-hero-image.png") no-repeat center center;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+}
+
+.contact.masthead.basic.segment .huge.header {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.contact .fa.fa-linkedin {
+    margin-left: 2px;
+}
+
+
+.contact .images .bordered.image {
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.contact .vertical.segment.first .container.grid {
+    width: 100% !important;
+}
+
+.contact .vertical.segment.first .medium.header {
+    font-size: 1.4em;
+}
+
+.contact .vertical.segment.first .small.header {
+    font-size: 1.2em;
+}

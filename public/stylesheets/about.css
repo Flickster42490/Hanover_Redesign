@@ -1,0 +1,206 @@
+.aquamarine {
+    color: #019ed3 !important;
+}
+
+.teal {
+    color: #498b98 !important;
+}
+
+.navy {
+    color: #003e82 !important;
+}
+
+.tealAqua {
+    color: #00779f !important;
+}
+
+.about.masthead.basic.segment {
+    margin: 0 0;
+    background: url("../images/about-hero-image.png") no-repeat center center;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+}
+
+.about.masthead.basic.segment .huge.header {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.about .three.column.row .progress {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.about .bar {
+    width: 100%;
+    max-width: 0;
+    height: 40px;
+    margin: 0 0 10px 0;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+
+.about .bar.aquamarine {
+    background: #019ed3;
+}
+
+.about .bar.teal {
+    background: #498b98;
+}
+
+.about .bar.navy {
+    background: #003e82;
+}
+
+.about .large.header {
+    font-size: 2.5em;
+}
+
+.about .large.header.aquamarine,
+.about .large.header.teal,
+.about .large.header.navy {
+    line-height: 80%;
+    font-size: 3em;
+}
+
+.about .medium.header {
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+.about p {
+    font-size: 1.6em;
+}
+
+.about .vertical.segment.first,
+.about .vertical.segment.third {
+    background-color: rgba(0, 0, 0, 0.03) !important
+}
+
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.tree ul {
+    padding-top: 40px;
+    position: relative;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 60px 5px 0 5px;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 60%;
+    border-top: 3px solid #003e82;
+    width: 50%;
+    height: 60px;
+}
+
+.tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 3px solid #003e82;
+}
+
+/*We need to remove left-right connectors from elements without
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child {
+    padding-top: 0;
+}
+
+/*Remove left connector from first child and
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after {
+    border: 0 none;
+}
+
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before {
+    border-right: 3px solid #003e82;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 3px solid #003e82;
+    width: 0;
+    height: 40px;
+}
+
+.tree li h2 {
+    border: 3px solid darkgray;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 0px;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li h3 {
+    border: 3px solid darkgray;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 30px;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}

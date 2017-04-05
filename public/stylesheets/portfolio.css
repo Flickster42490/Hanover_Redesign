@@ -1,0 +1,100 @@
+a {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.category-value {
+    font-weight: 700;
+}
+
+.closeModal {
+    float: right;
+    cursor: pointer;
+}
+
+.portfolio.masthead.basic.segment {
+    margin: 0 0;
+    background: url("../images/portfolio-hero-image.png") no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+}
+
+.portfolio.masthead.basic.segment .huge.header {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.portfolio .dropdown {
+    background: #707070;
+    color: #ffffff;
+    width: 80%
+}
+
+.portfolio .huge.button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.portfolio .huge.button:hover {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.portfolio .medium.bordered.image {
+    height: 140px;
+    width: 200px;
+}
+
+.portfolio .vertical.segment.first {
+    background: #363636;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio .vertical.segment.first .large-text {
+    font-size: 2.5em;
+}
+
+.portfolio .vertical.segment.first span {
+    color: #ffffff;
+}
+
+.portfolio .vertical.segment.first .five.wide.column {
+    margin-right: 0;
+}
+
+.portfolio .vertical.segment.first .two.wide.column {
+    margin-left: 20px;
+}
+
+.portfolio .vertical.segment.third.multi-family .eight.wide.column,
+.portfolio .vertical.segment.fifth.net-lease .eight.wide.column {
+    left: 5%;
+}
+
+.portfolio .vertical.segment.second.multi-family,
+.portfolio .vertical.segment.fourth.net-lease {
+    background-color: #00779f !important
+}
+
+.portfolio .vertical.segment.second.multi-family .large.header,
+.portfolio .vertical.segment.fourth.net-lease .large.header {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.portfolio .vertical.segment.third.multi-family .large.header,
+.portfolio .vertical.segment.fifth.net-lease .large.header {
+    font-size: 1.8em;
+    color: #00779f;
+    margin-bottom: 5px;
+}
+
+.portfolio .vertical.segment.third.multi-family .medium.header,
+.portfolio .vertical.segment.fifth.net-lease .medium.header {
+    font-size: 1.6em;
+    font-weight: 200;
+    margin-top: 0;
+}

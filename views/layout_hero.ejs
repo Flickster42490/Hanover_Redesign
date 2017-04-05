@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hanover Financial</title>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/dependencies/semantic.css">
+  <link rel="stylesheet" href="/stylesheets/dependencies/animate.css">
+  <link rel="stylesheet" href="/stylesheets/dependencies/icon.min.css">
+  <link rel="stylesheet" href="/stylesheets/layout_main.css">
+  <link rel="stylesheet" href="/stylesheets/layout_hero.css">
+  <link rel="stylesheet" href="/stylesheets/index.css">
+  <link rel="stylesheet" href="/stylesheets/about.css">
+  <link rel="stylesheet" href="/stylesheets/contact.css">
+  <link rel="stylesheet" href="/stylesheets/portfolio.css">
+  <link rel="stylesheet" href="/stylesheets/strategies.css">
+  <link rel="stylesheet" href="/stylesheets/team.css">
+
+  <script src="https://use.fontawesome.com/1c1009ad3f.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="/js/dependencies/jquery.animateNumber.min.js"></script>
+  <script src="/js/dependencies/wow.min.js"></script>
+
+</head>
+<body>
+<div class="ui fluid secondary menu">
+  <div class="ui container">
+    <a href="/"><img src="/images/hanover_logo.png"/></a>
+    <div class="ui right secondary menu">
+      <a class="item home" href="/home">HOME</a>
+      <a class="item about" href="/about">ABOUT</a>
+      <a class="item strategies" href="/strategies">STRATEGIES</a>
+      <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+      <a class="item team" href="/team">TEAM</a>
+      <a class="item contact" href="/contact">CONTACT</a>
+      <a class="item login" href="/login">LOGIN</a>
+    </div>
+  </div>
+</div>
+<div class="<%= page %>">
+  <div class="ui center aligned masthead basic vertical segment <%= page %>">
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="column">
+      <h1 class="ui huge inverted header"><%= headerTitle %></h1>
+    </div>
+    <a id="showHere"></a>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+  </div>
+
+  <%- body -%>
+
+  <div class="ui vertical footer segment">
+    <div class="ui hidden divider"></div>
+    <div class="ui grid container">
+      <div class="two column row">
+        <div class="thirteen wide column">
+          <span class="text">1888 Century Park East Suite 1110  Los Angeles, CA 900068 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;  © 2017 Hanover Financial LLC &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Website by Maximilan Li</span>
+        </div>
+        <div class="three wide column">
+          <a href="#"><span class="text">Join Our Mailing List</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="ui hidden divider"></div>
+  </div>
+</div>
+<script src="/js/dependencies/headhesive.js"></script>
+<script src="/js/dependencies/semantic.js"></script>
+
+<script src="/js/view.about.js"></script>
+<script src="/js/view.contact.js"></script>
+<script src="/js/view.layout.js"></script>
+<script src="/js/view.portfolio.js"></script>
+<script src="/js/view.strategies.js"></script>
+<script src="/js/view.team.js"></script>
+
+</body>
+</html>

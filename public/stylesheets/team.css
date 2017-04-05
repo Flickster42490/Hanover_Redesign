@@ -1,0 +1,50 @@
+a {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.category-value {
+    font-weight: 700;
+}
+
+.closeModal {
+    float: right;
+    cursor: pointer;
+}
+
+.team.masthead.basic.segment {
+    margin: 0 0;
+    background: url("../images/team-hero-image.png") no-repeat center center;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+}
+
+.team.masthead.basic.segment .huge.header {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.team .images .bordered.image {
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.team.modal .large.header.tealAqua {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.team.modal .medium.header {
+    font-size: 1.6em;
+    font-weight: 200;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.team.modal p {
+    font-size: 1.1em;
+    font-weight: 200;
+}

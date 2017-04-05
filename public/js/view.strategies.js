@@ -1,0 +1,28 @@
+$(function() {
+  //target active menu links
+  if(window.location.pathname === '/strategies')
+    $('.right.secondary.menu .item.strategies').addClass('active');
+
+  //target tabular menu
+  $(document).on('click', '.net-lease', function() {
+    if(!$('.item.net-lease').hasClass('active')){
+      $('.item.multi-family').removeClass('active');
+      $('.item.net-lease').addClass('active');
+
+      $('.striped.table.multi-family').css('display','none');
+      $('.striped.table.net-lease').css('display','table');
+    }
+  });
+
+  $(document).on('click', '.multi-family', function() {
+    if(!$('.item.multi-family').hasClass('active')) {
+      $('.item.net-lease').removeClass('active');
+      $('.item.multi-family').addClass('active');
+
+      $('.striped.table.net-lease').css('display','none');
+      $('.striped.table.multi-family').css('display','table');
+
+    }
+  });
+
+});

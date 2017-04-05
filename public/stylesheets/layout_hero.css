@@ -1,0 +1,75 @@
+.fluid.secondary.menu {
+    background: transparent;
+    position: absolute;
+    z-index: 100;
+}
+
+.fluid.secondary.menu .active {
+    color: lightslategrey !important;
+}
+
+.fluid.secondary.menu .item:hover {
+    color: lightslategrey !important;
+}
+
+.light-text {
+    font-weight: 200;
+}
+
+.footer.segment .text {
+    color: #ffffff;
+}
+
+.vertical.footer.segment {
+    background: #003041;
+}
+
+.vertical.footer.segment .thirteen.wide.column {
+    margin-left: -15px;
+}
+
+/************************************************************************************************************/
+.wow {
+    visibility: hidden;
+}
+/*************************************************************************************************************/
+.headhesive--clone {
+    /* Required styles */
+    position: fixed !important;
+    background: #003041 !important;
+    z-index: 101 !important;
+    top: 0;
+    left: 0;
+
+    /* Translate -100% to move off screen */
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+
+    /* Animations */
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+
+}
+
+
+/**
+ * Headhesive stick
+ * > `stick` class for the cloned element:
+ *
+ * @example
+ * var options = {
+ *   classes {
+ *     stick: 'banner--stick';
+ *   }
+ * }
+ */
+.headhesive--stick {
+
+    /* Translate back to 0%; */
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+/*************************************************************************************************************/

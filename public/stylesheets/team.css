@@ -32,8 +32,9 @@ a {
     margin-right: 2px;
 }
 
-.team.modal .large.header.tealAqua {
+.team.modal .large.header {
     font-size: 2em;
+    color: #00779f !important;
     margin-bottom: 10px;
 }
 

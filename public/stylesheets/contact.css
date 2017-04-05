@@ -28,14 +28,29 @@ a {
     margin-right: 2px;
 }
 
+.contact .vertical.segment {
+    background-color: rgba(0, 0, 0, 0.03) !important
+}
+
 .contact .vertical.segment.first .container.grid {
     width: 100% !important;
 }
 
 .contact .vertical.segment.first .medium.header {
     font-size: 1.4em;
+    color: #00779f;
+    font-weight: 200;
 }
 
 .contact .vertical.segment.first .small.header {
     font-size: 1.2em;
+}
+
+.contact .vertical.segment.first .eight.wide.column,
+.contact .vertical.segment.first .sixteen.wide.column{
+    padding-left: 0;
+}
+
+.contact .vertical.segment.first .divider.people{
+    margin: 0;
 }

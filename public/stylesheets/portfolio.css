@@ -76,7 +76,12 @@ a {
 
 .portfolio .vertical.segment.second.multi-family,
 .portfolio .vertical.segment.fourth.net-lease {
-    background-color: #00779f !important
+    background-color: #00779f !important;
+}
+
+.portfolio .vertical.segment.third.multi-family,
+.portfolio .vertical.segment.fifth.net-lease {
+    background-color: rgba(0, 0, 0, 0.03) !important;
 }
 
 .portfolio .vertical.segment.second.multi-family .large.header,

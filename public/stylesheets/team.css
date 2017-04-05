@@ -48,3 +48,7 @@ a {
     font-size: 1.1em;
     font-weight: 200;
 }
+
+.team .vertical.segment {
+background-color: rgba(0, 0, 0, 0.03) !important
+}

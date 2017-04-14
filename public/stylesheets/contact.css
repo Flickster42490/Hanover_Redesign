@@ -3,6 +3,10 @@ a {
     cursor: hand;
 }
 
+.mobile-group {
+    display: none;
+}
+
 .contact.masthead.basic.segment {
     margin: 0 0;
     background: url("../images/contact-hero-image.png") no-repeat center center;
@@ -53,4 +57,15 @@ a {
 
 .contact .vertical.segment.first .divider.people{
     margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-group {
+        display: none !important;
+    }
+
+    .mobile-group {
+        display: block !important;
+    }
+
 }

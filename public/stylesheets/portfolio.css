@@ -12,6 +12,10 @@ a {
     cursor: pointer;
 }
 
+.mobile-group {
+    display: none !important;
+}
+
 .portfolio.masthead.basic.segment {
     margin: 0 0;
     background: url("../images/portfolio-hero-image.png") no-repeat center center fixed;
@@ -102,4 +106,15 @@ a {
     font-size: 1.6em;
     font-weight: 200;
     margin-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-group {
+        display: none !important;
+    }
+
+    .mobile-group {
+        display: block !important;
+    }
+
 }

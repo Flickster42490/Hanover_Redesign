@@ -4,6 +4,7 @@
     }
     .menu img {
         margin-left: 0;
+        width: 230px;
     }
     .ui.right.sidebar {
         background-color:#003041;
@@ -12,15 +13,12 @@
     .ui.right.sidebar .item {
         font-size: 2em;
         font-weight: 200;
-    }
-
-    .hanover-logo {
-        margin-left: 40px;
+        text-align: center;
     }
 
     .fa-bars {
         display: block !important;
-        margin-right: 40px;
+        margin-right:15px;
     }
 }
 

@@ -75,11 +75,14 @@
 
 .about p {
     font-size: 1.6em;
+    text-align: justify;
 }
 
 .about .vertical.segment.first,
 .about .vertical.segment.third {
-    background-color: rgba(0, 0, 0, 0.03) !important
+    background-color: rgba(0, 0, 0, 0.03) !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 
 * {
@@ -203,4 +206,11 @@ right connector from last child*/
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .about p {
+        text-align: left;
+    }
 }

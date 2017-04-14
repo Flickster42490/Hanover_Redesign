@@ -25,11 +25,15 @@ $(function () {
   //sidebar open
   $('.fa-bars').click(function () {
     $('.sidebar')
-      .sidebar('show')
-  })
+    .sidebar({
+      // Overlay will mean the sidebar sits on top of your content
+      transition: 'overlay',
+      mobileTransition: 'overlay'
+    }).sidebar('show')
+  });
   //sidebar close
   $('.sidebar-close').click(function () {
     $('.sidebar')
       .sidebar('hide')
-  })
+  });
 });

@@ -1,7 +1,7 @@
 <% layout('layout_hero') -%>
 <div class="ui vertical segment first">
   <div class="ui center aligned grid container">
-    <div class="four column stackable row">
+    <div class="four column stackable row desktop-group">
       <div class="five wide left aligned column">
         <span class="sub-heading">FILTER BY TYPE</span><br/><br/>
         <select class="ui dropdown">
@@ -19,6 +19,28 @@
       </div>
       <div class="two wide column border-left">
         <span class="sub-heading" style="margin-left: 80px;">FUNDED</span><br/><br/>
+        <span class="large-text">$<span class="countUp4">0</span></span>
+      </div>
+    </div>
+
+    <div class="four column stackable row mobile-group">
+      <div class="five wide left aligned column">
+        <span class="sub-heading">FILTER BY TYPE</span><br/><br/>
+        <select class="ui dropdown">
+          <option value="multi-family">MULTI-FAMILY</option>
+          <option selected value="net-lease">NET LEASE</option>
+        </select>
+      </div>
+      <div class="two wide left aligned column border-right" style="margin-right: 0;">
+        <span class="sub-heading">LAUNCHED</span><br/><br/>
+        <span class="large-text">1999</span>
+      </div>
+      <div class="two wide left aligned column border-right" style="margin-right: 0;">
+        <span class="sub-heading">JOINT VENTURES</span><br/><br/>
+        <span class="large-text countUp3">0</span>
+      </div>
+      <div class="two wide left aligned column border-left">
+        <span class="sub-heading">FUNDED</span><br/><br/>
         <span class="large-text">$<span class="countUp4">0</span></span>
       </div>
     </div>
@@ -253,5 +275,6 @@
       </div>
     </div>
 
+  <div class="ui hidden divider"></div>
   </div>
 </div>

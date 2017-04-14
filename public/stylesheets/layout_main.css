@@ -1,4 +1,32 @@
-h1,h2,h3,h4,h5,h6,p {
+@media only screen and (max-width: 1150px) {
+    .ui.right.secondary.menu {
+        display: none !important;
+    }
+
+    .hanover-logo {
+        margin-left: 40px;
+    }
+
+    .fa-bars {
+        display: block !important;
+        margin-right: 40px;
+    }
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Lato', san-serif;
 }
 

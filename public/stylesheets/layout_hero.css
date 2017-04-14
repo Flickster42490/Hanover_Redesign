@@ -1,3 +1,29 @@
+@media only screen and (max-width: 1150px) {
+    .ui.right.secondary.menu {
+        display: none !important;
+    }
+    .menu img {
+        margin-left: 0;
+    }
+    .ui.right.sidebar {
+        background-color:#003041;
+        z-index: 1000;
+    }
+    .ui.right.sidebar .item {
+        font-size: 2em;
+        font-weight: 200;
+    }
+
+    .hanover-logo {
+        margin-left: 40px;
+    }
+
+    .fa-bars {
+        display: block !important;
+        margin-right: 40px;
+    }
+}
+
 .fluid.secondary.menu {
     background: transparent;
     position: absolute;

@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hanover Financial</title>
 
   <!-- CSS -->
@@ -21,23 +22,44 @@
   <script src="/js/dependencies/wow.min.js"></script>
 </head>
 <body>
-<div class="ui top fixed secondary menu">
-  <div class="ui container">
-    <a href="/"><img src="/images/hanover_logo.png"/></a>
-    <div class="ui right secondary menu">
-      <a class="item home" href="/home">HOME</a>
-      <a class="item about" href="/about">ABOUT</a>
-      <a class="item strategies" href="/strategies">STRATEGIES</a>
-      <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
-      <a class="item team" href="/team">TEAM</a>
-      <a class="item contact" href="/contact">CONTACT</a>
-      <a class="item login" href="/login">LOGIN</a>
+<!-- mobile nav menu -->
+<div class="ui right vertical menu very wide sidebar">
+  <a class="item home" href="/home">HOME</a>
+  <a class="item about" href="/about">ABOUT</a>
+  <a class="item strategies" href="/strategies">STRATEGIES</a>
+  <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+  <a class="item team" href="/team">TEAM</a>
+  <a class="item contact" href="/contact">CONTACT</a>
+  <a class="item login" href="/login">LOGIN</a>
+</div>
+  <div class="ui top fixed secondary menu">
+    <div class="ui container">
+      <a class="hanover-logo" href="/"><img src="/images/hanover_logo.png"/></a>
+      <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none;"></i>
+      <div class="ui right secondary menu">
+        <a class="item home" href="/home">HOME</a>
+        <a class="item about" href="/about">ABOUT</a>
+        <a class="item strategies" href="/strategies">STRATEGIES</a>
+        <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+        <a class="item team" href="/team">TEAM</a>
+        <a class="item contact" href="/contact">CONTACT</a>
+        <a class="item login" href="/login">LOGIN</a>
+      </div>
     </div>
   </div>
+<div class="pusher" style="height: 100%;">
+  <%- body -%>
 </div>
-<%- body -%>
-
 <script src="/js/dependencies/semantic.js"></script>
+<script>
+  $(function () {
+    //sidebar open
+    $('.fa-bars').click(function () {
+      $('.sidebar')
+        .sidebar('show')
+    })
+  })
+</script>
 
 </body>
 </html>

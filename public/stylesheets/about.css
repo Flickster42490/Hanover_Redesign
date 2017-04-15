@@ -26,6 +26,8 @@
 .about.masthead.basic.segment .huge.header {
     font-size: 3rem;
     font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about .three.column.row .progress {

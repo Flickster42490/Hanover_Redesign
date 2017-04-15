@@ -42,7 +42,7 @@
     margin-top: 0;
 }
 
-.strategies .striped.table td{
+.strategies .striped.table td {
     line-height: 1.5em;
 }
 
@@ -52,4 +52,14 @@
 
 .strategies .vertical.segment.first {
     background-color: rgba(0, 0, 0, 0.03) !important
+}
+
+@media only screen and (max-width: 1150px) {
+    .ui.tabular.menu .item {
+        font-size: 1.2em !important;
+    }
+
+    .ui.tabular.menu .item.multi-family {
+        margin-right: 0;
+    }
 }

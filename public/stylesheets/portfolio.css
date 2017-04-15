@@ -117,4 +117,8 @@ a {
         display: block !important;
     }
 
+    div.ten.wide.column > table > tbody > tr > td:nth-child(1) {
+        font-weight: 400;
+    }
+
 }

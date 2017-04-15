@@ -87,6 +87,10 @@
     padding-right: 15px !important;
 }
 
+.mobile-group {
+    display:none;
+}
+
 * {
     margin: auto;
     padding: 0;
@@ -214,5 +218,13 @@ right connector from last child*/
 @media only screen and (max-width: 1150px) {
     .about p {
         text-align: left;
+    }
+
+    .mobile-group {
+        display: block;
+    }
+
+    .desktop-group {
+        display: none;
     }
 }

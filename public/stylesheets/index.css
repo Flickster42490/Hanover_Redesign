@@ -67,11 +67,11 @@
         font-size: 2rem;
     }
 
-    .desktop-group {
+    .index .desktop-group {
         display: none;
     }
 
-    .mobile-group {
+    .index .mobile-group {
         display: block;
     }
 

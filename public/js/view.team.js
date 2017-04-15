@@ -16,9 +16,19 @@ $(function() {
     $(this).data('image', colorImage);
   })
 
-  //modal open
-  $('.team .bordered.image').click(function() {
-    var modalToOpen = '#' + $(this).attr('id') + '-modal';
+  //desktop modal open
+  $('.team .desktop-group .bordered.image').click(function() {
+    var modalToOpen = '#' + $(this).attr('id') + '-desktop-modal';
+    $(modalToOpen)
+      .modal({
+        inverted: true
+      })
+      .modal('show');
+  });
+
+  //mobile modal open
+  $('.team .mobile-group .bordered.image').click(function() {
+    var modalToOpen = '#' + $(this).attr('id') + '-mobile-modal';
     $(modalToOpen)
       .modal({
         inverted: true

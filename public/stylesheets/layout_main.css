@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media (min-width: 1920px) {
-    .masthead {
+    .masthead.index {
         top: -5px;
         left: -5px;
         height: 101.5%;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media (min-width: 1366px) {
-    .masthead {
+    .masthead.index {
         top: -5px;
         left: -5px;
         height: 101.5%;

@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .masthead.index {
+    top: -5px;
+    left: -5px;
+    height: 101.5%;
+    background-size: 101% 101% !important;
     background: url("../images/home-hero-image-medium.png") no-repeat;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover; /* Mozilla*/
@@ -16,21 +20,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 .masthead.index.segment {
     min-height: 700px;
-    max-height:930px;
+    max-height: 930px;
     padding: 1em 0em;
 }
+
 .masthead .logo.item img {
     margin-right: 1em;
 }
+
 .masthead .ui.menu .ui.button {
     margin-left: 0.5em;
 }
+
 .masthead h1.ui.header {
     margin-top: 3em;
     margin-bottom: 0em;
     font-size: 4em;
     font-weight: normal;
 }
+
 .masthead h2 {
     font-size: 1.7em;
     font-weight: normal;
@@ -50,7 +58,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .menu img {
     padding-top: 30px;
-    margin-left: -110px;
+    margin-left: 0px;
 }
 
 .right.menu .item {
@@ -58,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff;
 }
 
-.ui.footer.segment.index{
+.ui.footer.segment.index {
     background-color: #ffffff;
     padding-top: 0;
     padding-bottom: 0;
@@ -68,9 +76,16 @@ h1, h2, h3, h4, h5, h6, p {
     color: rgba(0, 0, 0, 0.87);
 }
 
+.ui.container.index {
+    margin-top: -20px;
+}
+
 @media (min-width: 1920px) {
     .masthead {
+        top: -5px;
+        left: -5px;
         height: 101.5%;
+        background-size: 101% 101% !important;
         background: url("../images/home-hero-image-large.png") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
@@ -81,7 +96,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (min-width: 1366px) {
     .masthead {
+        top: -5px;
+        left: -5px;
         height: 101.5%;
+        background-size: 101% 101% !important;
         background: url("../images/home-hero-image-medium.png") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
@@ -97,21 +115,51 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .hanover-logo {
-        margin-left: 30px;
+        margin-left: 40px;
         width: 80%;
+    }
+
+    .menu img {
+        max-width: 180px;
+        padding-top: 0;
+        margin-left: -110px;
     }
 
     .fa-bars {
         display: block !important;
         margin-right: 40px;
     }
+    .ui.right.sidebar {
+        background-color: #003041;
+        z-index: 1000;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-    .mobile-group {
-        display:block;
+    .masthead.index {
+        background: url("../images/home-hero-image-medium.png") no-repeat;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover; /* Mozilla*/
+        -o-background-size: cover; /* Opera*/
+        background-size: cover;
     }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .mobile-group {
+        display: block;
+    }
+
     .desktop-group {
         display: none;
+    }
+
+    .text.container {
+        margin-top: -150px;
+    }
+    .ui.container.index {
+        margin-top: 0px;
     }
 }

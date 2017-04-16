@@ -4,7 +4,8 @@
     }
     .menu img {
         margin-left: 0;
-        width: 180px;
+        padding-top: 30px;
+        max-width: 180px;
     }
     .ui.right.sidebar {
         background-color:#003041;

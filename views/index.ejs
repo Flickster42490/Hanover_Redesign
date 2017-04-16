@@ -13,10 +13,10 @@
     <a class="item contact" href="/contact">CONTACT</a>
     <a class="item login" href="/login">LOGIN</a>
   </div>
-  <div class="ui top fixed secondary menu desktop-group">
-    <div class="ui container">
-      <a class="hanover-logo" href="/"><img src="/images/hanover_logo.png" style="padding-top: 40px !important; margin-left: -40px !important;"/></a>
-      <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none;"></i>
+  <div class="ui fluid secondary menu">
+    <div class="ui container index">
+      <a class="hanover-logo" href="/"><img src="/images/hanover_logo.png"/></a>
+      <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none; padding-top: 15px;"></i>
       <div class="ui right secondary menu">
         <a class="item home" href="/home">HOME</a>
         <a class="item about" href="/about">ABOUT</a>
@@ -28,15 +28,6 @@
       </div>
     </div>
   </div>
-
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-
   <div class="ui text container">
     <h1 class="ui huge inverted header">
       Real Estate JV Equity.
@@ -81,3 +72,24 @@
   </div>
 </div>
 <div class="ui hidden divider"></div>
+
+<script>
+  $(function() {
+
+    //target active menu links
+    if (window.location.pathname === '/' || window.location.pathname === '/home')
+      $('.right.secondary.menu .item.home').addClass('active');
+
+
+    var movementStrength = 10;
+    var height = movementStrength / $(window).height();
+    var width = movementStrength / $(window).width();
+    $(".index").mousemove(function(e){
+      var pageX = e.pageX - ($(window).width() / 2);
+      var pageY = e.pageY - ($(window).height() / 2);
+      var newvalueX = width * pageX ;
+      var newvalueY = height * pageY;
+      $('.index.masthead').css("background-position", newvalueX+"px     "+newvalueY+"px");
+    });
+  });
+</script>

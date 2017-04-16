@@ -87,7 +87,8 @@
 
     .fa-bars {
         display: block !important;
-        margin-right: 30px;
+        margin-right: 40px;
+        padding-top: 10px;
     }
 }
 

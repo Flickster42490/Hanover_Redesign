@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hanover Financial</title>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/dependencies/semantic.css">
+  <link rel="stylesheet" href="/stylesheets/dependencies/animate.css">
+  <link rel="stylesheet" href="/stylesheets/layout_main_test.css">
+
+  <script src="https://use.fontawesome.com/1c1009ad3f.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="/js/dependencies/jquery.animateNumber.min.js"></script>
+  <script src="/js/dependencies/wow.min.js"></script>
+</head>
+<body class="body-main">
+<%- body -%>
+<script src="/js/dependencies/semantic.js"></script>
+<script>
+  $(function () {
+    //sidebar open
+    $('.fa-bars').click(function () {
+      $('.sidebar')
+        .sidebar({
+          // Overlay will mean the sidebar sits on top of your content
+          transition: 'overlay',
+          mobileTransition: 'overlay'
+        }).sidebar('show')
+    });
+    //sidebar close
+    $('.sidebar-close').click(function () {
+      $('.sidebar')
+        .sidebar('hide');
+      $('body').removeClass('pushable');
+    });
+  })
+</script>
+
+</body>
+</html>

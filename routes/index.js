@@ -6,6 +6,10 @@ router.get('/', function (req, res, next) {
   res.render('index');
 });
 
+router.get('/test', function (req, res, next) {
+  res.render('index_test');
+});
+
 router.get('/about', function (req, res, next) {
   res.render('about', {page: "about", headerTitle: 'Hanover At A Glance'});
 });

@@ -1,7 +1,43 @@
 <% layout('layout_main') -%>
-<div class="ui vertical masthead segment center aligned index">
-  <div class="column">
-    <div class="ui hidden divider"></div>
+<style type="text/css">
+</style>
+<div class="ui inverted vertical masthead center aligned segment index" style="background: url('../images/home-hero-image-medium.png') no-repeat">
+  <!-- mobile nav menu -->
+  <div class="ui right vertical menu wide sidebar">
+    <a class="item sidebar-close" style="text-align: right !important;"><i class="fa fa-times" aria-hidden="true"></i></a>
+    <a class="item home" href="/home">HOME</a>
+    <a class="item about" href="/about">ABOUT</a>
+    <a class="item strategies" href="/strategies">STRATEGIES</a>
+    <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+    <a class="item team" href="/team">TEAM</a>
+    <a class="item contact" href="/contact">CONTACT</a>
+    <a class="item login" href="/login">LOGIN</a>
+  </div>
+  <div class="ui top fixed secondary menu desktop-group">
+    <div class="ui container">
+      <a class="hanover-logo" href="/"><img src="/images/hanover_logo.png" style="padding-top: 40px !important; margin-left: -40px !important;"/></a>
+      <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none;"></i>
+      <div class="ui right secondary menu">
+        <a class="item home" href="/home">HOME</a>
+        <a class="item about" href="/about">ABOUT</a>
+        <a class="item strategies" href="/strategies">STRATEGIES</a>
+        <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+        <a class="item team" href="/team">TEAM</a>
+        <a class="item contact" href="/contact">CONTACT</a>
+        <a class="item login" href="/login">LOGIN</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+
+  <div class="ui text container">
     <h1 class="ui huge inverted header">
       Real Estate JV Equity.
     </h1>
@@ -26,40 +62,22 @@
       <a href="/portfolio"><button class="ui inverted huge button">Our Portfolio</button></a>
     </div>
   </div>
+
 </div>
-<div class="ui vertical footer segment index mobile-group">
-  <div class="ui hidden divider"></div>
-  <div class="ui stackable grid container">
-    <div class="two column row">
-      <div class="thirteen wide column">
-        <span class="text">1888 Century Park East Suite 1110  Los Angeles, CA 900068 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;  © 2017 Hanover Financial LLC &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Website by Maximilan Li</span>
-      </div>
-      <div class="three wide column">
-        <a class="popupHelp"><span class="text"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Join Our Mailing List</span></a>
-      </div>
+
+
+<div class="ui stackable grid footer index" style="margin-top: 10px !important; margin-bottom: -20px !important;">
+  <div class="two column row">
+    <div class="thirteen wide column desktop-group">
+      <span class="text">1888 Century Park East Suite 1110  Los Angeles, CA 900068 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;  © 2017 Hanover Financial LLC &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Website by Maximilan Li</span>
+    </div>
+    <!--<div class="thirteen wide column mobile-group">-->
+    <!--<span class="text">1888 Century Park East Suite 1110  Los Angeles, CA 900068g </span><br/><br/><span class="text"> © 2017 Hanover Financial LLC</span><br/><span-->
+    <!--class="text"> Website by Maximilan Li</span>-->
+    <!--</div>-->
+    <div class="three wide column">
+      <a class="popupHelp"><span class="text"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Join Our Mailing List</span></a>
     </div>
   </div>
-  <div class="ui hidden divider"></div>
 </div>
-
-<script>
-  $(function() {
-
-    //target active menu links
-    if (window.location.pathname === '/' || window.location.pathname === '/home')
-      $('.right.secondary.menu .item.home').addClass('active');
-
-
-    var movementStrength = 20;
-    var height = movementStrength / $(window).height();
-    var width = movementStrength / $(window).width();
-    $(".index").mousemove(function(e){
-      var pageX = e.pageX - ($(window).width() / 2);
-      var pageY = e.pageY - ($(window).height() / 2);
-      var newvalueX = width * pageX ;
-      var newvalueY = height * pageY;
-      $('.index').css("background-position", newvalueX+"px     "+newvalueY+"px");
-    });
-  });
-</script>
-
+<div class="ui hidden divider"></div>

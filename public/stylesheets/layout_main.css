@@ -1,3 +1,95 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Lato', san-serif;
+}
+
+.mobile-group {
+    display: none;
+}
+
+.masthead.index {
+    background: url("../images/home-hero-image-medium.png") no-repeat;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+}
+
+.masthead.index.segment {
+    min-height: 700px;
+    max-height:930px;
+    padding: 1em 0em;
+}
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.secondary.menu .active {
+    color: lightslategrey !important;
+}
+
+.secondary.menu .item:hover {
+    color: lightslategrey !important;
+}
+
+.top.fixed.menu {
+    height: 150px;
+}
+
+.menu img {
+    padding-top: 30px;
+    margin-left: -110px;
+}
+
+.right.menu .item {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.ui.footer.segment.index{
+    background-color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ui.footer.segment.index .text {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+@media (min-width: 1920px) {
+    .masthead {
+        height: 101.5%;
+        background: url("../images/home-hero-image-large.png") no-repeat;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover; /* Mozilla*/
+        -o-background-size: cover; /* Opera*/
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1366px) {
+    .masthead {
+        height: 101.5%;
+        background: url("../images/home-hero-image-medium.png") no-repeat;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover; /* Mozilla*/
+        -o-background-size: cover; /* Opera*/
+        background-size: cover;
+    }
+}
+
 @media only screen and (max-width: 1150px) {
     .ui.right.secondary.menu,
     .ui.fixed.menu {
@@ -15,38 +107,11 @@
     }
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Lato', san-serif;
-}
-
-.secondary.menu .active {
-    color: lightslategrey !important;
-}
-
-.secondary.menu .item:hover {
-    color: lightslategrey !important;
-}
-
-.top.fixed.menu {
-    height: 150px;
-}
-
-.menu img {
-    padding-top: 10px;
-    margin-left: -110px;
-}
-
-.right.menu .item {
-    font-size: 1.2rem;
-    color: #ffffff;
-}
-
-.ui.footer.segment.index{
-    background-color: #ffffff;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.ui.footer.segment.index .text {
-    color: rgba(0, 0, 0, 0.87);
+@media only screen and (max-width: 767px) {
+    .mobile-group {
+        display:block;
+    }
+    .desktop-group {
+        display: none;
+    }
 }

@@ -130,8 +130,13 @@ h1, h2, h3, h4, h5, h6, p {
         margin-right: 40px;
     }
     .ui.right.sidebar {
-        background-color: #003041;
+        background-color:#003041;
         z-index: 1000;
+    }
+    .ui.right.sidebar .item {
+        font-size: 2em;
+        font-weight: 200;
+        text-align: center;
     }
 }
 

@@ -29,7 +29,7 @@ $(function () {
       // Overlay will mean the sidebar sits on top of your content
       transition: 'overlay',
       mobileTransition: 'overlay'
-    }).sidebar('show')
+    }).sidebar('show');
   });
   //sidebar close
   $('.sidebar-close').click(function () {

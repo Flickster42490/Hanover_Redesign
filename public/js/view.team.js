@@ -3,6 +3,9 @@ $(function() {
   if(window.location.pathname === '/team')
     $('.right.secondary.menu .item.team').addClass('active');
 
+  $('.modal.team.mobile-group').modal();
+  $('.modal.team.desktop-group').modal();
+
   //greyscale to color and back
   $('.team .bordered.image').hover(function() {
     var colorImage = $(this).data('image');
@@ -19,6 +22,7 @@ $(function() {
   //desktop modal open
   $('.team .desktop-group .bordered.image').click(function() {
     var modalToOpen = '#' + $(this).attr('id') + '-desktop-modal';
+    console.log(modalToOpen);
     $(modalToOpen)
       .modal({
         inverted: true
@@ -27,8 +31,9 @@ $(function() {
   });
 
   //mobile modal open
-  $('.team .mobile-group .bordered.image').click(function() {
+  $('.bordered.image.mobile').click(function() {
     var modalToOpen = '#' + $(this).attr('id') + '-mobile-modal';
+    console.log(modalToOpen);
     $(modalToOpen)
       .modal({
         inverted: true

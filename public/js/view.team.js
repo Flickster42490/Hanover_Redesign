@@ -33,7 +33,15 @@ $(function() {
   //mobile modal open
   $('.bordered.image.mobile').click(function() {
     var modalToOpen = '#' + $(this).attr('id') + '-mobile-modal';
-    console.log(modalToOpen);
+    $(modalToOpen)
+      .modal({
+        inverted: true
+      })
+      .modal('show');
+  });
+
+  $('.team .medium.header').click(function() {
+    var modalToOpen = '#' + $(this).attr('id') + '-mobile-modal';
     $(modalToOpen)
       .modal({
         inverted: true

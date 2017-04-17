@@ -20,7 +20,7 @@ $(function () {
   $(document).on('click', '.closeModal', function () {
     $('.helpModal')
       .modal('hide all');
-  })
+  });
 
   //sidebar open
   $('.fa-bars').click(function () {

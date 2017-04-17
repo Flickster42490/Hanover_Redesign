@@ -142,6 +142,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media only screen and (max-width: 767px) {
     .masthead.index {
+        top: 0;
+        left: 0;
         background: url("../images/home-hero-image-medium.png") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
@@ -154,11 +156,11 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .mobile-group {
-        display: block;
+        display: block !important;
     }
 
     .desktop-group {
-        display: none;
+        display: none !important;
     }
 
     .text.container {

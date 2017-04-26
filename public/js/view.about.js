@@ -21,20 +21,20 @@ $(function () {
   var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
 
   $('.about .countUp1').animateNumber({
-      number: 94,
+      number: 99,
       easing: 'easeInQuad'
     },
     1500);
 
   $('.about .countUp2').animateNumber({
-      number: 250000000,
+      number: 388000000 ,
       easing: 'easeInQuad',
       numberStep: comma_separator_number_step
     },
     1500);
 
   $('.about .countUp3').animateNumber({
-      number: 1400000000,
+      number: 1950000000,
       easing: 'easeInQuad',
       numberStep: comma_separator_number_step
     },

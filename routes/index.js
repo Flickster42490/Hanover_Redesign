@@ -1,6 +1,900 @@
 var express = require('express');
 var router  = express.Router();
-var portfolioAll = require('../PortfolioAll.js');
+var portfolioAll = {
+    multiFamily: [{
+        "name": "Palomar Terrace Apartments",
+        "location": "Hayward, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "February 2017",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "27.3%",
+        "projectCapitalization": "$35,000,000"
+    }, {
+        "name": "Mansfield Apartments",
+        "location": "Hollywood, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "November 2016",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "27.6%",
+        "projectCapitalization": "$28,000,000"
+    }, {
+        "name": "Gordon Street Apartments",
+        "location": "Hollywood, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "March 2016",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "35.3%",
+        "projectCapitalization": "$21,000,000"
+    }, {
+        "name": "Rancho Azul Apartments",
+        "location": "San Diego, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "August 2015",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "25.6%",
+        "projectCapitalization": "$16,000,000"
+    }, {
+        "name": "Camerford Apartments",
+        "location": "Hollywood, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "February 2015",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "37.1%",
+        "projectCapitalization": "$15,000,000"
+    }, {
+        "name": "Hacienda Court Apartments",
+        "location": "Anaheim, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 2015",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "29.5%",
+        "projectCapitalization": "$17,000,000"
+    }, {
+        "name": "Gramercy Apartments",
+        "location": "Anaheim, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 2014",
+        "saleDate": "March 2017",
+        "hanoverEquity": "24.7%",
+        "projectCapitalization": "$18,000,000"
+    }, {
+        "name": "Premier Apartments",
+        "location": "Sherman Oaks, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "July 2014",
+        "saleDate": "September 2016",
+        "hanoverEquity": "24.9%",
+        "projectCapitalization": "$13,000,000"
+    }, {
+        "name": "Azul Apartments",
+        "location": "Anaheim, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 2014",
+        "saleDate": "September 2016",
+        "hanoverEquity": "24.8%",
+        "projectCapitalization": "$17,000,000"
+    }, {
+        "name": "Micropolitan at Urban Lights Apartments",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "October 2013",
+        "saleDate": "March 2016",
+        "hanoverEquity": "26.3%",
+        "projectCapitalization": "$18,000,000"
+    }, {
+        "name": "San Antonio Apartments",
+        "location": "Moutain View, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "December  2012",
+        "saleDate": "September 2016",
+        "hanoverEquity": "16.4%",
+        "projectCapitalization": "$75,000,000"
+    }, {
+        "name": "Civic Apartments",
+        "location": "Walnut Creek, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "October 2012",
+        "saleDate": "September 2016",
+        "hanoverEquity": "16.9%",
+        "projectCapitalization": "$94,000,000"
+    }, {
+        "name": "Morrison Apartments II",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "May 2011",
+        "saleDate": "April 2016",
+        "hanoverEquity": "31.1%",
+        "projectCapitalization": "$5,000,000"
+    }, {
+        "name": "Morrison Apartments I",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "May 2011",
+        "saleDate": "April 2016",
+        "hanoverEquity": "34.7%",
+        "projectCapitalization": "$5,000,000"
+    }, {
+        "name": "Alexan Littleton Apartments",
+        "location": "Denver, CO",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "May 2011",
+        "saleDate": "April 2016",
+        "hanoverEquity": "21.1%",
+        "projectCapitalization": "$54,000,000"
+    }, {
+        "name": "The Icon USC Student Housing",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "January 2011",
+        "saleDate": "January 2014",
+        "hanoverEquity": "14.9%",
+        "projectCapitalization": "$34,000,000"
+    }, {
+        "name": "Palacio Apartments",
+        "location": "Las Vegas, NV",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "November 2010",
+        "saleDate": "November 2013",
+        "hanoverEquity": "22.4%",
+        "projectCapitalization": "$35,000,000"
+    }, {
+        "name": "Loreto Apartments",
+        "location": "Las Vegas, NV",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "November 2010",
+        "saleDate": "November 2013",
+        "hanoverEquity": "23.2%",
+        "projectCapitalization": "$42,000,000"
+    }, {
+        "name": "Aldrea at Estrella Falls Apt",
+        "location": "Phoenix, AZ",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 2010",
+        "saleDate": "September 2015",
+        "hanoverEquity": "18.9%",
+        "projectCapitalization": "$23,000,000"
+    }, {
+        "name": "University Park Apartments",
+        "location": "Riverside, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "October 2007",
+        "saleDate": "October 2009",
+        "hanoverEquity": "12.4%",
+        "projectCapitalization": "$45,000,000"
+    }, {
+        "name": "Heritage Square Apartments",
+        "location": "Riverside, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "October 2007",
+        "saleDate": "October 2009",
+        "hanoverEquity": "14.3%",
+        "projectCapitalization": "$29,000,000"
+    }, {
+        "name": "Fairway Glenn Apartments",
+        "location": "San Jose, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "April 2007",
+        "saleDate": "November 2011",
+        "hanoverEquity": "17.1%",
+        "projectCapitalization": "$28,000,000"
+    }, {
+        "name": "Century Place",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "December  2006",
+        "saleDate": "October 2011",
+        "hanoverEquity": "14.8%",
+        "projectCapitalization": "$57,000,000"
+    }, {
+        "name": "El Dorado Point",
+        "location": "Moreno Valley, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 2006",
+        "saleDate": "June 2008",
+        "hanoverEquity": "19.0%",
+        "projectCapitalization": "$45,000,000"
+    }, {
+        "name": "Sterling Apartments",
+        "location": "Los Felix, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "March 2006",
+        "saleDate": "February 2009",
+        "hanoverEquity": "19.2%",
+        "projectCapitalization": "$19,000,000"
+    }, {
+        "name": "Lincoln Oaks",
+        "location": "Santa Maria, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "May 2005",
+        "saleDate": "April 2008",
+        "hanoverEquity": "24.3%",
+        "projectCapitalization": "$25,000,000"
+    }, {
+        "name": "Harbor Island",
+        "location": "Alameda, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "September 2005",
+        "saleDate": "March 2008",
+        "hanoverEquity": "20.3%",
+        "projectCapitalization": "$123,000,000"
+    }, {
+        "name": "Bayside Willows",
+        "location": "Pinole, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "August 2005",
+        "saleDate": "July 2008",
+        "hanoverEquity": "26.8%",
+        "projectCapitalization": "$22,000,000"
+    }, {
+        "name": "Ivy Towne",
+        "location": "Davis, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "August 2005",
+        "saleDate": "July 2008",
+        "hanoverEquity": "28.3%",
+        "projectCapitalization": "$28,000,000"
+    }, {
+        "name": "Casa de Valencia",
+        "location": "Napa, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "August 2005",
+        "saleDate": "July 2008",
+        "hanoverEquity": "39.8%",
+        "projectCapitalization": "$9,000,000"
+    }, {
+        "name": "Somerset on Garfield Apartments",
+        "location": "Montebello, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "December  2004",
+        "saleDate": "November 2008",
+        "hanoverEquity": "20.8%",
+        "projectCapitalization": "$36,000,000"
+    }, {
+        "name": "Vanowen Apartments",
+        "location": "Van Nuys, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 2004",
+        "saleDate": "March 2007",
+        "hanoverEquity": "21.5%",
+        "projectCapitalization": "$5,000,000"
+    }, {
+        "name": "Variel Apartments",
+        "location": "Canoga Park, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "September 2004",
+        "saleDate": "March 2007",
+        "hanoverEquity": "23.0%",
+        "projectCapitalization": "$8,000,000"
+    }, {
+        "name": "Mountain Vista Apartments",
+        "location": "Rancho Cucamonga, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "May 2004",
+        "saleDate": "February 2006",
+        "hanoverEquity": "18.0%",
+        "projectCapitalization": "$76,000,000"
+    }, {
+        "name": "Basque Manor Apartments",
+        "location": "Fullerton, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "March 2004",
+        "saleDate": "October 2005",
+        "hanoverEquity": "17.3%",
+        "projectCapitalization": "$11,000,000"
+    }, {
+        "name": "Arrowhead Apartments",
+        "location": "Stanton, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "January 2004",
+        "saleDate": "July 2005",
+        "hanoverEquity": "19.4%",
+        "projectCapitalization": "$22,000,000"
+    }, {
+        "name": "Lakewood Manor Apartments",
+        "location": "Lakewood, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "November 2004",
+        "saleDate": "January 2006",
+        "hanoverEquity": "10.2%",
+        "projectCapitalization": "$77,000,000"
+    }, {
+        "name": "3810 Wilshire",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "September 2003",
+        "saleDate": "January 2005",
+        "hanoverEquity": "10.4%",
+        "projectCapitalization": "$52,000,000"
+    }, {
+        "name": "Park Place Apartments",
+        "location": "Santa Ana, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "January 2002",
+        "saleDate": "March 2004",
+        "hanoverEquity": "18.0%",
+        "projectCapitalization": "$19,000,000"
+    }, {
+        "name": "Nantucket Apartments",
+        "location": "Santa Ana, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "December  2001",
+        "saleDate": "December  2002",
+        "hanoverEquity": "15.6%",
+        "projectCapitalization": "$16,000,000"
+    }, {
+        "name": "Gramercy Apts",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "July 2001",
+        "saleDate": "May 2002",
+        "hanoverEquity": "18.4%",
+        "projectCapitalization": "$4,000,000"
+    }, {
+        "name": "Kingsley Apts",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "July 2001",
+        "saleDate": "April 2002",
+        "hanoverEquity": "18.5%",
+        "projectCapitalization": "$8,000,000"
+    }, {
+        "name": "Parthenia Court Apartments",
+        "location": "Canoga Park, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "June 2001",
+        "saleDate": "September 2002",
+        "hanoverEquity": "15.4%",
+        "projectCapitalization": "$5,000,000"
+    }, {
+        "name": "Palermo",
+        "location": "Santa Monica, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "May 2001",
+        "saleDate": "December  2003",
+        "hanoverEquity": "21.2%",
+        "projectCapitalization": "$10,000,000"
+    }, {
+        "name": "Verona Apartments",
+        "location": "Santa Monica, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "April 2001",
+        "saleDate": "September 2003",
+        "hanoverEquity": "20.0%",
+        "projectCapitalization": "$11,000,000"
+    }, {
+        "name": "Livorno Apartments",
+        "location": "Santa Monica, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "April 2001",
+        "saleDate": "September 2003",
+        "hanoverEquity": "20.0%",
+        "projectCapitalization": "$11,000,000"
+    }, {
+        "name": "Parthenia Plaza Apartments",
+        "location": "Canoga Park, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "March 2001",
+        "saleDate": "September 2002",
+        "hanoverEquity": "16.6%",
+        "projectCapitalization": "$5,000,000"
+    }, {
+        "name": "Village Grove Apartments",
+        "location": "Panorama City, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "February 2001",
+        "saleDate": "March 2002",
+        "hanoverEquity": "40.5%",
+        "projectCapitalization": "$2,000,000"
+    }, {
+        "name": "Village Green Apartments",
+        "location": "Panorama City, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "February 2001",
+        "saleDate": "February 2002",
+        "hanoverEquity": "11.3%",
+        "projectCapitalization": "$11,000,000"
+    }, {
+        "name": "Sandstone Apartments",
+        "location": "Bellevue, WA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "December  2000",
+        "saleDate": "August 2002",
+        "hanoverEquity": "13.1%",
+        "projectCapitalization": "$17,000,000"
+    }, {
+        "name": "La Fayette Park Place Apts.",
+        "location": "Los Angeles, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "December  2000",
+        "saleDate": "March 2002",
+        "hanoverEquity": "17.8%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Playa del Rey",
+        "location": "Playa del Rey, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "September 2000",
+        "saleDate": "January 2001",
+        "hanoverEquity": "17.2%",
+        "projectCapitalization": "$27,000,000"
+    }, {
+        "name": "Colony Park Apartments",
+        "location": "Azusa, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "June 2000",
+        "saleDate": "May 2001",
+        "hanoverEquity": "16.8%",
+        "projectCapitalization": "$10,000,000"
+    }, {
+        "name": "Revello Apartments",
+        "location": "Santa Monica, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "March 2000",
+        "saleDate": "February 2003",
+        "hanoverEquity": "16.7%",
+        "projectCapitalization": "$11,000,000"
+    }, {
+        "name": "Oakcrest Villas Apartments",
+        "location": "Riverside, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "March 2000",
+        "saleDate": "January 2002",
+        "hanoverEquity": "19.2%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Primrose",
+        "location": "Denver, CO",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "January 2000",
+        "saleDate": "January 2001",
+        "hanoverEquity": "20.0%",
+        "projectCapitalization": "$3,000,000"
+    }, {
+        "name": "Venezia Apartments",
+        "location": "Santa Monica, CA",
+        "productType": "Apartment",
+        "projectType": "Development",
+        "fundingDate": "October 1999",
+        "saleDate": "January 2002",
+        "hanoverEquity": "17.2%",
+        "projectCapitalization": "$10,000,000"
+    }, {
+        "name": "Villa Manana Apartments",
+        "location": "Phoenix, AZ",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "December  1999",
+        "saleDate": "August 2002",
+        "hanoverEquity": "17.8%",
+        "projectCapitalization": "$13,000,000"
+    }, {
+        "name": "Park View Apartments",
+        "location": "Reseda, CA",
+        "productType": "Apartment",
+        "projectType": "Value-Add",
+        "fundingDate": "October 1999",
+        "saleDate": "May 2000",
+        "hanoverEquity": "17.5%",
+        "projectCapitalization": "$6,000,000"
+    }],
+    netLease: [{
+        "name": "6140 Lake Murray Starbucks",
+        "location": "La Mesa, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "October 2016",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "28.0%",
+        "projectCapitalization": "$3,000,000"
+    }, {
+        "name": "Palmdale Plaza",
+        "location": "Palmdale, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "April 2016",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "32.5%",
+        "projectCapitalization": "$17,000,000"
+    }, {
+        "name": "Madison Plaza",
+        "location": "Riverside, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "February 2016",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "35.0%",
+        "projectCapitalization": "$18,000,000"
+    }, {
+        "name": "Lake Elsinore Center",
+        "location": "Lake Elsinore, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "June 2016",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "31.4%",
+        "projectCapitalization": "$22,000,000"
+    }, {
+        "name": "Orland Park Center",
+        "location": "Orland Park, IL",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "October 2015",
+        "saleDate": "March 2017",
+        "hanoverEquity": "20.0%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Pioneer Blvd Starbucks",
+        "location": "Norwalk, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "September 2015",
+        "saleDate": "March 2017",
+        "hanoverEquity": "29.9%",
+        "projectCapitalization": "$3,000,000"
+    }, {
+        "name": "Bradley Center",
+        "location": "Bradley, IL",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "August 2015",
+        "saleDate": "Current Investment",
+        "hanoverEquity": "21.0%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Arcadia Aldi",
+        "location": "Arcadia, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "September 2014",
+        "saleDate": "December  2015",
+        "hanoverEquity": "33.0%",
+        "projectCapitalization": "$7,000,000"
+    }, {
+        "name": "Victorville Center",
+        "location": "Victorville, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "August 2014",
+        "saleDate": "March 2016",
+        "hanoverEquity": "30.1%",
+        "projectCapitalization": "$10,000,000"
+    }, {
+        "name": "Sacramento Smart & Final",
+        "location": "Sacramento, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "June 2014",
+        "saleDate": "April 2015",
+        "hanoverEquity": "33.6%",
+        "projectCapitalization": "$8,000,000"
+    }, {
+        "name": "Winston Plaza",
+        "location": "Chicago, IL",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "May 2011",
+        "saleDate": "June 2017",
+        "hanoverEquity": "16.3%",
+        "projectCapitalization": "$40,000,000"
+    }, {
+        "name": "Cap Rock Industrial Portfolio",
+        "location": "Riverside, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "August 2010",
+        "saleDate": "September 2012",
+        "hanoverEquity": "85.1%",
+        "projectCapitalization": "$5,000,000"
+    }, {
+        "name": "Cinema Place",
+        "location": "Hayward, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "November 2007",
+        "saleDate": "November 2009",
+        "hanoverEquity": "19.7%",
+        "projectCapitalization": "$16,000,000"
+    }, {
+        "name": "Berg",
+        "location": "Las Vegas, NV",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "April 2007",
+        "saleDate": "April 2009",
+        "hanoverEquity": "22.2%",
+        "projectCapitalization": "$20,000,000"
+    }, {
+        "name": "Buffalo Park",
+        "location": "Las Vegas, NV",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "January 2007",
+        "saleDate": "January 2009",
+        "hanoverEquity": "13.2%",
+        "projectCapitalization": "$47,000,000"
+    }, {
+        "name": "Civic Center Plaza",
+        "location": "San Marcos, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "August 2006",
+        "saleDate": "October 2011",
+        "hanoverEquity": "14.8%",
+        "projectCapitalization": "$13,000,000"
+    }, {
+        "name": "Vineyard Center",
+        "location": "Rancho Cucamonga, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "December  2005",
+        "saleDate": "June 2008",
+        "hanoverEquity": "16.6%",
+        "projectCapitalization": "$26,000,000"
+    }, {
+        "name": "Clifford Meridian Center",
+        "location": "Riverside, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "January 2005",
+        "saleDate": "January 2007",
+        "hanoverEquity": "18.2%",
+        "projectCapitalization": "$9,000,000"
+    }, {
+        "name": "Mira Loma Clifford",
+        "location": "Mira Loma, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "February 2004",
+        "saleDate": "February 2005",
+        "hanoverEquity": "19.2%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Mira Loma Davis",
+        "location": "Mira Loma, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "February 2004",
+        "saleDate": "January 2005",
+        "hanoverEquity": "16.8%",
+        "projectCapitalization": "$9,000,000"
+    }, {
+        "name": "LMA Industrial Portfolio",
+        "location": "Pleasanton, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "November 2004",
+        "saleDate": "March 2007",
+        "hanoverEquity": "17.8%",
+        "projectCapitalization": "$32,000,000"
+    }, {
+        "name": "Norwalk WalMart Retail",
+        "location": "Norwalk, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "March 2003",
+        "saleDate": "October 2004",
+        "hanoverEquity": "25.9%",
+        "projectCapitalization": "$4,000,000"
+    }, {
+        "name": "Pacific Center",
+        "location": "Tustin, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "October 2003",
+        "saleDate": "March 2005",
+        "hanoverEquity": "21.4%",
+        "projectCapitalization": "$10,000,000"
+    }, {
+        "name": "Mountain View Center",
+        "location": "Chino, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "July 2003",
+        "saleDate": "March 2006",
+        "hanoverEquity": "23.9%",
+        "projectCapitalization": "$21,000,000"
+    }, {
+        "name": "Wald Center",
+        "location": "Irvine, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "July 2003",
+        "saleDate": "December  2004",
+        "hanoverEquity": "19.4%",
+        "projectCapitalization": "$9,000,000"
+    }, {
+        "name": "Tustin Center",
+        "location": "Tustin, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "March 2003",
+        "saleDate": "April 2005",
+        "hanoverEquity": "19.0%",
+        "projectCapitalization": "$19,000,000"
+    }, {
+        "name": "Lambert Park",
+        "location": "La Habra, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "November 2003",
+        "saleDate": "March 2005",
+        "hanoverEquity": "22.8%",
+        "projectCapitalization": "$16,000,000"
+    }, {
+        "name": "Rancho Cucamonga Industrial",
+        "location": "Rancho Cucamonga, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "December  2003",
+        "saleDate": "March 2006",
+        "hanoverEquity": "15.3%",
+        "projectCapitalization": "$7,000,000"
+    }, {
+        "name": "Bypass Plaza Retail",
+        "location": "Colorado Springs, CO",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "December  2002",
+        "saleDate": "December  2002",
+        "hanoverEquity": "4.7%",
+        "projectCapitalization": "$11,000,000"
+    }, {
+        "name": "Seco Canyon Plaza I",
+        "location": "Santa Clarita, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "June 2001",
+        "saleDate": "August 2002",
+        "hanoverEquity": "16.3%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Fullerton Industrial Park",
+        "location": "Fullerton, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "January 2001",
+        "saleDate": "July 2004",
+        "hanoverEquity": "17.7%",
+        "projectCapitalization": "$21,000,000"
+    }, {
+        "name": "Dyer Center",
+        "location": "Santa Ana, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "September 2000",
+        "saleDate": "May 2002",
+        "hanoverEquity": "16.2%",
+        "projectCapitalization": "$12,000,000"
+    }, {
+        "name": "Plaza del Rancho",
+        "location": "Valencia, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "June 2000",
+        "saleDate": "June 2002",
+        "hanoverEquity": "24.9%",
+        "projectCapitalization": "$8,000,000"
+    }, {
+        "name": "Dyer Street Retail",
+        "location": "Union City, CA",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "July 1999",
+        "saleDate": "March 2002",
+        "hanoverEquity": "21.3%",
+        "projectCapitalization": "$16,000,000"
+    }, {
+        "name": "Snappy Cheyenne",
+        "location": "Las Vegas, NV",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "December  1999",
+        "saleDate": "July 2001",
+        "hanoverEquity": "25.8%",
+        "projectCapitalization": "$3,000,000"
+    }, {
+        "name": "Arby's Alma Queen",
+        "location": "Phoenix, AZ",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "November 1999",
+        "saleDate": "March 2001",
+        "hanoverEquity": "20.4%",
+        "projectCapitalization": "$2,000,000"
+    }, {
+        "name": "San Savaine",
+        "location": "Mira Loma, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "November 1999",
+        "saleDate": "January 2001",
+        "hanoverEquity": "28.7%",
+        "projectCapitalization": "$7,000,000"
+    }, {
+        "name": "Arby's Val Vista",
+        "location": "Phoenix, AZ",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "November 1999",
+        "saleDate": "August 2000",
+        "hanoverEquity": "11.7%",
+        "projectCapitalization": "$2,000,000"
+    }, {
+        "name": "Amar Center",
+        "location": "City of Industry, CA",
+        "productType": "Net Lease",
+        "projectType": "Value-Add",
+        "fundingDate": "August 1999",
+        "saleDate": "August 2000",
+        "hanoverEquity": "19.2%",
+        "projectCapitalization": "$6,000,000"
+    }, {
+        "name": "Snappy Eastern Pebble",
+        "location": "Las Vegas, NV",
+        "productType": "Net Lease",
+        "projectType": "Development",
+        "fundingDate": "May 1999",
+        "saleDate": "April 2000",
+        "hanoverEquity": "19.5%",
+        "projectCapitalization": "$3,000,000"
+    }]
+};
 
 /* GET home page. */
 router.get('/', function (req, res, next) {

@@ -1,5 +1,6 @@
 var express = require('express');
 var router  = express.Router();
+var portfolioAll = require('../PortfolioAll.js');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -27,11 +28,15 @@ router.get('/login', function (req, res, next) {
 });
 
 router.get('/portfolio', function (req, res, next) {
-  res.render('portfolio', {page: "portfolio", headerTitle: 'Our Portfolio'});
+  res.render('portfolio', {multiFamily: portfolioAll.multiFamily, netLease: portfolioAll.netLease, page: "portfolio", headerTitle: 'Our Portfolio'});
+});
+
+router.get('/portfolio/multi-family', function (req, res, next) {
+  res.render('portfolioMultiFamily', {multiFamily: portfolioAll.multiFamily, page: "portfolio", headerTitle: 'Our Portfolio'});
 });
 
 router.get('/portfolio/net-lease', function (req, res, next) {
-  res.render('portfolioNetLease', {page: "portfolio", headerTitle: 'Our Portfolio'});
+  res.render('portfolioNetLease', {netLease: portfolioAll.netLease, page: "portfolio", headerTitle: 'Our Portfolio'});
 });
 
 router.get('/strategies', function (req, res, next) {

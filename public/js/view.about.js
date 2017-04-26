@@ -34,7 +34,7 @@ $(function () {
     1500);
 
   $('.about .countUp3').animateNumber({
-      number: 1950000000,
+      number: 1952000000,
       easing: 'easeInQuad',
       numberStep: comma_separator_number_step
     },

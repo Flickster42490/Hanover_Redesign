@@ -8,10 +8,15 @@ $(function () {
   $('.portfolio .dropdown').change(function(e, val) {
     var dropdownVal = $(this).val();
     switch (dropdownVal) {
-      case 'multi-family':
-        if(window.location.pathname === '/portfolio' || window.location.pathname === '/portfolio/multi-family')
+      case 'all':
+        if(window.location.pathname === '/portfolio')
           break;
         window.location.href='/portfolio';
+      case 'multi-family':
+        console.log(dropdownVal);
+        if(window.location.pathname === '/portfolio/multi-family')
+          break;
+        window.location.href='/portfolio/multi-family';
       case 'net-lease':
         if(window.location.pathname === '/portfolio/net-lease')
           break;
@@ -24,31 +29,44 @@ $(function () {
   var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
 
   $('.portfolio .countUp1').animateNumber({
-      number: 54,
+      number: 59,
       easing: 'easeInQuad'
     },
     1500);
 
   $('.portfolio .countUp2').animateNumber({
-      number: 251000000,
+      number: 1466000000,
       easing: 'easeInQuad',
       numberStep: comma_separator_number_step
     },
     1500);
 
   $('.portfolio .countUp3').animateNumber({
-      number: 36,
+      number: 40,
       easing: 'easeInQuad'
     },
     1500);
 
   $('.portfolio .countUp4').animateNumber({
-      number: 132000000,
+      number: 486000000,
       easing: 'easeInQuad',
       numberStep: comma_separator_number_step
     },
     1500);
 
+  $('.portfolio .countUp5').animateNumber({
+      number: 99,
+      easing: 'easeInQuad',
+      numberStep: comma_separator_number_step
+    },
+    1500);
+
+  $('.portfolio .countUp6').animateNumber({
+      number: 1952000000,
+      easing: 'easeInQuad',
+      numberStep: comma_separator_number_step
+    },
+    1500);
   //init wow.js
   new WOW().init();
   //modal open on button click

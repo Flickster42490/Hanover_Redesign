@@ -16,6 +16,10 @@ $(function () {
       .modal('show');
   });
 
+  setTimeout(function() {
+    $(".se-pre-con").fadeOut("slow");
+  }, 500);
+
   //modal close
   $(document).on('click', '.closeModal', function () {
     $('.helpModal')

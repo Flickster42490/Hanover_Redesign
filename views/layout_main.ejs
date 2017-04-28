@@ -20,13 +20,18 @@
   <script src="/js/dependencies/wow.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.plugins.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
 </head>
 <body class="body-main">
+<div class="se-pre-con"></div>
 <%- body -%>
 <script src="/js/dependencies/semantic.js"></script>
 <script>
   $(function () {
+    setTimeout(function() {
+      $(".se-pre-con").fadeOut("slow");
+    }, 1500);
     //sidebar open
     $('.fa-bars').click(function () {
       $('.sidebar')

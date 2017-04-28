@@ -156,63 +156,63 @@
             </button>
           </a>
         </div>
+      </div>
 
-        <div class="ui modal" id="net-lease-<%= index %>-mobile">
-          <div class="ui basic padded segment">
-            <div class="ui grid container">
-              <div class="row">
-                <div class="right aligned column">
-                  <span class="closeModal" data-modal="net-lease-<%= index %>-mobile">X</span>
-                </div>
+      <div class="ui modal" id="net-lease-<%= index %>-mobile">
+        <div class="ui basic padded segment">
+          <div class="ui grid container">
+            <div class="row">
+              <div class="right aligned column">
+                <span class="closeModal" data-modal="net-lease-<%= index %>-mobile">X</span>
               </div>
-              <div class="two column center aligned row">
-                <div class="four wide column">
-                  <img class="ui medium bordered image" src="/images/placeholder_building.jpg">
-                </div>
-                <div class="ten wide column">
-                  <div class="ui left aligned large header"><%= item.name %></div>
+            </div>
+            <div class="two column center aligned row">
+              <div class="four wide column">
+                <img class="ui medium bordered image" src="/images/placeholder_building.jpg">
+              </div>
+              <div class="ten wide column">
+                <div class="ui left aligned large header"><%= item.name %></div>
 
-                  <table class="ui very basic table" style="font-size: 1.2em;">
-                    <tbody>
-                    <tr>
-                      <td class="seven wide category">Date Acquired:</td>
-                      <td class="nine wide category-value"><%= item.fundingDate %></td>
-                    </tr>
-                    <tr>
-                      <td>Date Sold: &nbsp;</td>
-                      <td class="category-value"><%= item.saleDate %></td>
-                    </tr>
-                    <tr>
-                      <td>Hanover Equity: &nbsp;</td>
-                      <td class="category-value"><%= item.hanoverEquity %></td>
-                    </tr>
-                    <tr>
-                      <td>Project Capitali: &nbsp; zation</td>
-                      <td class="category-value"><%= item.projectCapitalization %></td>
-                    </tr>
-                    <tr>
-                      <td>Location: &nbsp;</td>
-                      <td class="category-value"><%= item.location %></td>
-                    </tr>
-                    <tr>
-                      <td>Product Type: &nbsp;</td>
-                      <td class="category-value"><%= item.productType %></td>
-                    </tr>
-                    <tr>
-                      <td>Project Type: &nbsp;</td>
-                      <td class="category-value"><%= item.projectType %></td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
+                <table class="ui very basic table" style="font-size: 1.2em;">
+                  <tbody>
+                  <tr>
+                    <td class="seven wide category">Date Acquired:</td>
+                    <td class="nine wide category-value"><%= item.fundingDate %></td>
+                  </tr>
+                  <tr>
+                    <td>Date Sold: &nbsp;</td>
+                    <td class="category-value"><%= item.saleDate %></td>
+                  </tr>
+                  <tr>
+                    <td>Hanover Equity: &nbsp;</td>
+                    <td class="category-value"><%= item.hanoverEquity %></td>
+                  </tr>
+                  <tr>
+                    <td>Project Capitali: &nbsp; zation</td>
+                    <td class="category-value"><%= item.projectCapitalization %></td>
+                  </tr>
+                  <tr>
+                    <td>Location: &nbsp;</td>
+                    <td class="category-value"><%= item.location %></td>
+                  </tr>
+                  <tr>
+                    <td>Product Type: &nbsp;</td>
+                    <td class="category-value"><%= item.productType %></td>
+                  </tr>
+                  <tr>
+                    <td>Project Type: &nbsp;</td>
+                    <td class="category-value"><%= item.projectType %></td>
+                  </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="ui divider"></div>
-      <% }) %>
     </div>
+    <div class="ui divider"></div>
+    <% }) %>
   </div>
 </div>

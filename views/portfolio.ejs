@@ -1,4 +1,4 @@
-<% layout('layout_hero') -%>
+<% layout('layout_hero') - %>
 <div class="ui vertical segment first">
   <div class="ui center aligned grid container">
     <div class="four column stackable row desktop-group">
@@ -53,10 +53,10 @@
 </div>
 <!-- MULTIFAMILY Desktop -->
 <div class="ui vertical segment third multi-family desktop-group">
-  <div class="ui stackable grid container">
+  <div class="ui stackable grid container" id="lazy-container">
     <% multiFamily.forEach(function(item, index) { %>
 
-    <div class="row">
+    <div class="row lazy">
       <div class="center aligned four wide column">
         <a><img class="ui medium bordered image" data-modal="multi-family-<%= index %>"
                 src="/images/placeholder_building.jpg"></a>
@@ -183,11 +183,11 @@
                     <td class="nine wide category-value"><%= item.fundingDate %></td>
                   </tr>
                   <tr>
-                    <td>Date Sold: &nbsp; </td>
+                    <td>Date Sold: &nbsp;</td>
                     <td class="category-value"><%= item.saleDate %></td>
                   </tr>
                   <tr>
-                    <td>Hanover Equity: &nbsp; </td>
+                    <td>Hanover Equity: &nbsp;</td>
                     <td class="category-value"><%= item.hanoverEquity %></td>
                   </tr>
                   <tr>
@@ -195,15 +195,15 @@
                     <td class="category-value"><%= item.projectCapitalization %></td>
                   </tr>
                   <tr>
-                    <td>Location: &nbsp; </td>
+                    <td>Location: &nbsp;</td>
                     <td class="category-value"><%= item.location %></td>
                   </tr>
                   <tr>
-                    <td>Product Type: &nbsp; </td>
+                    <td>Product Type: &nbsp;</td>
                     <td class="category-value"><%= item.productType %></td>
                   </tr>
                   <tr>
-                    <td>Project Type: &nbsp; </td>
+                    <td>Project Type: &nbsp;</td>
                     <td class="category-value"><%= item.projectType %></td>
                   </tr>
                   </tbody>
@@ -331,8 +331,9 @@
             </button>
           </a>
         </div>
+      </div>
 
-        <div class="ui modal" id="net-lease-<%= index %>-mobile">
+      <div class="ui modal" id="net-lease-<%= index %>-mobile">
           <div class="ui basic padded segment">
             <div class="ui grid container">
               <div class="row">
@@ -384,10 +385,9 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="ui divider"></div>
-      <% }) %>
     </div>
+    <div class="ui divider"></div>
+    <% }) %>
   </div>
 </div>

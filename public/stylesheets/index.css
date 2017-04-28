@@ -1,5 +1,5 @@
 .body-main {
-    background: url("../images/home-hero-image-small.png") no-repeat;
+    background: url("../images/home-hero-image-small.jpg") no-repeat;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover; /* Mozilla*/
     -o-background-size: cover; /* Opera*/
@@ -30,7 +30,7 @@
 @media (min-width: 1920px) {
     .body-main {
         height: 101.5%;
-        background: url("../images/home-hero-image-large.png") no-repeat;
+        background: url("../images/home-hero-image-large.jpg") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/
@@ -41,7 +41,7 @@
 @media (min-width: 1366px) {
     .body-main {
         height: 101.5%;
-        background: url("../images/home-hero-image-medium.png") no-repeat;
+        background: url("../images/home-hero-image-medium.jpg") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/

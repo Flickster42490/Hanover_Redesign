@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .masthead {
-    background: url("../images/home-hero-image-medium.png") no-repeat;
+    background: url("../images/home-hero-image-medium.jpg") no-repeat;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover; /* Mozilla*/
     -o-background-size: cover; /* Opera*/
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media (min-width: 1920px) {
     .masthead {
         height: 101.5%;
-        background: url("../images/home-hero-image-large.png") no-repeat;
+        background: url("../images/home-hero-image-large.jpg") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media (min-width: 1366px) {
     .masthead {
         height: 101.5%;
-        background: url("../images/home-hero-image-medium.png") no-repeat;
+        background: url("../images/home-hero-image-medium.jpg") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/

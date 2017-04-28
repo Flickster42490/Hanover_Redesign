@@ -9,7 +9,7 @@ a {
 
 .contact.masthead.basic.segment {
     margin: 0 0;
-    background: url("../images/contact-hero-image.jpg") no-repeat center center;
+    background: url("../images/contact-hero-image.png") no-repeat center center;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover; /* Mozilla*/
     -o-background-size: cover; /* Opera*/

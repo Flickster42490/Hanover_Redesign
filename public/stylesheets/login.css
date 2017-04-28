@@ -1,0 +1,16 @@
+body {
+    background-color: #003041;
+}
+.mobile-group {
+    display:none;
+}
+@media only screen and (max-width: 1150px) {
+
+    .mobile-group {
+        display: block;
+    }
+
+    .desktop-group {
+        display: none;
+    }
+}

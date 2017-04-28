@@ -64,16 +64,48 @@
     <a id="showHere"></a>
     <div class="ui hidden divider"></div>
     <div class="ui hidden divider"></div>
-    <div class="column">
-      <h1 class="ui huge inverted header"><%= headerTitle %></h1>
-    </div>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
     <div class="ui hidden divider"></div>
     <div class="ui hidden divider"></div>
   </div>
 
-  <%- body -%>
+  <div class="ui stackable grid container">
+    <div class="ui hidden divider"></div>
+    <div class="row">
+      <div class="ui breadcrumb">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/team" class="section">Team</a>
+        <div class="divider"> / </div>
+        <a class="section"><%= person.name %></a>
+      </div>
+    </div>
+    <div class="two column center aligned row">
+      <div class="four wide column">
+        <img class="ui medium bordered image" src="/images/placeholder_person.png">
+      </div>
+      <div class="eleven wide left aligned column">
+        <div class="ui left aligned large header"><span class="tealAqua"><%= person.name %></span></div>
+        <div class="ui left aligned medium header"><span class="tealAqua"><%= person.title %></span>
+        </div>
+        <div class="ui left aligned medium header">
+          <a href="<%= person.linkedin %>" title="LinkedIn" target="_blank"><i
+                    class="fa fa-linkedin " aria-hidden="true" style="margin-left:2px;"></i>
+            &nbsp;&nbsp;</a>
+          <a href="<%= person.email %>" title="Email"><i class="fa fa-envelope "
+                                                                     aria-hidden="true"></i>
+            &nbsp;&nbsp;</a>
+          <%= person.phone %>
+        </div>
+        <div class="ui hidden divider"></div>
+        <%- person.bio %>
+      </div>
+    </div>
+    <div class="ui hidden divider"></div>
+  </div>
+
+
+
+
+
 
   <div class="ui vertical footer segment">
     <div class="ui hidden divider"></div>

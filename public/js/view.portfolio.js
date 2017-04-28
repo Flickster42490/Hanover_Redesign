@@ -1,26 +1,29 @@
 $(function () {
   //target active menu links
-  if(window.location.pathname === '/portfolio' || window.location.pathname === '/portfolio/net-lease')
+  if(window.location.pathname === '/portfolio' || window.location.pathname === '/portfolio/multi-family'  || window.location.pathname === '/portfolio/net-lease')
     $('.right.secondary.menu .item.portfolio').addClass('active');
 
+  $('#lazy-container .lazy').Lazy({
+    appendScroll: $('#lazy-container')
+  });
 
   //path change
   $('.portfolio .dropdown').change(function(e, val) {
     var dropdownVal = $(this).val();
-    switch (dropdownVal) {
-      case 'all':
-        if(window.location.pathname === '/portfolio')
-          break;
-        window.location.href='/portfolio';
-      case 'multi-family':
-        console.log(dropdownVal);
-        if(window.location.pathname === '/portfolio/multi-family')
-          break;
-        window.location.href='/portfolio/multi-family';
-      case 'net-lease':
-        if(window.location.pathname === '/portfolio/net-lease')
-          break;
-        window.location.href='/portfolio/net-lease';
+      if(dropdownVal ===  'all') {
+        if (window.location.pathname !== '/portfolio') {
+          window.location.href = '/portfolio';
+        }
+      }
+    if(dropdownVal ===  'multi-family') {
+      if (window.location.pathname !== '/portfolio/multi-family') {
+        window.location.href = '/portfolio/multi-family';
+      }
+    }
+    if(dropdownVal ===  'net-lease') {
+      if (window.location.pathname !== '/portfolio/net-lease') {
+        window.location.href = '/portfolio/net-lease';
+      }
     }
   });
 

@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
     left: -5px;
     height: 101.5%;
     background-size: 101% 101% !important;
-    background: url("../images/home-hero-image-medium.png") no-repeat;
+    background: url("../images/home-hero-image-medium-light.png") no-repeat;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover; /* Mozilla*/
     -o-background-size: cover; /* Opera*/
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
         left: -5px;
         height: 101.5%;
         background-size: 101% 101% !important;
-        background: url("../images/home-hero-image-large.png") no-repeat;
+        background: url("../images/home-hero-image-large-light.png") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
         left: -5px;
         height: 101.5%;
         background-size: 101% 101% !important;
-        background: url("../images/home-hero-image-medium.png") no-repeat;
+        background: url("../images/home-hero-image-medium-light.png") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
     .masthead.index {
         top: 0;
         left: 0;
-        background: url("../images/home-hero-image-medium.png") no-repeat;
+        background: url("../images/home-hero-image-small-light.png") no-repeat;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover; /* Mozilla*/
         -o-background-size: cover; /* Opera*/

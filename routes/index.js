@@ -998,4 +998,8 @@ router.get('/team/:name', function (req, res, next) {
    res.render('teamMember', {name: name, person: person, page: 'team'});
 });
 
+router.get('*', function (req, res, next) {
+   res.redirect('/');
+});
+
 module.exports = router;

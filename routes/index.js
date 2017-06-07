@@ -973,14 +973,38 @@ router.get('/login', function (req, res, next) {
 });
 
 router.get('/portfolio', function (req, res, next) {
+  portfolioAll.multiFamily.forEach(function(item) {
+    var equity =  parseFloat(item.hanoverEquity.slice(0,-1))/100 * parseInt(item.projectCapitalization.replace(/\D+/g, ''));
+    equity = Math.round(equity);
+    var formattedEquity = equity.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ',').replace(/(\$?)(\d[\d,]+)/g, "$$$2");
+    item.formattedEquity = formattedEquity;
+  });
+  portfolioAll.netLease.forEach(function(item) {
+    var equity =  parseFloat(item.hanoverEquity.slice(0,-1))/100 * parseInt(item.projectCapitalization.replace(/\D+/g, ''));
+    equity = Math.round(equity);
+    var formattedEquity = equity.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ',').replace(/(\$?)(\d[\d,]+)/g, "$$$2");
+    item.formattedEquity = formattedEquity;
+  });
   res.render('portfolio', {multiFamily: portfolioAll.multiFamily, netLease: portfolioAll.netLease, page: "portfolio", headerTitle: 'Our Portfolio'});
 });
 
 router.get('/portfolio/multi-family', function (req, res, next) {
+  portfolioAll.multiFamily.forEach(function(item) {
+    var equity =  parseFloat(item.hanoverEquity.slice(0,-1))/100 * parseInt(item.projectCapitalization.replace(/\D+/g, ''));
+    equity = Math.round(equity);
+    var formattedEquity = equity.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ',').replace(/(\$?)(\d[\d,]+)/g, "$$$2");
+    item.formattedEquity = formattedEquity;
+  });
   res.render('portfolioMultiFamily', {multiFamily: portfolioAll.multiFamily, page: "portfolio", headerTitle: 'Our Portfolio'});
 });
 
 router.get('/portfolio/net-lease', function (req, res, next) {
+  portfolioAll.netLease.forEach(function(item) {
+    var equity =  parseFloat(item.hanoverEquity.slice(0,-1))/100 * parseInt(item.projectCapitalization.replace(/\D+/g, ''));
+    equity = Math.round(equity);
+    var formattedEquity = equity.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ',').replace(/(\$?)(\d[\d,]+)/g, "$$$2");
+    item.formattedEquity = formattedEquity;
+  });
   res.render('portfolioNetLease', {netLease: portfolioAll.netLease, page: "portfolio", headerTitle: 'Our Portfolio'});
 });
 

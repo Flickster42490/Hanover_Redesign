@@ -53,3 +53,38 @@ a {
 .team .vertical.segment.second {
 background-color: rgba(0, 0, 0, 0.04) !important
 }
+
+.team .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    margin-left: 2px;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00779f;
+}
+
+.team .overlayText {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#lowinger:hover .overlay,
+#macedo:hover .overlay,
+#davidson:hover .overlay,
+#baraghoush:hover .overlay,
+#tevrizian:hover .overlay,
+#samaha:hover .overlay{
+    opacity: .7;
+}

@@ -903,6 +903,7 @@ var bios = {
     linkedin: "https://www.linkedin.com/in/michael-h-lowinger-ba92b46b/",
     email: "mailto:mlowinger@hanoverfinancialllc.com",
     phone: "(310) 743-0080",
+    picture: "lowinger.jpg",
     bio: "<p>Mr. Lowinger was a founding partner of the Company when originally formed in 1999. Lowinger was previously with Ares Management, a fund management firm based in Los Angeles with approximately $74 billion under management whose investors include numerous public pension funds, foundations, and sovereign funds. Lowinger became part of the Ares team when Wrightwood Capital was acquired by Ares, and he was responsible for originating and structuring preferred equity, mezzanine, and debt investments at both organizations with primary responsibility for the firms’ west coast operations.</p>  <p>Prior to his work at Wrightwood Capital, as outlined, Lowinger was President and a founding partner of Hanover Financial Company, a fund management firm founded in 1999 with George Marcus and Mark Macedo, where he was responsible for directing Hanover’s investment strategy, asset and fund management, and investor relations. Hanover was acquired by Wrightwood Capital in 2008, at which time the committed institutional funds were included in the acquisition. From 1987 through 1999 Lowinger was an Executive Vice President and Managing Director of Heller Financial, a subsidiary of Fuji Bank, where he was responsible for overseeing debt and equity investments and asset management activity in the Western United States.  </p>  <p>Lowinger is an active member of the Real Estate Principals Organization (RPO) of the Jewish Federation of Greater Los Angeles. Mr. Lowinger holds a Bachelor of Arts in Accounting and Finance from San Diego State University and a Master’s degree in Business Administration from Pepperdine University. Lowinger holds a California real estate broker’s license.</p>"
   },
   Macedo: {
@@ -911,6 +912,7 @@ var bios = {
     linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
     email: "mailto:mmacedo@hanoverfinancialllc.com",
     phone: "(424) 653-2522",
+    picture: "macedo.jpg",
     bio: "<p>Mr. Macedo was a founding partner of the Company when originally formed in 1999. Mr. Macedo is responsible for identifying investment opportunities and managing Company operations which include strategic planning, deal sourcing, structuring and negotiations, as well as overseeing due diligence and asset management operations. Macedo was also previously with Ares Management/Wrightwood with Lowinger as described above. Prior to his work at Wrightwood Capital, as outlined, Macedo was COO and a founding partner of Hanover Financial Company, a fund management firm founded in 1999. Hanover was acquired by Wrightwood Capital in 2008, at which time the committed institutional funds were included in the acquisition. From 1992 through 1999 held the position of West Coast Director of commercial loan originations for Heller Real Estate Financial Services, a division of Heller Financial Incorporated, working closely with Mr. Lowinger. Originations included commercial debt and equity product types such as floating rate non-participating mortgage debt, participating mortgage debt, participating mezzanine ('equity') debt and permanent (i.e. conduit) debt. Macedo is an active member of ULI, ICSC, and MBA. </p> <p>Mr. Macedo holds a Bachelor of Arts in Marketing and a Masters in Finance from Loyola Marymount University. </p>"
   },
   Davidson: {
@@ -919,6 +921,7 @@ var bios = {
     linkedin: "https://www.linkedin.com/in/markdavidson928/",
     email: "mailto:mdavidson@hanoverfinancialllc.com",
     phone: "(424) 653-2523",
+    picture: "davidson.jpg",
     bio: "<p>Mr. Davidson is a Director of Asset Management at Hanover Financial, LLC. He works with joint venture operating partners to develop and to implement asset management plans. This includes overseeing closings, monitoring developments, budgeting, and participating in dispositions. Prior to joining Hanover in 2015, Mr. Davidson spent the previous eight years at GE Real Estate evaluating and recommending new debt deals, performing real estate valuations, and underwriting West Coast suburban office acquisitions. Prior to GE Real Estate, he worked in institutional real estate consulting at the Townsend Group and in public accounting with Arthur Andersen.</p> <p>Mr. Davidson holds a Bachelor of Arts in Economics from UCLA and a Masters in Business Administration from Duke University’s Fuqua School of Business. Mr. Davidson is a Chartered Financial Analyst and a Certified Public Accountant. Davidson holds a California real estate broker’s license. </p>"
   },
   Baraghoush: {
@@ -927,6 +930,7 @@ var bios = {
     linkedin: "https://www.linkedin.com/in/ash-baraghoush-70b49142/",
     email: "mailto:abaraghoush@hanoverfinancialllc.com",
     phone: "(424) 653-2524",
+    picture: "baraghoush.jpg",
     bio: "<p>Mr. Baraghoush serves as a Director Acquisitions at Hanover Financial, LLC. He is responsible for identifying and evaluating joint venture equity opportunities for value-add and development multifamily projects. Mr. Baraghoush previously spent four years with Ares Management originating and structuring senior mortgages, mezzanine, preferred equity and common equity for multifamily real estate transactions. Prior to Ares, Mr. Baraghoush worked at QVT Mount Auburn Capital and at Hanover Financial Company. Mr. Baraghoush began his career at Bank of America in its Global Corporate Investment Banking division.</p> <p>Mr. Baraghoush holds a Bachelor of Arts in Economics, with a minor in Accounting, from UCLA. </p>"
   },
   Tevrizian: {
@@ -935,6 +939,7 @@ var bios = {
     linkedin: "https://www.linkedin.com/in/drew-tevrizian-cfa-cpa-a07402a/",
     email: "mailto:dtevrizian@hanoverfinancialllc.com",
     phone: "(424) 653-2521",
+    picture: "tevrizian.jpg",
     bio: "<p>Mr. Tevrizian serves as a Vice President at Hanover Financial, LLC. He is responsible for identifying and evaluating joint venture equity opportunities for net lease projects. Mr. Tevrizian previously worked in JLL’s Capital Markets division underwriting multifamily projects in the West Coast. He began his career in public accounting with PwC. </p> <p>Mr. Tevrizian holds a Bachelor of Arts in Psychology from the University of Michigan. Mr. Tevrizian is a Chartered Financial Analyst and a Certified Public Accountant. </p>"
   },
   Samaha: {

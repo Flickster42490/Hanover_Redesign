@@ -908,7 +908,7 @@ var bios = {
   },
   Macedo: {
     name: "Mark Macedo",
-    title: "Chief Operating Officer",
+    title: "Managing Director",
     linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
     email: "mailto:mmacedo@hanoverfinancialllc.com",
     phone: "(424) 653-2522",
@@ -917,7 +917,7 @@ var bios = {
   },
   Davidson: {
     name: "Mark Davidson",
-    title: "Director, Asset Management",
+    title: "Asset Management Director",
     linkedin: "https://www.linkedin.com/in/markdavidson928/",
     email: "mailto:mdavidson@hanoverfinancialllc.com",
     phone: "(424) 653-2523",
@@ -926,7 +926,7 @@ var bios = {
   },
   Baraghoush: {
     name: "Ash Baraghoush",
-    title: "Director, Multifamily",
+    title: "Investment Director, Multifamily",
     linkedin: "https://www.linkedin.com/in/ash-baraghoush-70b49142/",
     email: "mailto:abaraghoush@hanoverfinancialllc.com",
     phone: "(424) 653-2524",
@@ -935,7 +935,7 @@ var bios = {
   },
   Tevrizian: {
     name: "Drew Tevrizian",
-    title: "Vice President, Net Lease Investments",
+    title: "Investment Vice President, Net Lease",
     linkedin: "https://www.linkedin.com/in/drew-tevrizian-cfa-cpa-a07402a/",
     email: "mailto:dtevrizian@hanoverfinancialllc.com",
     phone: "(424) 653-2521",
@@ -944,11 +944,27 @@ var bios = {
   },
   Samaha: {
     name: "Josh Samaha",
-    title: "Associate, Multifamily",
+    title: "Investment Associate",
     linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
     email: "mailto:jsamaha@hanoverfinancialllc.com",
     phone: "(424) 653-2528",
     bio: "<p>Mr. Samaha is an Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Samaha spent four years at The Concord Group consulting on multifamily development projects in the West Coast. </p> <p>Mr. Samaha holds a Bachelor of Arts in Economics from UCLA. </p>"
+  },
+  Peterson: {
+    name: "John Paul Peterson",
+    title: "Investment Director, Multifamily/Emerging Private Equity",
+    linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
+    email: "mailto:jsamaha@hanoverfinancialllc.com",
+    phone: "(424) 653-2528",
+    bio: "<p>Mr. Peterson serves as a Director at Hanover Financial, LLC.  He is responsible for identifying and evaluating co-investment partnership opportunities with multi-family development sponsors and evaluating investment opportunities.  Mr. Peterson previously spent ten years as a management/engineering consultant leading team in the design, finical modeling and performance management of commercial, residential and institutional real estate assets throughout the United State and Mainland China.</p><p>Mr. Peterson holds a Bachelor of Science in Mechanical Engineering from Messiah University and a Master of Business Administration from University of California, Berkeley, Haas School of Business.</p>"
+  },
+  SaintJohn: {
+    name: "Vinnie Saint John",
+    title: "Investment Associate",
+    linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
+    email: "mailto:jsamaha@hanoverfinancialllc.com",
+    phone: "(424) 653-2528",
+    bio: "<p>Mr. Saint John is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Saint John spent three years in public accounting at PwC within their real estate practice. Before PwC, Mr. Saint John played professional baseball within the Los Angeles Angels of Anaheim minor league organization.</p><p>Mr. Saint John holds a Bachelor of Science in Business Administration and a Master of Accounting from USC. Mr. Saint John is a Certified Public Accountant.</p>"
   }
 };
 

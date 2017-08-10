@@ -7,20 +7,57 @@ $(function() {
   $(document).on('click', '.net-lease', function() {
     if(!$('.item.net-lease').hasClass('active')){
       $('.item.multi-family').removeClass('active');
+      $('.item.multi-family-gp').removeClass('active');
+      $('.item.net-lease-gp').removeClass('active');
       $('.item.net-lease').addClass('active');
 
       $('.striped.table.multi-family').css('display','none');
+      $('.striped.table.multi-family-gp').css('display','none');
+      $('.striped.table.net-lease-gp').css('display','none');
       $('.striped.table.net-lease').css('display','table');
+    }
+  });
+
+  $(document).on('click', '.net-lease-gp', function() {
+    if(!$('.item.net-lease-gp').hasClass('active')){
+      $('.item.multi-family').removeClass('active');
+      $('.item.multi-family-gp').removeClass('active');
+      $('.item.net-lease').removeClass('active');
+      $('.item.net-lease-gp').addClass('active');
+
+      $('.striped.table.multi-family').css('display','none');
+      $('.striped.table.multi-family-gp').css('display','none');
+      $('.striped.table.net-lease').css('display','none');
+      $('.striped.table.net-lease-gp').css('display','table');
     }
   });
 
   $(document).on('click', '.multi-family', function() {
     if(!$('.item.multi-family').hasClass('active')) {
       $('.item.net-lease').removeClass('active');
+      $('.item.multi-family-gp').removeClass('active');
+      $('.item.net-lease-gp').removeClass('active');
       $('.item.multi-family').addClass('active');
 
       $('.striped.table.net-lease').css('display','none');
+      $('.striped.table.net-lease-gp').css('display','none');
+      $('.striped.table.multi-family-gp').css('display','none');
       $('.striped.table.multi-family').css('display','table');
+
+    }
+  });
+
+  $(document).on('click', '.multi-family-gp', function() {
+    if(!$('.item.multi-family-gp').hasClass('active')) {
+      $('.item.net-lease').removeClass('active');
+      $('.item.multi-family').removeClass('active');
+      $('.item.net-lease-gp').removeClass('active');
+      $('.item.multi-family-gp').addClass('active');
+
+      $('.striped.table.net-lease').css('display','none');
+      $('.striped.table.net-lease-gp').css('display','none');
+      $('.striped.table.multi-family').css('display','none');
+      $('.striped.table.multi-family-gp').css('display','table');
 
     }
   });

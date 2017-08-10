@@ -12,14 +12,6 @@
     font-weight: 300;
 }
 
-.strategies .item.multi-family {
-    margin-right: 20px;
-}
-
-.strategies .item.net-lease {
-    margin-left: 20px;
-}
-
 .strategies .large.header,
 .strategies .huge.header.section {
     color: #001a4c;
@@ -34,7 +26,9 @@
     font-size: 1.2em;
 }
 
-.strategies .striped.table.net-lease {
+.strategies .striped.table.multi-family-gp,
+.strategies .striped.table.net-lease,
+.strategies .striped.table.net-lease-gp{
     display: none;
 }
 

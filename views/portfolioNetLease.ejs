@@ -90,6 +90,7 @@
               </div>
               <div class="ten wide column">
                 <div class="ui left aligned large header"><%= item.name %></div>
+                <div class="ui left aligned small header">item.location</div>
 
                 <table class="ui very basic table" style="font-size: 1.2em;">
                   <tbody>
@@ -110,16 +111,8 @@
                     <td class="category-value right aligned"><%= item.projectCapitalization %></td>
                   </tr>
                   <tr>
-                    <td>Location</td>
-                    <td class="category-value right aligned"><%= item.location %></td>
-                  </tr>
-                  <tr>
-                    <td>Product Type</td>
-                    <td class="category-value right aligned"><%= item.productType %></td>
-                  </tr>
-                  <tr>
                     <td>Project Type</td>
-                    <td class="category-value right aligned"><%= item.projectType %></td>
+                    <td class="category-value right aligned"><%= item.productType %> (<%= item.projectType %>)</td>
                   </tr>
                   </tbody>
                 </table>
@@ -172,6 +165,7 @@
               </div>
               <div class="ten wide column">
                 <div class="ui left aligned large header"><%= item.name %></div>
+                <div class="ui left aligned small header">item.location</div>
 
                 <table class="ui very basic table" style="font-size: 1.2em;">
                   <tbody>
@@ -192,16 +186,8 @@
                     <td class="category-value"><%= item.projectCapitalization %></td>
                   </tr>
                   <tr>
-                    <td>Location: &nbsp;</td>
-                    <td class="category-value"><%= item.location %></td>
-                  </tr>
-                  <tr>
-                    <td>Product Type: &nbsp;</td>
-                    <td class="category-value"><%= item.productType %></td>
-                  </tr>
-                  <tr>
                     <td>Project Type: &nbsp;</td>
-                    <td class="category-value"><%= item.projectType %></td>
+                    <td class="category-value"><%= item.productType %> (<%= item.projectType %>)</td>
                   </tr>
                   </tbody>
                 </table>

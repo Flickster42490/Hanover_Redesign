@@ -85,6 +85,8 @@ background-color: rgba(0, 0, 0, 0.04) !important
 #davidson:hover .overlay,
 #baraghoush:hover .overlay,
 #tevrizian:hover .overlay,
-#samaha:hover .overlay{
+#samaha:hover .overlay,
+#saintjohn:hover .overlay,
+#peterson:hover .overlay{
     opacity: .7;
 }

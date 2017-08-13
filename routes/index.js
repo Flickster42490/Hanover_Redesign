@@ -9,7 +9,8 @@ var portfolioAll = {
         "fundingDate": "February 2017",
         "saleDate": "Current Investment",
         "hanoverEquity": "27.3%",
-        "projectCapitalization": "$35,000,000"
+        "projectCapitalization": "$35,000,000",
+        "image": false
     }, {
         "name": "Mansfield Apartments",
         "location": "Hollywood, CA",
@@ -18,7 +19,8 @@ var portfolioAll = {
         "fundingDate": "November 2016",
         "saleDate": "Current Investment",
         "hanoverEquity": "27.6%",
-        "projectCapitalization": "$28,000,000"
+        "projectCapitalization": "$28,000,000",
+        "image": true
     }, {
         "name": "Gordon Street Apartments",
         "location": "Hollywood, CA",
@@ -27,7 +29,8 @@ var portfolioAll = {
         "fundingDate": "March 2016",
         "saleDate": "Current Investment",
         "hanoverEquity": "35.3%",
-        "projectCapitalization": "$21,000,000"
+        "projectCapitalization": "$21,000,000",
+        "image": false
     }, {
         "name": "Rancho Azul Apartments",
         "location": "San Diego, CA",
@@ -36,7 +39,8 @@ var portfolioAll = {
         "fundingDate": "August 2015",
         "saleDate": "Current Investment",
         "hanoverEquity": "25.6%",
-        "projectCapitalization": "$16,000,000"
+        "projectCapitalization": "$16,000,000",
+        "image": true
     }, {
         "name": "Camerford Apartments",
         "location": "Hollywood, CA",
@@ -45,7 +49,8 @@ var portfolioAll = {
         "fundingDate": "February 2015",
         "saleDate": "Current Investment",
         "hanoverEquity": "37.1%",
-        "projectCapitalization": "$15,000,000"
+        "projectCapitalization": "$15,000,000",
+        "image": false
     }, {
         "name": "Hacienda Court Apartments",
         "location": "Anaheim, CA",
@@ -54,7 +59,8 @@ var portfolioAll = {
         "fundingDate": "October 2015",
         "saleDate": "Current Investment",
         "hanoverEquity": "29.5%",
-        "projectCapitalization": "$17,000,000"
+        "projectCapitalization": "$17,000,000",
+        "image": true
     }, {
         "name": "Gramercy Apartments",
         "location": "Anaheim, CA",
@@ -63,7 +69,8 @@ var portfolioAll = {
         "fundingDate": "October 2014",
         "saleDate": "March 2017",
         "hanoverEquity": "24.7%",
-        "projectCapitalization": "$18,000,000"
+        "projectCapitalization": "$18,000,000",
+        "image": true
     }, {
         "name": "Premier Apartments",
         "location": "Sherman Oaks, CA",
@@ -72,7 +79,8 @@ var portfolioAll = {
         "fundingDate": "July 2014",
         "saleDate": "September 2016",
         "hanoverEquity": "24.9%",
-        "projectCapitalization": "$13,000,000"
+        "projectCapitalization": "$13,000,000",
+        "image": false
     }, {
         "name": "Azul Apartments",
         "location": "Anaheim, CA",
@@ -81,7 +89,8 @@ var portfolioAll = {
         "fundingDate": "October 2014",
         "saleDate": "September 2016",
         "hanoverEquity": "24.8%",
-        "projectCapitalization": "$17,000,000"
+        "projectCapitalization": "$17,000,000",
+        "image": true
     }, {
         "name": "Micropolitan at Urban Lights Apartments",
         "location": "Los Angeles, CA",
@@ -90,7 +99,8 @@ var portfolioAll = {
         "fundingDate": "October 2013",
         "saleDate": "March 2016",
         "hanoverEquity": "26.3%",
-        "projectCapitalization": "$18,000,000"
+        "projectCapitalization": "$18,000,000",
+        "image": true
     }, {
         "name": "San Antonio Apartments",
         "location": "Moutain View, CA",
@@ -99,7 +109,8 @@ var portfolioAll = {
         "fundingDate": "December  2012",
         "saleDate": "September 2016",
         "hanoverEquity": "16.4%",
-        "projectCapitalization": "$75,000,000"
+        "projectCapitalization": "$75,000,000",
+        "image": false
     }, {
         "name": "Civic Apartments",
         "location": "Walnut Creek, CA",
@@ -108,7 +119,8 @@ var portfolioAll = {
         "fundingDate": "October 2012",
         "saleDate": "September 2016",
         "hanoverEquity": "16.9%",
-        "projectCapitalization": "$94,000,000"
+        "projectCapitalization": "$94,000,000",
+        "image": false
     }, {
         "name": "Morrison Apartments II",
         "location": "Los Angeles, CA",
@@ -117,7 +129,8 @@ var portfolioAll = {
         "fundingDate": "May 2011",
         "saleDate": "April 2016",
         "hanoverEquity": "31.1%",
-        "projectCapitalization": "$5,000,000"
+        "projectCapitalization": "$5,000,000",
+        "image": false
     }, {
         "name": "Morrison Apartments I",
         "location": "Los Angeles, CA",
@@ -126,7 +139,8 @@ var portfolioAll = {
         "fundingDate": "May 2011",
         "saleDate": "April 2016",
         "hanoverEquity": "34.7%",
-        "projectCapitalization": "$5,000,000"
+        "projectCapitalization": "$5,000,000",
+        "image": false
     }, {
         "name": "Alexan Littleton Apartments",
         "location": "Denver, CO",
@@ -135,7 +149,8 @@ var portfolioAll = {
         "fundingDate": "May 2011",
         "saleDate": "April 2016",
         "hanoverEquity": "21.1%",
-        "projectCapitalization": "$54,000,000"
+        "projectCapitalization": "$54,000,000",
+        "image": false
     }, {
         "name": "The Icon USC Student Housing",
         "location": "Los Angeles, CA",
@@ -144,7 +159,8 @@ var portfolioAll = {
         "fundingDate": "January 2011",
         "saleDate": "January 2014",
         "hanoverEquity": "14.9%",
-        "projectCapitalization": "$34,000,000"
+        "projectCapitalization": "$34,000,000",
+        "image": false
     }, {
         "name": "Palacio Apartments",
         "location": "Las Vegas, NV",
@@ -153,7 +169,8 @@ var portfolioAll = {
         "fundingDate": "November 2010",
         "saleDate": "November 2013",
         "hanoverEquity": "22.4%",
-        "projectCapitalization": "$35,000,000"
+        "projectCapitalization": "$35,000,000",
+        "image": false
     }, {
         "name": "Loreto Apartments",
         "location": "Las Vegas, NV",
@@ -162,7 +179,8 @@ var portfolioAll = {
         "fundingDate": "November 2010",
         "saleDate": "November 2013",
         "hanoverEquity": "23.2%",
-        "projectCapitalization": "$42,000,000"
+        "projectCapitalization": "$42,000,000",
+        "image": false
     }, {
         "name": "Aldrea at Estrella Falls Apt",
         "location": "Phoenix, AZ",
@@ -171,7 +189,8 @@ var portfolioAll = {
         "fundingDate": "October 2010",
         "saleDate": "September 2015",
         "hanoverEquity": "18.9%",
-        "projectCapitalization": "$23,000,000"
+        "projectCapitalization": "$23,000,000",
+        "image": false
     }, {
         "name": "University Park Apartments",
         "location": "Riverside, CA",
@@ -180,7 +199,8 @@ var portfolioAll = {
         "fundingDate": "October 2007",
         "saleDate": "October 2009",
         "hanoverEquity": "12.4%",
-        "projectCapitalization": "$45,000,000"
+        "projectCapitalization": "$45,000,000",
+        "image": false
     }, {
         "name": "Heritage Square Apartments",
         "location": "Riverside, CA",
@@ -189,7 +209,8 @@ var portfolioAll = {
         "fundingDate": "October 2007",
         "saleDate": "October 2009",
         "hanoverEquity": "14.3%",
-        "projectCapitalization": "$29,000,000"
+        "projectCapitalization": "$29,000,000",
+        "image": false
     }, {
         "name": "Fairway Glenn Apartments",
         "location": "San Jose, CA",
@@ -198,7 +219,8 @@ var portfolioAll = {
         "fundingDate": "April 2007",
         "saleDate": "November 2011",
         "hanoverEquity": "17.1%",
-        "projectCapitalization": "$28,000,000"
+        "projectCapitalization": "$28,000,000",
+        "image": false
     }, {
         "name": "Century Place",
         "location": "Los Angeles, CA",
@@ -207,7 +229,8 @@ var portfolioAll = {
         "fundingDate": "December  2006",
         "saleDate": "October 2011",
         "hanoverEquity": "14.8%",
-        "projectCapitalization": "$57,000,000"
+        "projectCapitalization": "$57,000,000",
+        "image": false
     }, {
         "name": "El Dorado Point",
         "location": "Moreno Valley, CA",
@@ -216,7 +239,8 @@ var portfolioAll = {
         "fundingDate": "October 2006",
         "saleDate": "June 2008",
         "hanoverEquity": "19.0%",
-        "projectCapitalization": "$45,000,000"
+        "projectCapitalization": "$45,000,000",
+        "image": false
     }, {
         "name": "Sterling Apartments",
         "location": "Los Felix, CA",
@@ -225,7 +249,8 @@ var portfolioAll = {
         "fundingDate": "March 2006",
         "saleDate": "February 2009",
         "hanoverEquity": "19.2%",
-        "projectCapitalization": "$19,000,000"
+        "projectCapitalization": "$19,000,000",
+        "image": false
     }, {
         "name": "Lincoln Oaks",
         "location": "Santa Maria, CA",
@@ -234,7 +259,8 @@ var portfolioAll = {
         "fundingDate": "May 2005",
         "saleDate": "April 2008",
         "hanoverEquity": "24.3%",
-        "projectCapitalization": "$25,000,000"
+        "projectCapitalization": "$25,000,000",
+        "image": false
     }, {
         "name": "Harbor Island",
         "location": "Alameda, CA",
@@ -243,7 +269,8 @@ var portfolioAll = {
         "fundingDate": "September 2005",
         "saleDate": "March 2008",
         "hanoverEquity": "20.3%",
-        "projectCapitalization": "$123,000,000"
+        "projectCapitalization": "$123,000,000",
+        "image": false
     }, {
         "name": "Bayside Willows",
         "location": "Pinole, CA",
@@ -252,7 +279,8 @@ var portfolioAll = {
         "fundingDate": "August 2005",
         "saleDate": "July 2008",
         "hanoverEquity": "26.8%",
-        "projectCapitalization": "$22,000,000"
+        "projectCapitalization": "$22,000,000",
+        "image": false
     }, {
         "name": "Ivy Towne",
         "location": "Davis, CA",
@@ -261,7 +289,8 @@ var portfolioAll = {
         "fundingDate": "August 2005",
         "saleDate": "July 2008",
         "hanoverEquity": "28.3%",
-        "projectCapitalization": "$28,000,000"
+        "projectCapitalization": "$28,000,000",
+        "image": false
     }, {
         "name": "Casa de Valencia",
         "location": "Napa, CA",
@@ -270,7 +299,8 @@ var portfolioAll = {
         "fundingDate": "August 2005",
         "saleDate": "July 2008",
         "hanoverEquity": "39.8%",
-        "projectCapitalization": "$9,000,000"
+        "projectCapitalization": "$9,000,000",
+        "image": false
     }, {
         "name": "Somerset on Garfield Apartments",
         "location": "Montebello, CA",
@@ -279,7 +309,8 @@ var portfolioAll = {
         "fundingDate": "December  2004",
         "saleDate": "November 2008",
         "hanoverEquity": "20.8%",
-        "projectCapitalization": "$36,000,000"
+        "projectCapitalization": "$36,000,000",
+        "image": false
     }, {
         "name": "Vanowen Apartments",
         "location": "Van Nuys, CA",
@@ -288,7 +319,8 @@ var portfolioAll = {
         "fundingDate": "October 2004",
         "saleDate": "March 2007",
         "hanoverEquity": "21.5%",
-        "projectCapitalization": "$5,000,000"
+        "projectCapitalization": "$5,000,000",
+        "image": false
     }, {
         "name": "Variel Apartments",
         "location": "Canoga Park, CA",
@@ -297,7 +329,8 @@ var portfolioAll = {
         "fundingDate": "September 2004",
         "saleDate": "March 2007",
         "hanoverEquity": "23.0%",
-        "projectCapitalization": "$8,000,000"
+        "projectCapitalization": "$8,000,000",
+        "image": false
     }, {
         "name": "Mountain Vista Apartments",
         "location": "Rancho Cucamonga, CA",
@@ -306,7 +339,8 @@ var portfolioAll = {
         "fundingDate": "May 2004",
         "saleDate": "February 2006",
         "hanoverEquity": "18.0%",
-        "projectCapitalization": "$76,000,000"
+        "projectCapitalization": "$76,000,000",
+        "image": false
     }, {
         "name": "Basque Manor Apartments",
         "location": "Fullerton, CA",
@@ -315,7 +349,8 @@ var portfolioAll = {
         "fundingDate": "March 2004",
         "saleDate": "October 2005",
         "hanoverEquity": "17.3%",
-        "projectCapitalization": "$11,000,000"
+        "projectCapitalization": "$11,000,000",
+        "image": false
     }, {
         "name": "Arrowhead Apartments",
         "location": "Stanton, CA",
@@ -324,7 +359,8 @@ var portfolioAll = {
         "fundingDate": "January 2004",
         "saleDate": "July 2005",
         "hanoverEquity": "19.4%",
-        "projectCapitalization": "$22,000,000"
+        "projectCapitalization": "$22,000,000",
+        "image": false
     }, {
         "name": "Lakewood Manor Apartments",
         "location": "Lakewood, CA",
@@ -333,7 +369,8 @@ var portfolioAll = {
         "fundingDate": "November 2004",
         "saleDate": "January 2006",
         "hanoverEquity": "10.2%",
-        "projectCapitalization": "$77,000,000"
+        "projectCapitalization": "$77,000,000",
+        "image": false
     }, {
         "name": "3810 Wilshire",
         "location": "Los Angeles, CA",
@@ -342,7 +379,8 @@ var portfolioAll = {
         "fundingDate": "September 2003",
         "saleDate": "January 2005",
         "hanoverEquity": "10.4%",
-        "projectCapitalization": "$52,000,000"
+        "projectCapitalization": "$52,000,000",
+        "image": false
     }, {
         "name": "Park Place Apartments",
         "location": "Santa Ana, CA",
@@ -351,7 +389,8 @@ var portfolioAll = {
         "fundingDate": "January 2002",
         "saleDate": "March 2004",
         "hanoverEquity": "18.0%",
-        "projectCapitalization": "$19,000,000"
+        "projectCapitalization": "$19,000,000",
+        "image": false
     }, {
         "name": "Nantucket Apartments",
         "location": "Santa Ana, CA",
@@ -360,7 +399,8 @@ var portfolioAll = {
         "fundingDate": "December  2001",
         "saleDate": "December  2002",
         "hanoverEquity": "15.6%",
-        "projectCapitalization": "$16,000,000"
+        "projectCapitalization": "$16,000,000",
+        "image": false
     }, {
         "name": "Gramercy Apts",
         "location": "Los Angeles, CA",
@@ -369,7 +409,8 @@ var portfolioAll = {
         "fundingDate": "July 2001",
         "saleDate": "May 2002",
         "hanoverEquity": "18.4%",
-        "projectCapitalization": "$4,000,000"
+        "projectCapitalization": "$4,000,000",
+        "image": false
     }, {
         "name": "Kingsley Apts",
         "location": "Los Angeles, CA",
@@ -378,7 +419,8 @@ var portfolioAll = {
         "fundingDate": "July 2001",
         "saleDate": "April 2002",
         "hanoverEquity": "18.5%",
-        "projectCapitalization": "$8,000,000"
+        "projectCapitalization": "$8,000,000",
+        "image": false
     }, {
         "name": "Parthenia Court Apartments",
         "location": "Canoga Park, CA",
@@ -387,7 +429,8 @@ var portfolioAll = {
         "fundingDate": "June 2001",
         "saleDate": "September 2002",
         "hanoverEquity": "15.4%",
-        "projectCapitalization": "$5,000,000"
+        "projectCapitalization": "$5,000,000",
+        "image": false
     }, {
         "name": "Palermo",
         "location": "Santa Monica, CA",
@@ -396,7 +439,8 @@ var portfolioAll = {
         "fundingDate": "May 2001",
         "saleDate": "December  2003",
         "hanoverEquity": "21.2%",
-        "projectCapitalization": "$10,000,000"
+        "projectCapitalization": "$10,000,000",
+        "image": false
     }, {
         "name": "Verona Apartments",
         "location": "Santa Monica, CA",
@@ -405,7 +449,8 @@ var portfolioAll = {
         "fundingDate": "April 2001",
         "saleDate": "September 2003",
         "hanoverEquity": "20.0%",
-        "projectCapitalization": "$11,000,000"
+        "projectCapitalization": "$11,000,000",
+        "image": true
     }, {
         "name": "Livorno Apartments",
         "location": "Santa Monica, CA",
@@ -414,7 +459,8 @@ var portfolioAll = {
         "fundingDate": "April 2001",
         "saleDate": "September 2003",
         "hanoverEquity": "20.0%",
-        "projectCapitalization": "$11,000,000"
+        "projectCapitalization": "$11,000,000",
+        "image": true
     }, {
         "name": "Parthenia Plaza Apartments",
         "location": "Canoga Park, CA",
@@ -423,7 +469,8 @@ var portfolioAll = {
         "fundingDate": "March 2001",
         "saleDate": "September 2002",
         "hanoverEquity": "16.6%",
-        "projectCapitalization": "$5,000,000"
+        "projectCapitalization": "$5,000,000",
+        "image": false
     }, {
         "name": "Village Grove Apartments",
         "location": "Panorama City, CA",
@@ -432,7 +479,8 @@ var portfolioAll = {
         "fundingDate": "February 2001",
         "saleDate": "March 2002",
         "hanoverEquity": "40.5%",
-        "projectCapitalization": "$2,000,000"
+        "projectCapitalization": "$2,000,000",
+        "image": false
     }, {
         "name": "Village Green Apartments",
         "location": "Panorama City, CA",
@@ -441,7 +489,8 @@ var portfolioAll = {
         "fundingDate": "February 2001",
         "saleDate": "February 2002",
         "hanoverEquity": "11.3%",
-        "projectCapitalization": "$11,000,000"
+        "projectCapitalization": "$11,000,000",
+        "image": false
     }, {
         "name": "Sandstone Apartments",
         "location": "Bellevue, WA",
@@ -450,7 +499,8 @@ var portfolioAll = {
         "fundingDate": "December  2000",
         "saleDate": "August 2002",
         "hanoverEquity": "13.1%",
-        "projectCapitalization": "$17,000,000"
+        "projectCapitalization": "$17,000,000",
+        "image": false
     }, {
         "name": "La Fayette Park Place Apts.",
         "location": "Los Angeles, CA",
@@ -459,7 +509,8 @@ var portfolioAll = {
         "fundingDate": "December  2000",
         "saleDate": "March 2002",
         "hanoverEquity": "17.8%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }, {
         "name": "Playa del Rey",
         "location": "Playa del Rey, CA",
@@ -468,7 +519,8 @@ var portfolioAll = {
         "fundingDate": "September 2000",
         "saleDate": "January 2001",
         "hanoverEquity": "17.2%",
-        "projectCapitalization": "$27,000,000"
+        "projectCapitalization": "$27,000,000",
+        "image": false
     }, {
         "name": "Colony Park Apartments",
         "location": "Azusa, CA",
@@ -477,7 +529,8 @@ var portfolioAll = {
         "fundingDate": "June 2000",
         "saleDate": "May 2001",
         "hanoverEquity": "16.8%",
-        "projectCapitalization": "$10,000,000"
+        "projectCapitalization": "$10,000,000",
+        "image": false
     }, {
         "name": "Revello Apartments",
         "location": "Santa Monica, CA",
@@ -486,7 +539,8 @@ var portfolioAll = {
         "fundingDate": "March 2000",
         "saleDate": "February 2003",
         "hanoverEquity": "16.7%",
-        "projectCapitalization": "$11,000,000"
+        "projectCapitalization": "$11,000,000",
+        "image": false
     }, {
         "name": "Oakcrest Villas Apartments",
         "location": "Riverside, CA",
@@ -495,7 +549,8 @@ var portfolioAll = {
         "fundingDate": "March 2000",
         "saleDate": "January 2002",
         "hanoverEquity": "19.2%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }, {
         "name": "Primrose",
         "location": "Denver, CO",
@@ -504,7 +559,8 @@ var portfolioAll = {
         "fundingDate": "January 2000",
         "saleDate": "January 2001",
         "hanoverEquity": "20.0%",
-        "projectCapitalization": "$3,000,000"
+        "projectCapitalization": "$3,000,000",
+        "image": false
     }, {
         "name": "Venezia Apartments",
         "location": "Santa Monica, CA",
@@ -513,7 +569,8 @@ var portfolioAll = {
         "fundingDate": "October 1999",
         "saleDate": "January 2002",
         "hanoverEquity": "17.2%",
-        "projectCapitalization": "$10,000,000"
+        "projectCapitalization": "$10,000,000",
+        "image": false
     }, {
         "name": "Villa Manana Apartments",
         "location": "Phoenix, AZ",
@@ -522,7 +579,8 @@ var portfolioAll = {
         "fundingDate": "December  1999",
         "saleDate": "August 2002",
         "hanoverEquity": "17.8%",
-        "projectCapitalization": "$13,000,000"
+        "projectCapitalization": "$13,000,000",
+        "image": false
     }, {
         "name": "Park View Apartments",
         "location": "Reseda, CA",
@@ -531,7 +589,8 @@ var portfolioAll = {
         "fundingDate": "October 1999",
         "saleDate": "May 2000",
         "hanoverEquity": "17.5%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }],
     netLease: [{
         "name": "6140 Lake Murray Starbucks",
@@ -541,7 +600,8 @@ var portfolioAll = {
         "fundingDate": "October 2016",
         "saleDate": "Current Investment",
         "hanoverEquity": "28.0%",
-        "projectCapitalization": "$3,000,000"
+        "projectCapitalization": "$3,000,000",
+        "image": false
     }, {
         "name": "Palmdale Plaza",
         "location": "Palmdale, CA",
@@ -550,7 +610,8 @@ var portfolioAll = {
         "fundingDate": "April 2016",
         "saleDate": "Current Investment",
         "hanoverEquity": "32.5%",
-        "projectCapitalization": "$17,000,000"
+        "projectCapitalization": "$17,000,000",
+        "image": false
     }, {
         "name": "Madison Plaza",
         "location": "Riverside, CA",
@@ -559,7 +620,8 @@ var portfolioAll = {
         "fundingDate": "February 2016",
         "saleDate": "Current Investment",
         "hanoverEquity": "35.0%",
-        "projectCapitalization": "$18,000,000"
+        "projectCapitalization": "$18,000,000",
+        "image": false
     }, {
         "name": "Lake Elsinore Center",
         "location": "Lake Elsinore, CA",
@@ -568,7 +630,8 @@ var portfolioAll = {
         "fundingDate": "June 2016",
         "saleDate": "Current Investment",
         "hanoverEquity": "31.4%",
-        "projectCapitalization": "$22,000,000"
+        "projectCapitalization": "$22,000,000",
+        "image": false
     }, {
         "name": "Orland Park Center",
         "location": "Orland Park, IL",
@@ -577,7 +640,8 @@ var portfolioAll = {
         "fundingDate": "October 2015",
         "saleDate": "March 2017",
         "hanoverEquity": "20.0%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": true
     }, {
         "name": "Pioneer Blvd Starbucks",
         "location": "Norwalk, CA",
@@ -586,7 +650,8 @@ var portfolioAll = {
         "fundingDate": "September 2015",
         "saleDate": "March 2017",
         "hanoverEquity": "29.9%",
-        "projectCapitalization": "$3,000,000"
+        "projectCapitalization": "$3,000,000",
+        "image": true
     }, {
         "name": "Bradley Center",
         "location": "Bradley, IL",
@@ -595,7 +660,8 @@ var portfolioAll = {
         "fundingDate": "August 2015",
         "saleDate": "Current Investment",
         "hanoverEquity": "21.0%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }, {
         "name": "Arcadia Aldi",
         "location": "Arcadia, CA",
@@ -604,7 +670,8 @@ var portfolioAll = {
         "fundingDate": "September 2014",
         "saleDate": "December  2015",
         "hanoverEquity": "33.0%",
-        "projectCapitalization": "$7,000,000"
+        "projectCapitalization": "$7,000,000",
+        "image": false
     }, {
         "name": "Victorville Center",
         "location": "Victorville, CA",
@@ -613,7 +680,8 @@ var portfolioAll = {
         "fundingDate": "August 2014",
         "saleDate": "March 2016",
         "hanoverEquity": "30.1%",
-        "projectCapitalization": "$10,000,000"
+        "projectCapitalization": "$10,000,000",
+        "image": false
     }, {
         "name": "Sacramento Smart & Final",
         "location": "Sacramento, CA",
@@ -622,7 +690,8 @@ var portfolioAll = {
         "fundingDate": "June 2014",
         "saleDate": "April 2015",
         "hanoverEquity": "33.6%",
-        "projectCapitalization": "$8,000,000"
+        "projectCapitalization": "$8,000,000",
+        "image": false
     }, {
         "name": "Winston Plaza",
         "location": "Chicago, IL",
@@ -631,7 +700,8 @@ var portfolioAll = {
         "fundingDate": "May 2011",
         "saleDate": "June 2017",
         "hanoverEquity": "16.3%",
-        "projectCapitalization": "$40,000,000"
+        "projectCapitalization": "$40,000,000",
+        "image": false
     }, {
         "name": "Cap Rock Industrial Portfolio",
         "location": "Riverside, CA",
@@ -640,7 +710,8 @@ var portfolioAll = {
         "fundingDate": "August 2010",
         "saleDate": "September 2012",
         "hanoverEquity": "85.1%",
-        "projectCapitalization": "$5,000,000"
+        "projectCapitalization": "$5,000,000",
+        "image": false
     }, {
         "name": "Cinema Place",
         "location": "Hayward, CA",
@@ -649,7 +720,8 @@ var portfolioAll = {
         "fundingDate": "November 2007",
         "saleDate": "November 2009",
         "hanoverEquity": "19.7%",
-        "projectCapitalization": "$16,000,000"
+        "projectCapitalization": "$16,000,000",
+        "image": true
     }, {
         "name": "Berg",
         "location": "Las Vegas, NV",
@@ -658,7 +730,8 @@ var portfolioAll = {
         "fundingDate": "April 2007",
         "saleDate": "April 2009",
         "hanoverEquity": "22.2%",
-        "projectCapitalization": "$20,000,000"
+        "projectCapitalization": "$20,000,000",
+        "image": false
     }, {
         "name": "Buffalo Park",
         "location": "Las Vegas, NV",
@@ -667,7 +740,8 @@ var portfolioAll = {
         "fundingDate": "January 2007",
         "saleDate": "January 2009",
         "hanoverEquity": "13.2%",
-        "projectCapitalization": "$47,000,000"
+        "projectCapitalization": "$47,000,000",
+        "image": false
     }, {
         "name": "Civic Center Plaza",
         "location": "San Marcos, CA",
@@ -676,7 +750,8 @@ var portfolioAll = {
         "fundingDate": "August 2006",
         "saleDate": "October 2011",
         "hanoverEquity": "14.8%",
-        "projectCapitalization": "$13,000,000"
+        "projectCapitalization": "$13,000,000",
+        "image": false
     }, {
         "name": "Vineyard Center",
         "location": "Rancho Cucamonga, CA",
@@ -685,7 +760,8 @@ var portfolioAll = {
         "fundingDate": "December  2005",
         "saleDate": "June 2008",
         "hanoverEquity": "16.6%",
-        "projectCapitalization": "$26,000,000"
+        "projectCapitalization": "$26,000,000",
+        "image": false
     }, {
         "name": "Clifford Meridian Center",
         "location": "Riverside, CA",
@@ -694,7 +770,8 @@ var portfolioAll = {
         "fundingDate": "January 2005",
         "saleDate": "January 2007",
         "hanoverEquity": "18.2%",
-        "projectCapitalization": "$9,000,000"
+        "projectCapitalization": "$9,000,000",
+        "image": false
     }, {
         "name": "Mira Loma Clifford",
         "location": "Mira Loma, CA",
@@ -703,7 +780,8 @@ var portfolioAll = {
         "fundingDate": "February 2004",
         "saleDate": "February 2005",
         "hanoverEquity": "19.2%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }, {
         "name": "Mira Loma Davis",
         "location": "Mira Loma, CA",
@@ -712,7 +790,8 @@ var portfolioAll = {
         "fundingDate": "February 2004",
         "saleDate": "January 2005",
         "hanoverEquity": "16.8%",
-        "projectCapitalization": "$9,000,000"
+        "projectCapitalization": "$9,000,000",
+        "image": false
     }, {
         "name": "LMA Industrial Portfolio",
         "location": "Pleasanton, CA",
@@ -721,7 +800,8 @@ var portfolioAll = {
         "fundingDate": "November 2004",
         "saleDate": "March 2007",
         "hanoverEquity": "17.8%",
-        "projectCapitalization": "$32,000,000"
+        "projectCapitalization": "$32,000,000",
+        "image": false
     }, {
         "name": "Norwalk WalMart Retail",
         "location": "Norwalk, CA",
@@ -730,7 +810,8 @@ var portfolioAll = {
         "fundingDate": "March 2003",
         "saleDate": "October 2004",
         "hanoverEquity": "25.9%",
-        "projectCapitalization": "$4,000,000"
+        "projectCapitalization": "$4,000,000",
+        "image": false
     }, {
         "name": "Pacific Center",
         "location": "Tustin, CA",
@@ -739,7 +820,8 @@ var portfolioAll = {
         "fundingDate": "October 2003",
         "saleDate": "March 2005",
         "hanoverEquity": "21.4%",
-        "projectCapitalization": "$10,000,000"
+        "projectCapitalization": "$10,000,000",
+        "image": false
     }, {
         "name": "Mountain View Center",
         "location": "Chino, CA",
@@ -748,7 +830,8 @@ var portfolioAll = {
         "fundingDate": "July 2003",
         "saleDate": "March 2006",
         "hanoverEquity": "23.9%",
-        "projectCapitalization": "$21,000,000"
+        "projectCapitalization": "$21,000,000",
+        "image": false
     }, {
         "name": "Wald Center",
         "location": "Irvine, CA",
@@ -757,7 +840,8 @@ var portfolioAll = {
         "fundingDate": "July 2003",
         "saleDate": "December  2004",
         "hanoverEquity": "19.4%",
-        "projectCapitalization": "$9,000,000"
+        "projectCapitalization": "$9,000,000",
+        "image": false
     }, {
         "name": "Tustin Center",
         "location": "Tustin, CA",
@@ -766,7 +850,8 @@ var portfolioAll = {
         "fundingDate": "March 2003",
         "saleDate": "April 2005",
         "hanoverEquity": "19.0%",
-        "projectCapitalization": "$19,000,000"
+        "projectCapitalization": "$19,000,000",
+        "image": false
     }, {
         "name": "Lambert Park",
         "location": "La Habra, CA",
@@ -775,7 +860,8 @@ var portfolioAll = {
         "fundingDate": "November 2003",
         "saleDate": "March 2005",
         "hanoverEquity": "22.8%",
-        "projectCapitalization": "$16,000,000"
+        "projectCapitalization": "$16,000,000",
+        "image": false
     }, {
         "name": "Rancho Cucamonga Industrial",
         "location": "Rancho Cucamonga, CA",
@@ -784,7 +870,8 @@ var portfolioAll = {
         "fundingDate": "December  2003",
         "saleDate": "March 2006",
         "hanoverEquity": "15.3%",
-        "projectCapitalization": "$7,000,000"
+        "projectCapitalization": "$7,000,000",
+        "image": false
     }, {
         "name": "Bypass Plaza Retail",
         "location": "Colorado Springs, CO",
@@ -793,7 +880,8 @@ var portfolioAll = {
         "fundingDate": "December  2002",
         "saleDate": "December  2002",
         "hanoverEquity": "4.7%",
-        "projectCapitalization": "$11,000,000"
+        "projectCapitalization": "$11,000,000",
+        "image": false
     }, {
         "name": "Seco Canyon Plaza I",
         "location": "Santa Clarita, CA",
@@ -802,7 +890,8 @@ var portfolioAll = {
         "fundingDate": "June 2001",
         "saleDate": "August 2002",
         "hanoverEquity": "16.3%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }, {
         "name": "Fullerton Industrial Park",
         "location": "Fullerton, CA",
@@ -811,7 +900,8 @@ var portfolioAll = {
         "fundingDate": "January 2001",
         "saleDate": "July 2004",
         "hanoverEquity": "17.7%",
-        "projectCapitalization": "$21,000,000"
+        "projectCapitalization": "$21,000,000",
+        "image": false
     }, {
         "name": "Dyer Center",
         "location": "Santa Ana, CA",
@@ -820,7 +910,8 @@ var portfolioAll = {
         "fundingDate": "September 2000",
         "saleDate": "May 2002",
         "hanoverEquity": "16.2%",
-        "projectCapitalization": "$12,000,000"
+        "projectCapitalization": "$12,000,000",
+        "image": false
     }, {
         "name": "Plaza del Rancho",
         "location": "Valencia, CA",
@@ -829,7 +920,8 @@ var portfolioAll = {
         "fundingDate": "June 2000",
         "saleDate": "June 2002",
         "hanoverEquity": "24.9%",
-        "projectCapitalization": "$8,000,000"
+        "projectCapitalization": "$8,000,000",
+        "image": false
     }, {
         "name": "Dyer Street Retail",
         "location": "Union City, CA",
@@ -838,7 +930,8 @@ var portfolioAll = {
         "fundingDate": "July 1999",
         "saleDate": "March 2002",
         "hanoverEquity": "21.3%",
-        "projectCapitalization": "$16,000,000"
+        "projectCapitalization": "$16,000,000",
+        "image": false
     }, {
         "name": "Snappy Cheyenne",
         "location": "Las Vegas, NV",
@@ -847,7 +940,8 @@ var portfolioAll = {
         "fundingDate": "December  1999",
         "saleDate": "July 2001",
         "hanoverEquity": "25.8%",
-        "projectCapitalization": "$3,000,000"
+        "projectCapitalization": "$3,000,000",
+        "image": false
     }, {
         "name": "Arby's Alma Queen",
         "location": "Phoenix, AZ",
@@ -856,7 +950,8 @@ var portfolioAll = {
         "fundingDate": "November 1999",
         "saleDate": "March 2001",
         "hanoverEquity": "20.4%",
-        "projectCapitalization": "$2,000,000"
+        "projectCapitalization": "$2,000,000",
+        "image": false
     }, {
         "name": "San Savaine",
         "location": "Mira Loma, CA",
@@ -865,7 +960,8 @@ var portfolioAll = {
         "fundingDate": "November 1999",
         "saleDate": "January 2001",
         "hanoverEquity": "28.7%",
-        "projectCapitalization": "$7,000,000"
+        "projectCapitalization": "$7,000,000",
+        "image": false
     }, {
         "name": "Arby's Val Vista",
         "location": "Phoenix, AZ",
@@ -874,7 +970,8 @@ var portfolioAll = {
         "fundingDate": "November 1999",
         "saleDate": "August 2000",
         "hanoverEquity": "11.7%",
-        "projectCapitalization": "$2,000,000"
+        "projectCapitalization": "$2,000,000",
+        "image": false
     }, {
         "name": "Amar Center",
         "location": "City of Industry, CA",
@@ -883,7 +980,8 @@ var portfolioAll = {
         "fundingDate": "August 1999",
         "saleDate": "August 2000",
         "hanoverEquity": "19.2%",
-        "projectCapitalization": "$6,000,000"
+        "projectCapitalization": "$6,000,000",
+        "image": false
     }, {
         "name": "Snappy Eastern Pebble",
         "location": "Las Vegas, NV",
@@ -892,7 +990,8 @@ var portfolioAll = {
         "fundingDate": "May 1999",
         "saleDate": "April 2000",
         "hanoverEquity": "19.5%",
-        "projectCapitalization": "$3,000,000"
+        "projectCapitalization": "$3,000,000",
+        "image": false
     }]
 };
 
@@ -993,6 +1092,7 @@ router.get('/login', function (req, res, next) {
   res.render('login');
 });
 
+
 router.get('/portfolio', function (req, res, next) {
   portfolioAll.multiFamily.forEach(function(item) {
     var equity =  parseFloat(item.hanoverEquity.slice(0,-1))/100 * parseInt(item.projectCapitalization.replace(/\D+/g, ''));
@@ -1028,6 +1128,7 @@ router.get('/portfolio/net-lease', function (req, res, next) {
   });
   res.render('portfolioNetLease', {netLease: portfolioAll.netLease, page: "portfolio", headerTitle: 'Our Portfolio'});
 });
+
 
 router.get('/strategies', function (req, res, next) {
   res.render('strategies', {page: "strategies", headerTitle: 'Our Strategies'});

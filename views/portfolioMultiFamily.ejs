@@ -58,7 +58,7 @@
     <div class="row">
       <div class="center aligned four wide column">
         <a><img class="ui medium bordered image" data-modal="multi-family-<%= index %>"
-                src="/images/placeholder_building.jpg"></a>
+                src=<%= item.image ? "/images/portfolio/"+item.name.split(' ')[0]+"_"+item.location.split(',')[0].replace(/ /g,'')+".jpg" : "/images/placeholder_building.jpg" %>></a>
       </div>
       <div class="eight wide column">
         <a>
@@ -83,8 +83,8 @@
               </div>
             </div>
             <div class="two column center aligned row">
-              <div class="four wide column">
-                <img class="ui medium bordered image" src="/images/placeholder_building.jpg">
+              <div class="six wide column">
+                <img class="ui medium bordered image" src=<%= item.image ? "/images/portfolio/"+item.name.split(' ')[0]+"_"+item.location.split(',')[0].replace(/ /g,'')+".jpg" : "/images/placeholder_building.jpg" %>>
               </div>
               <div class="ten wide column">
                 <div class="ui left aligned large header"><%= item.name %></div>
@@ -135,7 +135,7 @@
     <div class="row">
       <div class="center aligned four wide column">
         <a><img class="ui medium bordered image" data-modal="multi-family-<%= index %>-mobile"
-                src="/images/placeholder_building.jpg"></a>
+                src=<%= item.image ? "/images/portfolio/"+item.name.split(' ')[0]+"_"+item.location.split(',')[0].replace(/ /g,'')+".jpg" : "/images/placeholder_building.jpg" %>></a>
       </div>
 
       <div class="center aligned four wide column mobile-group">
@@ -162,8 +162,8 @@
               </div>
             </div>
             <div class="two column center aligned row">
-              <div class="four wide column">
-                <img class="ui medium bordered image" src="/images/placeholder_building.jpg">
+              <div class="six wide column">
+                <img class="ui medium bordered image" src=<%= item.image ? "/images/portfolio/"+item.name.split(' ')[0]+"_"+item.location.split(',')[0].replace(/ /g,'')+".jpg" : "/images/placeholder_building.jpg" %>>
               </div>
               <div class="ten wide column">
                 <div class="ui left aligned large header"><%= item.name%></div>

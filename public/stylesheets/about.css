@@ -118,7 +118,6 @@
 }
 
 /*We will use ::before and ::after to draw the connectors*/
-
 .tree li::before, .tree li::after {
     content: '';
     position: absolute;
@@ -127,6 +126,19 @@
     border-top: 3px solid #003e82;
     width: 50%;
     height: 60px;
+}
+
+.tree h2::before {
+    visible: none;
+}
+.tree h2::after {
+    content: '';
+    position: absolute;
+    top: 97px;
+    right: 46%;
+    border-top: 3px solid #003e82;
+    width: 105px;
+    height: 30px;
 }
 
 .tree li::after {
@@ -170,11 +182,11 @@ right connector from last child*/
 .tree ul ul::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: -60px;
+    left: 48%;
     border-left: 3px solid #003e82;
     width: 0;
-    height: 40px;
+    height: 100px;
 }
 
 .tree li h2 {
@@ -185,6 +197,7 @@ right connector from last child*/
     font-weight: 200;
     display: inline-block;
     margin-bottom: 0px;
+    margin-right: 100px;
 
     border-radius: 5px;
     -webkit-border-radius: 5px;

@@ -67,6 +67,7 @@
     z-index: 101 !important;
     top: 0;
     left: 0;
+    width: 105% !important;
 
     /* Translate -100% to move off screen */
     -webkit-transform: translateY(-100%);
@@ -78,6 +79,10 @@
     -moz-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 
+}
+
+body > div.ui.fluid.secondary.menu.headhesive--clone.headhesive--stick {
+    width: 105% !important;
 }
 
 
@@ -100,15 +105,15 @@
     transform: translateY(0%);
 }
 /*************************************************************************************************************/
-/*loader css*/
-/*.no-js #loader { display: none;  }*/
-/*.js #loader { display: block; position: absolute; left: 100px; top: 0; }*/
-/*.se-pre-con {*/
-    /*position: fixed;*/
-    /*left: 0px;*/
-    /*top: 0px;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*z-index: 9999;*/
-    /*background: url(../images/hanover.gif) center no-repeat #fff;*/
-/*}*/
+loader css
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/hanover.gif) center no-repeat #fff;
+}

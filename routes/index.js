@@ -1047,22 +1047,25 @@ var bios = {
     linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
     email: "mailto:jsamaha@hanoverfinancialllc.com",
     phone: "(424) 653-2528",
+    picture: "samaha.jpg",
     bio: "<p>Mr. Samaha is an Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Samaha spent four years at The Concord Group consulting on multifamily development projects in the West Coast. </p> <p>Mr. Samaha holds a Bachelor of Arts in Economics from UCLA. </p>"
   },
   Peterson: {
     name: "John Paul Peterson",
     title: "Investment Director, Multifamily/Emerging Private Equity",
-    linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
-    email: "mailto:jsamaha@hanoverfinancialllc.com",
-    phone: "(424) 653-2528",
+    linkedin: "https://www.linkedin.com/in/johnpaulpeterson/",
+    email: "mailto:jpeterson@hanoverfinancialllc.com",
+    phone: "(650) 842-2231",
+    picture: "peterson.jpg",
     bio: "<p>Mr. Peterson serves as a Director at Hanover Financial, LLC.  He is responsible for identifying and evaluating co-investment partnership opportunities with multi-family development sponsors and evaluating investment opportunities.  Mr. Peterson previously spent ten years as a management/engineering consultant leading team in the design, finical modeling and performance management of commercial, residential and institutional real estate assets throughout the United State and Mainland China.</p><p>Mr. Peterson holds a Bachelor of Science in Mechanical Engineering from Messiah University and a Master of Business Administration from University of California, Berkeley, Haas School of Business.</p>"
   },
   SaintJohn: {
     name: "Vinnie Saint John",
     title: "Investment Associate",
-    linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
-    email: "mailto:jsamaha@hanoverfinancialllc.com",
-    phone: "(424) 653-2528",
+    linkedin: "https://www.linkedin.com/in/vinnie-saint-john-3a2129a3/",
+    email: "mailto:mailto:vsaintjohn@hanoverfinancialllc.com",
+    phone: "(424) 653-2526",
+    picture: "saintJohn.jpg",
     bio: "<p>Mr. Saint John is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Saint John spent three years in public accounting at PwC within their real estate practice. Before PwC, Mr. Saint John played professional baseball within the Los Angeles Angels of Anaheim minor league organization.</p><p>Mr. Saint John holds a Bachelor of Science in Business Administration and a Master of Accounting from USC. Mr. Saint John is a Certified Public Accountant.</p>"
   }
 };

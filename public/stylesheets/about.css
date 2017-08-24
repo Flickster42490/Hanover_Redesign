@@ -100,9 +100,9 @@
     padding-top: 40px;
     position: relative;
 
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
 }
 
 .tree li {
@@ -112,9 +112,9 @@
     position: relative;
     padding: 60px 5px 0 5px;
 
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
 }
 
 /*We will use ::before and ::after to draw the connectors*/
@@ -135,9 +135,9 @@
     content: '';
     position: absolute;
     top: 97px;
-    right: 46%;
+    right: 44%;
     border-top: 3px solid #003e82;
-    width: 105px;
+    width: 125px;
     height: 30px;
 }
 
@@ -183,7 +183,7 @@ right connector from last child*/
     content: '';
     position: absolute;
     top: -60px;
-    left: 48%;
+    left: 49.5%;
     border-left: 3px solid #003e82;
     width: 0;
     height: 100px;
@@ -198,14 +198,15 @@ right connector from last child*/
     display: inline-block;
     margin-bottom: 0px;
     margin-right: 100px;
+    margin-left: 20px;
 
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
 }
 
 .tree li h3 {
@@ -222,9 +223,9 @@ right connector from last child*/
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
 }
 
 

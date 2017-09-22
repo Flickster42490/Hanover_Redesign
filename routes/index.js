@@ -998,12 +998,21 @@ var portfolioAll = {
 var bios = {
   Lowinger: {
     name: "Michael Lowinger",
-    title: "President / CEO",
+    title: "Managing Director",
     linkedin: "https://www.linkedin.com/in/michael-h-lowinger-ba92b46b/",
     email: "mailto:mlowinger@hanoverfinancialllc.com",
     phone: "(310) 743-0080",
     picture: "lowinger.jpg",
     bio: "<p>Mr. Lowinger was a founding partner of the Company when originally formed in 1999. Lowinger was previously with Ares Management, a fund management firm based in Los Angeles with approximately $74 billion under management whose investors include numerous public pension funds, foundations, and sovereign funds. Lowinger became part of the Ares team when Wrightwood Capital was acquired by Ares, and he was responsible for originating and structuring preferred equity, mezzanine, and debt investments at both organizations with primary responsibility for the firms’ west coast operations.</p>  <p>Prior to his work at Wrightwood Capital, as outlined, Lowinger was President and a founding partner of Hanover Financial Company, a fund management firm founded in 1999 with George Marcus and Mark Macedo, where he was responsible for directing Hanover’s investment strategy, asset and fund management, and investor relations. Hanover was acquired by Wrightwood Capital in 2008, at which time the committed institutional funds were included in the acquisition. From 1987 through 1999 Lowinger was an Executive Vice President and Managing Director of Heller Financial, a subsidiary of Fuji Bank, where he was responsible for overseeing debt and equity investments and asset management activity in the Western United States.  </p>  <p>Lowinger is an active member of the Real Estate Principals Organization (RPO) of the Jewish Federation of Greater Los Angeles. Mr. Lowinger holds a Bachelor of Arts in Accounting and Finance from San Diego State University and a Master’s degree in Business Administration from Pepperdine University. Lowinger holds a California real estate broker’s license.</p>"
+  },
+  Yarmolinsky: {
+    name: "Alex Yarmolinsky",
+    title: "President / CEO",
+    linkedin: "https://www.linkedin.com/in/alexyarmolinsky/",
+    email: "mailto:AYarmolinsky@mmcrealestate.com",
+    phone: "(650) 842-2226",
+    picture: "yarmolinsky.jpg",
+    bio: "<p>Mr. Yarmolinsky joined Hanover as its President and Chief Executive Officer in 2017.  In this role he has oversight responsibility for all operating activities of the company.   Mr. Yarmolinsky previously served as the Executive Vice President and Chief Financial Officer of Marcus Millichap Company, Hanover’s parent company.  He has been with Marcus and Millichap since 2005 and was responsible for overseeing the entire finance function of MMC, including real estate finance, accounting, taxation and treasury. Since 2010, Mr. Yarmolinsky also served on MMC’s Board of Directors and Investment Committee.</p><p>Prior to joining Marcus and Millichap Company, Mr. Yarmolinsky worked in public accounting at Burr, Pilger and Mayer, where he began his career in 1999.  Mr. Yarmolinsky received Bachelor’s degree from the University of San Francisco and also holds a Master of Science from Golden Gate University.  Mr. Yarmolinsky is a Certified Public Accountant (inactive) and a full member of ULI.</p> "
   },
   Macedo: {
     name: "Mark Macedo",
@@ -1012,7 +1021,7 @@ var bios = {
     email: "mailto:mmacedo@hanoverfinancialllc.com",
     phone: "(424) 653-2522",
     picture: "macedo.jpg",
-    bio: "<p>Mr. Macedo was a founding partner of the Company when originally formed in 1999. Mr. Macedo is responsible for identifying investment opportunities and managing Company operations which include strategic planning, deal sourcing, structuring and negotiations, as well as overseeing due diligence and asset management operations. Macedo was also previously with Ares Management/Wrightwood with Lowinger as described above. Prior to his work at Wrightwood Capital, as outlined, Macedo was COO and a founding partner of Hanover Financial Company, a fund management firm founded in 1999. Hanover was acquired by Wrightwood Capital in 2008, at which time the committed institutional funds were included in the acquisition. From 1992 through 1999 held the position of West Coast Director of commercial loan originations for Heller Real Estate Financial Services, a division of Heller Financial Incorporated, working closely with Mr. Lowinger. Originations included commercial debt and equity product types such as floating rate non-participating mortgage debt, participating mortgage debt, participating mezzanine ('equity') debt and permanent (i.e. conduit) debt. Macedo is an active member of ULI, ICSC, and MBA. </p> <p>Mr. Macedo holds a Bachelor of Arts in Marketing and a Masters in Finance from Loyola Marymount University. </p>"
+    bio: "<p>Mr. Macedo was a founding partner of the Company when originally formed in 1999. Mr. Macedo is responsible for identifying investment opportunities and managing Company operations which include strategic planning, deal sourcing, structuring and negotiations, as well as overseeing due diligence and asset management operations. Macedo was previously with Ares Management/Wrightwood. Prior to his work at Wrightwood Capital, Macedo was COO and a founding partner of Hanover Financial Company, a fund management firm founded in 1999. Hanover was acquired by Wrightwood Capital in 2008, at which time the committed institutional funds were included in the acquisition. From 1992 through 1999, Macedo held the position of West Coast Director of commercial loan originations for Heller Real Estate Financial Services, a division of Heller Financial Incorporated. Originations included commercial debt and equity product types such as floating rate non-participating mortgage debt, participating mortgage debt, participating mezzanine ('equity') debt and permanent ('conduit') debt. Macedo is an active member of ULI, ICSC, and MBA.</p><p>Mr. Macedo holds a Bachelor of Arts in Marketing and a Masters in Finance from Loyola Marymount University.</p>"
   },
   Davidson: {
     name: "Mark Davidson",

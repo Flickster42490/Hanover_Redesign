@@ -80,6 +80,7 @@ background-color: rgba(0, 0, 0, 0.04) !important
     -ms-transform: translate(-50%, -50%);
 }
 
+#yarmolinsky:hover .overlay,
 #lowinger:hover .overlay,
 #macedo:hover .overlay,
 #davidson:hover .overlay,

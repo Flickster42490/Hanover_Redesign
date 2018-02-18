@@ -1156,6 +1156,10 @@ router.get('/team/:name', function (req, res, next) {
    res.render('teamMember', {name: name, person: person, page: 'team'});
 });
 
+router.get('/careers', function (req, res, next) {
+    res.render('careers', {page: "careers", headerTitle: 'Careers'});
+  });
+
 router.get('*', function (req, res, next) {
    res.redirect('/');
 });

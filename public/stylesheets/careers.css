@@ -1,0 +1,13 @@
+.careers.masthead.basic.segment {
+    margin: 0 0;
+    background: url("../images/team-hero-image.jpg") no-repeat center center;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+}
+
+.careers-col {
+    margin-left: 100px;
+    margin-right: 100px;
+}

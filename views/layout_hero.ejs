@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,19 +28,22 @@
   <link rel="stylesheet" href="/stylesheets/portfolio.css">
   <link rel="stylesheet" href="/stylesheets/strategies.css">
   <link rel="stylesheet" href="/stylesheets/team.css">
+  <link rel="stylesheet" href="/stylesheets/careers.css">
 
   <script src="https://use.fontawesome.com/1c1009ad3f.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   <script src="/js/dependencies/jquery.animateNumber.min.js"></script>
   <script src="/js/dependencies/wow.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.plugins.min.js"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)    
+}, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-98413509-1', 'auto');
     ga('send', 'pageview');
@@ -47,119 +51,153 @@
   </script>
 
 </head>
+
 <body>
-<div class="se-pre-con"></div>
-<!-- mobile nav menu -->
-<div class="ui right vertical menu wide sidebar">
-  <a class="item sidebar-close" style="text-align: right !important;"><i class="fa fa-times" aria-hidden="true"></i></a>
-  <a class="item home" href="/home">HOME</a>
-  <a class="item about" href="/about">ABOUT</a>
-  <a class="item strategies" href="/strategies">STRATEGIES</a>
-  <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
-  <a class="item team" href="/team">TEAM</a>
-  <a class="item contact" href="/contact">CONTACT</a>
-  <a class="item login" href="/login">LOGIN</a>
-</div>
-
-<div class="ui fluid secondary menu">
-  <div class="ui container">
-    <a class="hanover-logo" href="/home"><img src="/images/hanover_logo.png"/></a>
-    <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none;"></i>
-    <div class="ui right secondary menu">
-      <a class="item about" href="/about">ABOUT</a>
-      <a class="item strategies" href="/strategies">STRATEGIES</a>
-      <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
-      <a class="item team" href="/team">TEAM</a>
-      <a class="item contact" href="/contact">CONTACT</a>
-      <a class="item login" href="/login">LOGIN</a>
-    </div>
-  </div>
-</div>
-<div class="<%= page %>">
-  <div class="ui center aligned masthead basic vertical segment <%= page %>">
-    <a id="showHere"></a>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
-    <div class="column">
-      <h1 class="ui huge inverted header"><%= headerTitle %></h1>
-    </div>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
+  <div class="se-pre-con"></div>
+  <!-- mobile nav menu -->
+  <div class="ui right vertical menu wide sidebar">
+    <a class="item sidebar-close" style="text-align: right !important;">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </a>
+    <a class="item home" href="/home">HOME</a>
+    <a class="item about" href="/about">ABOUT</a>
+    <a class="item strategies" href="/strategies">STRATEGIES</a>
+    <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+    <a class="item team" href="/team">TEAM</a>
+    <a class="item contact" href="/contact">CONTACT</a>
+    <a class="item contact" href="/careers">CAREERS</a>
+    <a class="item login" href="/login">LOGIN</a>
   </div>
 
-  <%- body -%>
-
-  <div class="ui vertical footer segment">
-    <div class="ui hidden divider"></div>
-    <div class="ui stackable grid container">
-      <div class="two column row">
-        <div class="thirteen wide column desktop-group">
-          <span class="text">1888 Century Park East Suite 1110  Los Angeles, CA 90067 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;  © 2017 Hanover Financial LLC &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Website by <a href="http://blog.maxmli.com/single_page_portfolio/" target="_blank">Maximilan Li</a></span>
-        </div>
-        <div class="thirteen wide column mobile-group">
-          <span class="text">1888 Century Park East Suite 1110 <br/> Los Angeles, CA 90067 </span><br/><br/><span class="text"> © 2017 Hanover Financial LLC</span><br/><span class="text"> Website by <a href="http://blog.maxmli.com/single_page_portfolio/" target="_blank">Maximilan Li</a></span>
-        </div>
-        <div class="three wide column">
-          <a class="popupHelp"><span class="text"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Join Our Mailing List</span></a>
-        </div>
+  <div class="ui fluid secondary menu">
+    <div class="ui container">
+      <a class="hanover-logo" href="/home">
+        <img src="/images/hanover_logo.png" />
+      </a>
+      <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none;"></i>
+      <div class="ui right secondary menu">
+        <a class="item about" href="/about">ABOUT</a>
+        <a class="item strategies" href="/strategies">STRATEGIES</a>
+        <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+        <a class="item team" href="/team">TEAM</a>
+        <a class="item contact" href="/contact">CONTACT</a>
+        <a class="item contact" href="/careers">CAREERS</a>
+        <a class="item login" href="/login">LOGIN</a>
       </div>
     </div>
-    <div class="ui hidden divider"></div>
   </div>
+  <div class="<%= page %>">
+    <div class="ui center aligned masthead basic vertical segment <%= page %>">
+      <a id="showHere"></a>
+      <div class="ui hidden divider"></div>
+      <div class="ui hidden divider"></div>
+      <div class="column">
+        <h1 class="ui huge inverted header">
+          <%= headerTitle %>
+        </h1>
+      </div>
+      <div class="ui hidden divider"></div>
+      <div class="ui hidden divider"></div>
+      <div class="ui hidden divider"></div>
+      <div class="ui hidden divider"></div>
+    </div>
 
-  <div class="ui small modal helpModal">
-    <div class="ui basic padded segment">
-      <div class="ui grid centered container">
-        <div class="row">
-          <div class="right aligned column">
-            <span class="closeModal">X</span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="sixteen wide center aligned column">
-            <div class="ui large header">
-              Thank you for your interest!<br/>
-              Please fill out the information below.
+    <%- body -%>
+
+      <div class="ui vertical footer segment">
+        <div class="ui hidden divider"></div>
+        <div class="ui stackable grid container">
+          <div class="two column row">
+            <div class="thirteen wide column desktop-group">
+              <span class="text">1888 Century Park East Suite 1110 Los Angeles, CA 90067 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; © 2017 Hanover
+                Financial LLC &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Website by
+                <a href="http://blog.maxmli.com/single_page_portfolio/"
+                  target="_blank">Maximilan Li</a>
+              </span>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="sixteen wide column">
-            <form class="ui form">
-              <div class="field">
-                <label>Name</label>
-                <input type="text" name="name" placeholder="Name">
-              </div>
-              <div class="field">
-                <label>Email</label>
-                <input type="text" name="email" placeholder="Email">
-              </div>
-              <div class="field">
-                <label>Text</label>
-                <textarea></textarea>
-              </div>
-              <button class="ui fluid button" type="submit" style="background-color:#00779f"><span
-                        style="color: #FFFFFF">Submit</span></button>
-            </form>
+            <div class="thirteen wide column mobile-group">
+              <span class="text">1888 Century Park East Suite 1110
+                <br/> Los Angeles, CA 90067 </span>
+              <br/>
+              <br/>
+              <span class="text"> © 2017 Hanover Financial LLC</span>
+              <br/>
+              <span class="text"> Website by
+                <a href="http://blog.maxmli.com/single_page_portfolio/" target="_blank">Maximilan Li</a>
+              </span>
+            </div>
+            <div class="three wide column">
+              <a class="popupHelp">
+                <span class="text">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Join Our Mailing List</span>
+              </a>
+            </div>
           </div>
         </div>
         <div class="ui hidden divider"></div>
       </div>
-    </div>
+
+      <div class="ui small modal helpModal">
+        <div class="ui basic padded segment">
+          <div class="ui grid centered container">
+            <div class="row">
+              <div class="right aligned column">
+                <span class="closeModal">X</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide center aligned column">
+                <div class="ui large header">
+                  Thank you for your interest!
+                  <br/> Please fill out the information below.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <form class="ui form">
+                  <div class="field">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Name">
+                  </div>
+                  <div class="field">
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Email">
+                  </div>
+                  <div class="field">
+                    <label>Text</label>
+                    <textarea></textarea>
+                  </div>
+                  <button class="ui fluid button" type="submit" style="background-color:#00779f">
+                    <span style="color: #FFFFFF">Submit</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="ui hidden divider"></div>
+          </div>
+        </div>
+      </div>
   </div>
-</div>
 
-<script src="/js/dependencies/headhesive.js"></script>
-<script src="/js/dependencies/semantic.js"></script>
+  <script src="/js/dependencies/headhesive.js"></script>
+  <script src="/js/dependencies/semantic.js"></script>
 
-<script src="/js/view.about.js"></script>
-<script src="/js/view.contact.js"></script>
-<script src="/js/view.layout.js"></script>
-<script src="/js/view.portfolio.js"></script>
-<script src="/js/view.strategies.js"></script>
-<script src="/js/view.team.js"></script>
-
+  <script src="/js/view.about.js"></script>
+  <script src="/js/view.contact.js"></script>
+  <script src="/js/view.layout.js"></script>
+  <script src="/js/view.portfolio.js"></script>
+  <script src="/js/view.strategies.js"></script>
+  <script src="/js/view.team.js"></script>
+  <!-- Place this script right before the closing /body tag on the page -->
+  <script type='text/javascript'>
+    (function (d, s, c) {
+      if (window._jobscore_loader) { return; } else { window._jobscore_loader = true; }
+      var o = d.createElement(s); o.type = 'text/javascript'; o.async = true;
+      var sc = d.getElementsByTagName(s)[0]; sc.parentNode.insertBefore(o, sc);
+      o.src = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//careers.jobscore.com/jobs/' + c + '/widget.js';
+    })(document, 'script', 'hanoverfinancialllc');
+  </script>
 </body>
+
 </html>

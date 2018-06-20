@@ -3,7 +3,40 @@ var router = express.Router();
 var portfolioAll = {
   multiFamily: [
     {
-      name: "Palomar Terrace Apartments",
+      name: "Axeltree Apartments",
+      location: "Milwaukie, OR",
+      productType: "Apartment",
+      projectType: "Value-Add",
+      fundingDate: "June 2018",
+      saleDate: "Current Investment",
+      hanoverEquity: "27.2%",
+      projectCapitalization: "$30,800,000",
+      image: true
+    },
+    {
+      name: "Capes at Ventura",
+      location: "Ventura, CA",
+      productType: "Apartment",
+      projectType: "Value-Add",
+      fundingDate: "May 2018",
+      saleDate: "Current Investment",
+      hanoverEquity: "10.3%",
+      projectCapitalization: "$109,485,596",
+      image: false
+    },
+    {
+      name: "Cavanaugh Apartments",
+      location: "Seattle, WA",
+      productType: "Apartment",
+      projectType: "Value-Add",
+      fundingDate: "August 2018",
+      saleDate: "Current Investment",
+      hanoverEquity: "28.3%",
+      projectCapitalization: "$21,259,207",
+      image: false
+    },
+    {
+      name: "The Mark Apartments",
       location: "Hayward, CA",
       productType: "Apartment",
       projectType: "Value-Add",
@@ -25,7 +58,7 @@ var portfolioAll = {
       image: true
     },
     {
-      name: "Gordon Street Apartments",
+      name: "Vues on Gordon",
       location: "Hollywood, CA",
       productType: "Apartment",
       projectType: "Development",
@@ -40,14 +73,14 @@ var portfolioAll = {
       location: "San Diego, CA",
       productType: "Apartment",
       projectType: "Value-Add",
-      fundingDate: "August 2015",
+      fundingDate: "Feburary 2018",
       saleDate: "Current Investment",
       hanoverEquity: "25.6%",
       projectCapitalization: "$16,000,000",
       image: true
     },
     {
-      name: "Camerford Apartments",
+      name: "Micropolitan at Larchmont Village",
       location: "Hollywood, CA",
       productType: "Apartment",
       projectType: "Development",
@@ -55,14 +88,14 @@ var portfolioAll = {
       saleDate: "Current Investment",
       hanoverEquity: "37.1%",
       projectCapitalization: "$15,000,000",
-      image: false
+      image: true
     },
     {
-      name: "Hacienda Court Apartments",
+      name: "The Bloc Apartments",
       location: "Anaheim, CA",
       productType: "Apartment",
       projectType: "Value-Add",
-      fundingDate: "October 2015",
+      fundingDate: "December 2017",
       saleDate: "Current Investment",
       hanoverEquity: "29.5%",
       projectCapitalization: "$17,000,000",
@@ -80,7 +113,7 @@ var portfolioAll = {
       image: true
     },
     {
-      name: "Premier Apartments",
+      name: "The Premier on Burbank",
       location: "Sherman Oaks, CA",
       productType: "Apartment",
       projectType: "Value-Add",
@@ -594,7 +627,7 @@ var portfolioAll = {
       saleDate: "February 2003",
       hanoverEquity: "16.7%",
       projectCapitalization: "$11,000,000",
-      image: false
+      image: true
     },
     {
       name: "Oakcrest Villas Apartments",
@@ -627,7 +660,7 @@ var portfolioAll = {
       saleDate: "January 2002",
       hanoverEquity: "17.2%",
       projectCapitalization: "$10,000,000",
-      image: false
+      image: true
     },
     {
       name: "Villa Manana Apartments",
@@ -658,7 +691,7 @@ var portfolioAll = {
       location: "La Mesa, CA",
       productType: "Net Lease",
       projectType: "Development",
-      fundingDate: "October 2016",
+      fundingDate: "March 2018",
       saleDate: "Current Investment",
       hanoverEquity: "28.0%",
       projectCapitalization: "$3,000,000",
@@ -669,10 +702,10 @@ var portfolioAll = {
       location: "Palmdale, CA",
       productType: "Net Lease",
       projectType: "Development",
-      fundingDate: "April 2016",
+      fundingDate: "May 2018",
       saleDate: "Current Investment",
-      hanoverEquity: "32.5%",
-      projectCapitalization: "$17,000,000",
+      hanoverEquity: "34.2%",
+      projectCapitalization: "$16,067,000",
       image: false
     },
     {
@@ -682,8 +715,8 @@ var portfolioAll = {
       projectType: "Development",
       fundingDate: "February 2016",
       saleDate: "Current Investment",
-      hanoverEquity: "35.0%",
-      projectCapitalization: "$18,000,000",
+      hanoverEquity: "38.8%",
+      projectCapitalization: "$19,750,000",
       image: false
     },
     {
@@ -693,8 +726,8 @@ var portfolioAll = {
       projectType: "Development",
       fundingDate: "June 2016",
       saleDate: "Current Investment",
-      hanoverEquity: "31.4%",
-      projectCapitalization: "$22,000,000",
+      hanoverEquity: "42.8%",
+      projectCapitalization: "$26,420,000",
       image: false
     },
     {
@@ -728,7 +761,7 @@ var portfolioAll = {
       saleDate: "Current Investment",
       hanoverEquity: "21.0%",
       projectCapitalization: "$6,000,000",
-      image: false
+      image: true
     },
     {
       name: "Arcadia Aldi",
@@ -750,7 +783,7 @@ var portfolioAll = {
       saleDate: "March 2016",
       hanoverEquity: "30.1%",
       projectCapitalization: "$10,000,000",
-      image: false
+      image: true
     },
     {
       name: "Sacramento Smart & Final",
@@ -1217,8 +1250,7 @@ router.get("/login", function(req, res, next) {
 router.get("/portfolio", function(req, res, next) {
   portfolioAll.multiFamily.forEach(function(item) {
     var equity =
-      parseFloat(item.hanoverEquity.slice(0, -1)) /
-      100 *
+      (parseFloat(item.hanoverEquity.slice(0, -1)) / 100) *
       parseInt(item.projectCapitalization.replace(/\D+/g, ""));
     equity = Math.round(equity);
     var formattedEquity = equity
@@ -1229,8 +1261,7 @@ router.get("/portfolio", function(req, res, next) {
   });
   portfolioAll.netLease.forEach(function(item) {
     var equity =
-      parseFloat(item.hanoverEquity.slice(0, -1)) /
-      100 *
+      (parseFloat(item.hanoverEquity.slice(0, -1)) / 100) *
       parseInt(item.projectCapitalization.replace(/\D+/g, ""));
     equity = Math.round(equity);
     var formattedEquity = equity
@@ -1250,8 +1281,7 @@ router.get("/portfolio", function(req, res, next) {
 router.get("/portfolio/multi-family", function(req, res, next) {
   portfolioAll.multiFamily.forEach(function(item) {
     var equity =
-      parseFloat(item.hanoverEquity.slice(0, -1)) /
-      100 *
+      (parseFloat(item.hanoverEquity.slice(0, -1)) / 100) *
       parseInt(item.projectCapitalization.replace(/\D+/g, ""));
     equity = Math.round(equity);
     var formattedEquity = equity
@@ -1270,8 +1300,7 @@ router.get("/portfolio/multi-family", function(req, res, next) {
 router.get("/portfolio/net-lease", function(req, res, next) {
   portfolioAll.netLease.forEach(function(item) {
     var equity =
-      parseFloat(item.hanoverEquity.slice(0, -1)) /
-      100 *
+      (parseFloat(item.hanoverEquity.slice(0, -1)) / 100) *
       parseInt(item.projectCapitalization.replace(/\D+/g, ""));
     equity = Math.round(equity);
     var formattedEquity = equity

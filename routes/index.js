@@ -9,8 +9,8 @@ var portfolioAll = {
       projectType: "Value-Add",
       fundingDate: "June 2018",
       saleDate: "Current Investment",
-      hanoverEquity: "27.2%",
-      projectCapitalization: "$30,800,000",
+      hanoverEquity: "27.0%",
+      projectCapitalization: "$31,000,000",
       image: true
     },
     {
@@ -21,7 +21,18 @@ var portfolioAll = {
       fundingDate: "May 2018",
       saleDate: "Current Investment",
       hanoverEquity: "10.3%",
-      projectCapitalization: "$109,485,596",
+      projectCapitalization: "$110,000,000",
+      image: false
+    },
+    {
+      name: "Learning Care Group - Apex",
+      location: "Apex, NC",
+      productType: "Net Lease",
+      projectType: "Development",
+      fundingDate: "April 2018",
+      saleDate: "Current Investment",
+      hanoverEquity: "18.6%",
+      projectCapitalization: "$5,000,000",
       image: false
     },
     {
@@ -31,8 +42,8 @@ var portfolioAll = {
       projectType: "Value-Add",
       fundingDate: "August 2018",
       saleDate: "Current Investment",
-      hanoverEquity: "28.3%",
-      projectCapitalization: "$21,259,207",
+      hanoverEquity: "27.3%",
+      projectCapitalization: "$22,000,000",
       image: false
     },
     {
@@ -73,8 +84,8 @@ var portfolioAll = {
       location: "San Diego, CA",
       productType: "Apartment",
       projectType: "Value-Add",
-      fundingDate: "Feburary 2018",
-      saleDate: "Current Investment",
+      fundingDate: "August 2015",
+      saleDate: "February 2018",
       hanoverEquity: "25.6%",
       projectCapitalization: "$16,000,000",
       image: true
@@ -95,8 +106,8 @@ var portfolioAll = {
       location: "Anaheim, CA",
       productType: "Apartment",
       projectType: "Value-Add",
-      fundingDate: "December 2017",
-      saleDate: "Current Investment",
+      fundingDate: "October 2015",
+      saleDate: "December 2017",
       hanoverEquity: "29.5%",
       projectCapitalization: "$17,000,000",
       image: true
@@ -691,8 +702,8 @@ var portfolioAll = {
       location: "La Mesa, CA",
       productType: "Net Lease",
       projectType: "Development",
-      fundingDate: "March 2018",
-      saleDate: "Current Investment",
+      fundingDate: "October 2016",
+      saleDate: "March 2018",
       hanoverEquity: "28.0%",
       projectCapitalization: "$3,000,000",
       image: false
@@ -702,8 +713,8 @@ var portfolioAll = {
       location: "Palmdale, CA",
       productType: "Net Lease",
       projectType: "Development",
-      fundingDate: "May 2018",
-      saleDate: "Current Investment",
+      fundingDate: "April 2016",
+      saleDate: "May 2018",
       hanoverEquity: "34.2%",
       projectCapitalization: "$16,067,000",
       image: false
@@ -715,8 +726,8 @@ var portfolioAll = {
       projectType: "Development",
       fundingDate: "February 2016",
       saleDate: "Current Investment",
-      hanoverEquity: "38.8%",
-      projectCapitalization: "$19,750,000",
+      hanoverEquity: "38.3%",
+      projectCapitalization: "$20,000,000",
       image: false
     },
     {
@@ -726,8 +737,8 @@ var portfolioAll = {
       projectType: "Development",
       fundingDate: "June 2016",
       saleDate: "Current Investment",
-      hanoverEquity: "42.8%",
-      projectCapitalization: "$26,420,000",
+      hanoverEquity: "41.9%",
+      projectCapitalization: "$27,000,000",
       image: false
     },
     {

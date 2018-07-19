@@ -25,17 +25,6 @@ var portfolioAll = {
       image: false
     },
     {
-      name: "Learning Care Group - Apex",
-      location: "Apex, NC",
-      productType: "Net Lease",
-      projectType: "Development",
-      fundingDate: "April 2018",
-      saleDate: "Current Investment",
-      hanoverEquity: "18.6%",
-      projectCapitalization: "$5,000,000",
-      image: false
-    },
-    {
       name: "Cavanaugh Apartments",
       location: "Seattle, WA",
       productType: "Apartment",
@@ -697,6 +686,17 @@ var portfolioAll = {
     }
   ],
   netLease: [
+    {
+      name: "Learning Care Group - Apex",
+      location: "Apex, NC",
+      productType: "Net Lease",
+      projectType: "Development",
+      fundingDate: "April 2018",
+      saleDate: "Current Investment",
+      hanoverEquity: "18.6%",
+      projectCapitalization: "$5,000,000",
+      image: false
+    },
     {
       name: "6140 Lake Murray Starbucks",
       location: "La Mesa, CA",

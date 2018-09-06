@@ -88,6 +88,10 @@ background-color: rgba(0, 0, 0, 0.04) !important
 #tevrizian:hover .overlay,
 #samaha:hover .overlay,
 #saintjohn:hover .overlay,
-#peterson:hover .overlay{
+#peterson:hover .overlay,
+#chesnie:hover .overlay,
+#rodiles:hover .overlay,
+#white:hover .overlay,
+#alcaine:hover .overlay{
     opacity: .7;
 }

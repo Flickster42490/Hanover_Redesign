@@ -6,7 +6,7 @@ var portfolioAll = {
       name: "Axeltree Apartments",
       location: "Milwaukie, OR",
       productType: "Apartment",
-      projectType: "Value-Add",
+      projectType: "Development",
       fundingDate: "June 2018",
       saleDate: "Current Investment",
       hanoverEquity: "27.0%",
@@ -1143,7 +1143,7 @@ var portfolioAll = {
 var bios = {
   Lowinger: {
     name: "Michael Lowinger",
-    title: "Managing Director",
+    title: "Managing Director (Head of Southern California)",
     linkedin: "https://www.linkedin.com/in/michael-h-lowinger-ba92b46b/",
     email: "mailto:mlowinger@hanoverfinancialllc.com",
     phone: "(310) 743-0080",
@@ -1163,7 +1163,7 @@ var bios = {
   },
   Macedo: {
     name: "Mark Macedo",
-    title: "Managing Director",
+    title: "CIO",
     linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
     email: "mailto:mmacedo@hanoverfinancialllc.com",
     phone: "(424) 653-2522",
@@ -1181,9 +1181,29 @@ var bios = {
     bio:
       "<p>Mr. Davidson is a Director of Asset Management at Hanover Financial, LLC. He works with joint venture operating partners to develop and to implement asset management plans. This includes overseeing closings, monitoring developments, budgeting, and participating in dispositions. Prior to joining Hanover in 2015, Mr. Davidson spent the previous eight years at GE Real Estate evaluating and recommending new debt deals, performing real estate valuations, and underwriting West Coast suburban office acquisitions. Prior to GE Real Estate, he worked in institutional real estate consulting at the Townsend Group and in public accounting with Arthur Andersen.</p> <p>Mr. Davidson holds a Bachelor of Arts in Economics from UCLA and a Masters in Business Administration from Duke University’s Fuqua School of Business. Mr. Davidson is a Chartered Financial Analyst and a Certified Public Accountant. Davidson holds a California real estate broker’s license. </p>"
   },
+  White: {
+    name: "David White",
+    title: "Multifamily Sr. Director (Northern California/Seattle/Portland)",
+    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
+    email: "mailto:mmacedo@hanoverfinancialllc.com",
+    phone: "(424) 653-2522",
+    picture: "white.jpg",
+    bio:
+      "<p>Mr. White serves as Senior Director at Hanover Financial, LLC overseeing the firm’s investment activities in the Bay Area and Pacific Northwest.   Prior to joining Hanover, he served as an Executive Director at PGIM Real Estate responsible for west coast acquisition activities on behalf of PGIM’s open-ended fund series.   Mr. White began his career at KPMG LLP.</p><p>Mr. White holds an MBA from UC Berkeley Haas School of Business and BS degrees in Accounting & Finance from Indiana University’s Kelly School of Business.   Mr. White is a Certified Public Accountant (inactive) and a member of ULI.</p>"
+  },
+  Chesnie: {
+    name: "Nate Chesnie",
+    title: "Multifamily Director (Orange County/San Diego)",
+    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
+    email: "mailto:mmacedo@hanoverfinancialllc.com",
+    phone: "(424) 653-2522",
+    picture: "chesnie.jpg",
+    bio:
+      "<p>Mr. Chesnie serves as a Director Acquisitions at Hanover Financial, LLC. He is responsible for identifying and evaluating joint venture equity opportunities for value-add and development multifamily projects in Orange and San Diego Counties. Mr. Chesnie previously spent three years with TMC America originating, structuring, and managing equity investments for single family, multifamily, retail, industrial, and land entitlement transactions. Prior to TMC America, Mr. Chesnie worked at Sabal Financial Group where he acquired and managed distressed commercial real estate across the United States. </p><p>Mr. Chesnie holds a Bachelor of Arts in Finance, with a minor in Real Estate Development and Finance, from The University of Southern California. </p>"
+  },
   Baraghoush: {
     name: "Ash Baraghoush",
-    title: "Investment Director, Multifamily",
+    title: "Multifamily Director (Los Angeles)",
     linkedin: "https://www.linkedin.com/in/ash-baraghoush-70b49142/",
     email: "mailto:abaraghoush@hanoverfinancialllc.com",
     phone: "(424) 653-2524",
@@ -1191,9 +1211,19 @@ var bios = {
     bio:
       "<p>Mr. Baraghoush serves as a Director Acquisitions at Hanover Financial, LLC. He is responsible for identifying and evaluating joint venture equity opportunities for value-add and development multifamily projects. Mr. Baraghoush previously spent four years with Ares Management originating and structuring senior mortgages, mezzanine, preferred equity and common equity for multifamily real estate transactions. Prior to Ares, Mr. Baraghoush worked at QVT Mount Auburn Capital and at Hanover Financial Company. Mr. Baraghoush began his career at Bank of America in its Global Corporate Investment Banking division.</p> <p>Mr. Baraghoush holds a Bachelor of Arts in Economics, with a minor in Accounting, from UCLA. </p>"
   },
+  Rodiles: {
+    name: "John Rodiles",
+    title: "NNN Sr. Director",
+    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
+    email: "mailto:mmacedo@hanoverfinancialllc.com",
+    phone: "(424) 653-2522",
+    picture: "rodiles.jpg",
+    bio:
+      "<p>Mr. Rodiles serves as the Senior Director of NNN Investments at Hanover Financial, LLC. He is responsible for identifying joint venture equity opportunities for net leased development and value-add projects throughout the country. In his career, Mr. Rodiles has overseen transactions totaling more than $4 billion in volume as an advisor to institutions, public REITs, and merchant developers in financing and sales disposition capacities. </p><p>Mr. Rodiles previously worked as a senior executive at A10 Capital, a direct lender, where he was responsible in leading the organization’s top grossing Western region. Previous to A10 Capital, he was a senior executive at Marcus & Millichap where he managed in several offices, hundreds of salespeople, and cultivated the top grossing lending office. Mr. Rodiles’ career began in corporate lending at Banc One Leasing Corporation. </p><p>He was responsible for several offices, hundreds of salespeople, and cultivated the top grossing lending office at Marcus & Millichap and top grossing region at A10 Capital. As Vice President of Investments, John focused on the financing and sale of net leased assets. In his time with the above lending institutions he specialized in asset-based lending where he funded various debt and lease structures with companies throughout the Unites States. </p><p>Mr. Rodiles holds a Bachelor of Science in Finance from California State University Long Beach. He is a licensed real estate broker in California and Oregon and an active member of the International Council of Shopping Centers. Outside of work, John enjoys traveling internationally, dedicating time to organizations in his community, and spending time with his wife, Elizabeth, and their two children, Dean and Giuliana. </p>"
+  },
   Tevrizian: {
     name: "Drew Tevrizian",
-    title: "Investment Vice President, Net Lease",
+    title: "NNN Director",
     linkedin: "https://www.linkedin.com/in/drew-tevrizian-cfa-cpa-a07402a/",
     email: "mailto:dtevrizian@hanoverfinancialllc.com",
     phone: "(424) 653-2521",
@@ -1213,7 +1243,7 @@ var bios = {
   },
   Peterson: {
     name: "John Paul Peterson",
-    title: "Investment Director, Multifamily/Emerging Private Equity",
+    title: "Multifamily Director (Northern California/Seattle/Portland)",
     linkedin: "https://www.linkedin.com/in/johnpaulpeterson/",
     email: "mailto:jpeterson@hanoverfinancialllc.com",
     phone: "(650) 842-2231",
@@ -1230,6 +1260,16 @@ var bios = {
     picture: "saintJohn.jpg",
     bio:
       "<p>Mr. Saint John is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Saint John spent three years in public accounting at PwC within their real estate practice. Before PwC, Mr. Saint John played professional baseball within the Los Angeles Angels of Anaheim minor league organization.</p><p>Mr. Saint John holds a Bachelor of Science in Business Administration and a Master of Accounting from USC. Mr. Saint John is a Certified Public Accountant.</p>"
+  },
+  Alcaine: {
+    name: "Alex Alcaine",
+    title: "Investment Associate",
+    linkedin: "https://www.linkedin.com/in/vinnie-saint-john-3a2129a3/",
+    email: "mailto:mailto:vsaintjohn@hanoverfinancialllc.com",
+    phone: "(424) 653-2526",
+    picture: "alcaine.jpg",
+    bio:
+      "<p>Mr. Alcaine is an analyst at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Alcaine was a financial analyst with CBRE, specializing in the disposition of multifamily assets throughout the Sacramento and Central Valley regions. </p><p>Mr. Alcaine holds a Bachelor of Science in Finance from the University of Kansas. </p>"
   }
 };
 

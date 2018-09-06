@@ -1184,9 +1184,9 @@ var bios = {
   White: {
     name: "David White",
     title: "Multifamily Sr. Director (Northern California/Seattle/Portland)",
-    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
-    email: "mailto:mmacedo@hanoverfinancialllc.com",
-    phone: "(424) 653-2522",
+    linkedin: "https://www.linkedin.com/in/david-white-a3593b11/",
+    email: "mailto:dwhite@hanoverfinancialllc.com",
+    phone: "(415) 519-3434",
     picture: "white.jpg",
     bio:
       "<p>Mr. White serves as Senior Director at Hanover Financial, LLC overseeing the firm’s investment activities in the Bay Area and Pacific Northwest.   Prior to joining Hanover, he served as an Executive Director at PGIM Real Estate responsible for west coast acquisition activities on behalf of PGIM’s open-ended fund series.   Mr. White began his career at KPMG LLP.</p><p>Mr. White holds an MBA from UC Berkeley Haas School of Business and BS degrees in Accounting & Finance from Indiana University’s Kelly School of Business.   Mr. White is a Certified Public Accountant (inactive) and a member of ULI.</p>"
@@ -1194,9 +1194,9 @@ var bios = {
   Chesnie: {
     name: "Nate Chesnie",
     title: "Multifamily Director (Orange County/San Diego)",
-    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
-    email: "mailto:mmacedo@hanoverfinancialllc.com",
-    phone: "(424) 653-2522",
+    linkedin: "https://www.linkedin.com/in/nathan-chesnie-965a14a/",
+    email: "mailto:nchesnie@hanoverfinancialllc.com",
+    phone: "(949) 307-6212",
     picture: "chesnie.jpg",
     bio:
       "<p>Mr. Chesnie serves as a Director Acquisitions at Hanover Financial, LLC. He is responsible for identifying and evaluating joint venture equity opportunities for value-add and development multifamily projects in Orange and San Diego Counties. Mr. Chesnie previously spent three years with TMC America originating, structuring, and managing equity investments for single family, multifamily, retail, industrial, and land entitlement transactions. Prior to TMC America, Mr. Chesnie worked at Sabal Financial Group where he acquired and managed distressed commercial real estate across the United States. </p><p>Mr. Chesnie holds a Bachelor of Arts in Finance, with a minor in Real Estate Development and Finance, from The University of Southern California. </p>"
@@ -1214,9 +1214,9 @@ var bios = {
   Rodiles: {
     name: "John Rodiles",
     title: "NNN Sr. Director",
-    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
-    email: "mailto:mmacedo@hanoverfinancialllc.com",
-    phone: "(424) 653-2522",
+    linkedin: "https://www.linkedin.com/in/john-rodiles-8156166/",
+    email: "mailto:jrodiles@hanoverfinancialllc.com",
+    phone: "(424) 653-2527",
     picture: "rodiles.jpg",
     bio:
       "<p>Mr. Rodiles serves as the Senior Director of NNN Investments at Hanover Financial, LLC. He is responsible for identifying joint venture equity opportunities for net leased development and value-add projects throughout the country. In his career, Mr. Rodiles has overseen transactions totaling more than $4 billion in volume as an advisor to institutions, public REITs, and merchant developers in financing and sales disposition capacities. </p><p>Mr. Rodiles previously worked as a senior executive at A10 Capital, a direct lender, where he was responsible in leading the organization’s top grossing Western region. Previous to A10 Capital, he was a senior executive at Marcus & Millichap where he managed in several offices, hundreds of salespeople, and cultivated the top grossing lending office. Mr. Rodiles’ career began in corporate lending at Banc One Leasing Corporation. </p><p>He was responsible for several offices, hundreds of salespeople, and cultivated the top grossing lending office at Marcus & Millichap and top grossing region at A10 Capital. As Vice President of Investments, John focused on the financing and sale of net leased assets. In his time with the above lending institutions he specialized in asset-based lending where he funded various debt and lease structures with companies throughout the Unites States. </p><p>Mr. Rodiles holds a Bachelor of Science in Finance from California State University Long Beach. He is a licensed real estate broker in California and Oregon and an active member of the International Council of Shopping Centers. Outside of work, John enjoys traveling internationally, dedicating time to organizations in his community, and spending time with his wife, Elizabeth, and their two children, Dean and Giuliana. </p>"
@@ -1264,9 +1264,9 @@ var bios = {
   Alcaine: {
     name: "Alex Alcaine",
     title: "Investment Associate",
-    linkedin: "https://www.linkedin.com/in/vinnie-saint-john-3a2129a3/",
-    email: "mailto:mailto:vsaintjohn@hanoverfinancialllc.com",
-    phone: "(424) 653-2526",
+    linkedin: "https://www.linkedin.com/in/alex-alcaine/",
+    email: "mailto:mailto:aalcaine@hanoverfinancialllc.com",
+    phone: "(650) 842-2229",
     picture: "alcaine.jpg",
     bio:
       "<p>Mr. Alcaine is an analyst at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Alcaine was a financial analyst with CBRE, specializing in the disposition of multifamily assets throughout the Sacramento and Central Valley regions. </p><p>Mr. Alcaine holds a Bachelor of Science in Finance from the University of Kansas. </p>"

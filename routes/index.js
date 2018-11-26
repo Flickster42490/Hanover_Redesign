@@ -1226,7 +1226,7 @@ var bios = {
     title: "Investment Associate",
     linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
     email: "mailto:jsamaha@hanoverfinancialllc.com",
-    phone: "(650) 20842-2215",
+    phone: "(650) 842-2215",
     picture: "samaha.jpg",
     bio:
       "<p>Mr. Samaha is an Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Samaha spent four years at The Concord Group consulting on multifamily development projects in the West Coast. </p> <p>Mr. Samaha holds a Bachelor of Arts in Economics from UCLA. </p>"

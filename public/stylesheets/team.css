@@ -1,83 +1,83 @@
 a {
-    cursor: pointer;
-    cursor: hand;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .category-value {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .closeModal {
-    float: right;
-    cursor: pointer;
+  float: right;
+  cursor: pointer;
 }
 
 .team.masthead.basic.segment {
-    margin: 0 0;
-    background: url("../images/team-hero-image.jpg") no-repeat center center;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover; /* Mozilla*/
-    -o-background-size: cover; /* Opera*/
-    background-size: cover;
+  margin: 0 0;
+  background: url("../images/team-hero-image.jpg") no-repeat center center;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover; /* Mozilla*/
+  -o-background-size: cover; /* Opera*/
+  background-size: cover;
 }
 
 .team.masthead.basic.segment .huge.header {
-    font-size: 3rem;
-    font-weight: 300;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .team .images .bordered.image {
-    cursor: pointer;
-    margin-left: 2px;
-    margin-right: 2px;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .team.modal .large.header {
-    font-size: 2em;
-    color: #00779f !important;
-    margin-bottom: 10px;
+  font-size: 2em;
+  color: #00779f !important;
+  margin-bottom: 10px;
 }
 
 .team.modal .medium.header {
-    font-size: 1.6em;
-    font-weight: 200;
-    margin-top: 2px;
-    margin-bottom: 2px;
+  font-size: 1.6em;
+  font-weight: 200;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .team.modal p {
-    font-size: 1.1em;
-    font-weight: 200;
+  font-size: 1.1em;
+  font-weight: 200;
 }
 
 .team .vertical.segment.second {
-background-color: rgba(0, 0, 0, 0.04) !important
+  background-color: rgba(0, 0, 0, 0.04) !important;
 }
 
 .team .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    margin-left: 2px;
-    height: 300px;
-    width: 300px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #00779f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  margin-left: 2px;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #00779f;
 }
 
 .team .overlayText {
-    color: white;
-    font-size: 22px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 95%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 #yarmolinsky:hover .overlay,
@@ -92,6 +92,7 @@ background-color: rgba(0, 0, 0, 0.04) !important
 #chesnie:hover .overlay,
 #rodiles:hover .overlay,
 #white:hover .overlay,
-#alcaine:hover .overlay{
-    opacity: .7;
+#alcaine:hover .overlay,
+#galen:hover .overlay {
+  opacity: 0.7;
 }

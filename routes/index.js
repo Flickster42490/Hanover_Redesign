@@ -3,6 +3,17 @@ var router = express.Router();
 var portfolioAll = {
   multiFamily: [
     {
+      name: "11 NoHo Apartments",
+      location: "North Hollywood, CA",
+      productType: "Apartment",
+      projectType: "Development",
+      fundingDate: "October 2018",
+      saleDate: "Current Investment",
+      hanoverEquity: "20%",
+      projectCapitalization: "$24,142,000",
+      image: false
+    },
+    {
       name: "Axeltree Apartments",
       location: "Milwaukie, OR",
       productType: "Apartment",
@@ -52,7 +63,7 @@ var portfolioAll = {
       productType: "Apartment",
       projectType: "Value-Add",
       fundingDate: "November 2016",
-      saleDate: "Current Investment",
+      saleDate: "December 2018",
       hanoverEquity: "27.6%",
       projectCapitalization: "$28,000,000",
       image: true
@@ -687,6 +698,17 @@ var portfolioAll = {
   ],
   netLease: [
     {
+      name: "Learning Care Group - Raleigh",
+      location: "Raleigh, NC",
+      productType: "Net Lease",
+      projectType: "Development",
+      fundingDate: "January 2019",
+      saleDate: "Current Investment",
+      hanoverEquity: "18.3%",
+      projectCapitalization: "$4,380,500",
+      image: false
+    },
+    {
       name: "Learning Care Group - Apex",
       location: "Apex, NC",
       productType: "Net Lease",
@@ -725,7 +747,7 @@ var portfolioAll = {
       productType: "Net Lease",
       projectType: "Development",
       fundingDate: "February 2016",
-      saleDate: "Current Investment",
+      saleDate: "October 2018",
       hanoverEquity: "38.3%",
       projectCapitalization: "$20,000,000",
       image: true
@@ -769,7 +791,7 @@ var portfolioAll = {
       productType: "Net Lease",
       projectType: "Development",
       fundingDate: "August 2015",
-      saleDate: "Current Investment",
+      saleDate: "November 2018",
       hanoverEquity: "21.0%",
       projectCapitalization: "$6,000,000",
       image: true
@@ -1151,16 +1173,6 @@ var bios = {
     bio:
       "<p>Mr. Yarmolinsky joined Hanover as its President and Chief Executive Officer in 2017.  In this role he has oversight responsibility for all operating activities of the company.   Mr. Yarmolinsky previously served as the Executive Vice President and Chief Financial Officer of Marcus Millichap Company, Hanover’s parent company.  He has been with Marcus and Millichap since 2005 and was responsible for overseeing the entire finance function of MMC, including real estate finance, accounting, taxation and treasury. Since 2010, Mr. Yarmolinsky also served on MMC’s Board of Directors and Investment Committee.</p><p>Prior to joining Marcus and Millichap Company, Mr. Yarmolinsky worked in public accounting at Burr, Pilger and Mayer, where he began his career in 1999.  Mr. Yarmolinsky received Bachelor’s degree from the University of San Francisco and also holds a Master of Science from Golden Gate University.  Mr. Yarmolinsky is a Certified Public Accountant (inactive) and a full member of ULI.</p> "
   },
-  Macedo: {
-    name: "Mark Macedo",
-    title: "CIO",
-    linkedin: "https://www.linkedin.com/in/mark-macedo-45788073/",
-    email: "mailto:mmacedo@hanoverfinancialllc.com",
-    phone: "(424) 653-2522",
-    picture: "macedo.jpg",
-    bio:
-      "<p>Mr. Macedo was a founding partner of the Company when originally formed in 1999. Mr. Macedo is responsible for identifying investment opportunities and managing Company operations which include strategic planning, deal sourcing, structuring and negotiations, as well as overseeing due diligence and asset management operations. Macedo was previously with Ares Management/Wrightwood. Prior to his work at Wrightwood Capital, Macedo was COO and a founding partner of Hanover Financial Company, a fund management firm founded in 1999. Hanover was acquired by Wrightwood Capital in 2008, at which time the committed institutional funds were included in the acquisition. From 1992 through 1999, Macedo held the position of West Coast Director of commercial loan originations for Heller Real Estate Financial Services, a division of Heller Financial Incorporated. Originations included commercial debt and equity product types such as floating rate non-participating mortgage debt, participating mortgage debt, participating mezzanine ('equity') debt and permanent ('conduit') debt. Macedo is an active member of ULI, ICSC, and MBA.</p><p>Mr. Macedo holds a Bachelor of Arts in Marketing and a Masters in Finance from Loyola Marymount University.</p>"
-  },
   Davidson: {
     name: "Mark Davidson",
     title: "Asset Management Director",
@@ -1260,6 +1272,16 @@ var bios = {
     picture: "alcaine.jpg",
     bio:
       "<p>Mr. Alcaine is an analyst at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Alcaine was a financial analyst with CBRE, specializing in the disposition of multifamily assets throughout the Sacramento and Central Valley regions. </p><p>Mr. Alcaine holds a Bachelor of Science in Finance from the University of Kansas. </p>"
+  },
+  Galen: {
+    name: "Joshua Galen",
+    title: "Investment Associate",
+    linkedin: "https://www.linkedin.com/in/josh-galen-a274ba64/",
+    email: "mailto:mailto:jgalen@hanoverfinancialllc.com",
+    phone: "(424) 653-2529",
+    picture: "galen.jpg",
+    bio:
+      "<p>Mr. Galen is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Galen spent two years at Silverpeak Argentic where he underwrote loans in fixed rate and floating rate debt.</p><p>Mr. Galen holds a Bachelor of Science in Public Policy, Planning, and Development and a Master of Science in Finance from USC.</p>"
   }
 };
 

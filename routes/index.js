@@ -1263,16 +1263,6 @@ var bios = {
     bio:
       "<p>Mr. Saint John is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Saint John spent three years in public accounting at PwC within their real estate practice. Before PwC, Mr. Saint John played professional baseball within the Los Angeles Angels of Anaheim minor league organization.</p><p>Mr. Saint John holds a Bachelor of Science in Business Administration and a Master of Accounting from USC. Mr. Saint John is a Certified Public Accountant.</p>"
   },
-  Alcaine: {
-    name: "Alex Alcaine",
-    title: "Investment Associate",
-    linkedin: "https://www.linkedin.com/in/alex-alcaine/",
-    email: "mailto:mailto:aalcaine@hanoverfinancialllc.com",
-    phone: "(650) 842-2229",
-    picture: "alcaine.jpg",
-    bio:
-      "<p>Mr. Alcaine is an analyst at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Alcaine was a financial analyst with CBRE, specializing in the disposition of multifamily assets throughout the Sacramento and Central Valley regions. </p><p>Mr. Alcaine holds a Bachelor of Science in Finance from the University of Kansas. </p>"
-  },
   Galen: {
     name: "Joshua Galen",
     title: "Investment Associate",

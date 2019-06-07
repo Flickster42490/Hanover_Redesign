@@ -1175,7 +1175,7 @@ var bios = {
   },
   Davidson: {
     name: "Mark Davidson",
-    title: "Asset Management Director",
+    title: "Director, Finance",
     linkedin: "https://www.linkedin.com/in/markdavidson928/",
     email: "mailto:mdavidson@hanoverfinancialllc.com",
     phone: "(424) 653-2523",
@@ -1185,7 +1185,8 @@ var bios = {
   },
   White: {
     name: "David White",
-    title: "Multifamily Sr. Director (Northern California/Seattle/Portland)",
+    title:
+      "Senior Director, Multifamily (San Francisco Bay Area and Pacific Northwest)",
     linkedin: "https://www.linkedin.com/in/david-white-a3593b11/",
     email: "mailto:dwhite@hanoverfinancialllc.com",
     phone: "(415) 519-3434",
@@ -1195,7 +1196,7 @@ var bios = {
   },
   Chesnie: {
     name: "Nate Chesnie",
-    title: "Multifamily Director (Orange County/San Diego)",
+    title: "Director, Multifamily (Southern California)",
     linkedin: "https://www.linkedin.com/in/nathan-chesnie-965a14a/",
     email: "mailto:nchesnie@hanoverfinancialllc.com",
     phone: "(949) 307-6212",
@@ -1205,7 +1206,7 @@ var bios = {
   },
   Baraghoush: {
     name: "Ash Baraghoush",
-    title: "Multifamily Director (Los Angeles)",
+    title: "Senior Director, Multifamily (Southern California)",
     linkedin: "https://www.linkedin.com/in/ash-baraghoush-70b49142/",
     email: "mailto:abaraghoush@hanoverfinancialllc.com",
     phone: "(424) 653-2524",
@@ -1215,7 +1216,7 @@ var bios = {
   },
   Rodiles: {
     name: "John Rodiles",
-    title: "NNN Sr. Director",
+    title: "Director, NNN",
     linkedin: "https://www.linkedin.com/in/john-rodiles-8156166/",
     email: "mailto:jrodiles@hanoverfinancialllc.com",
     phone: "(424) 653-2527",
@@ -1225,7 +1226,7 @@ var bios = {
   },
   Tevrizian: {
     name: "Drew Tevrizian",
-    title: "NNN Director",
+    title: "Director, NNN",
     linkedin: "https://www.linkedin.com/in/drew-tevrizian-cfa-cpa-a07402a/",
     email: "mailto:dtevrizian@hanoverfinancialllc.com",
     phone: "(424) 653-2521",
@@ -1235,7 +1236,8 @@ var bios = {
   },
   Samaha: {
     name: "Josh Samaha",
-    title: "Investment Associate",
+    title:
+      " Associate Director, Multifamily (San Francisco Bay Area and Pacific Northwest)",
     linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
     email: "mailto:jsamaha@hanoverfinancialllc.com",
     phone: "(650) 842-2215",
@@ -1245,7 +1247,8 @@ var bios = {
   },
   Peterson: {
     name: "John Paul Peterson",
-    title: "Multifamily Director (Northern California/Seattle/Portland)",
+    title:
+      "Director, Multifamily (San Francisco Bay Area and Pacific Northwest)",
     linkedin: "https://www.linkedin.com/in/johnpaulpeterson/",
     email: "mailto:jpeterson@hanoverfinancialllc.com",
     phone: "(650) 842-2231",
@@ -1255,7 +1258,7 @@ var bios = {
   },
   Galen: {
     name: "Joshua Galen",
-    title: "Investment Associate",
+    title: "Analyst",
     linkedin: "https://www.linkedin.com/in/josh-galen-a274ba64/",
     email: "mailto:jgalen@hanoverfinancialllc.com",
     phone: "(424) 653-2529",
@@ -1265,7 +1268,7 @@ var bios = {
   },
   Xiong: {
     name: "Jachi Xiong",
-    title: "Senior Director, Asset Management",
+    title: "Sr. Director, Asset Management",
     linkedin: "https://www.linkedin.com/in/jachi-xiong-4575b7/",
     email: "mailto:jxiong@hanoverfinancialllc.com",
     phone: "(650) 842-2252",

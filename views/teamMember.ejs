@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hanover Financial</title>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hanover Financial</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-  <!-- CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="/stylesheets/dependencies/semantic.css">
-  <link rel="stylesheet" href="/stylesheets/dependencies/animate.css">
-  <link rel="stylesheet" href="/stylesheets/dependencies/icon.min.css">
-  <link rel="stylesheet" href="/stylesheets/layout_main.css">
-  <link rel="stylesheet" href="/stylesheets/layout_hero.css">
-  <link rel="stylesheet" href="/stylesheets/index.css">
-  <link rel="stylesheet" href="/stylesheets/about.css">
-  <link rel="stylesheet" href="/stylesheets/contact.css">
-  <link rel="stylesheet" href="/stylesheets/portfolio.css">
-  <link rel="stylesheet" href="/stylesheets/strategies.css">
-  <link rel="stylesheet" href="/stylesheets/team.css">
+    <!-- CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/dependencies/semantic.css" />
+    <link rel="stylesheet" href="/stylesheets/dependencies/animate.css" />
+    <link rel="stylesheet" href="/stylesheets/dependencies/icon.min.css" />
+    <link rel="stylesheet" href="/stylesheets/layout_main.css" />
+    <link rel="stylesheet" href="/stylesheets/layout_hero.css" />
+    <link rel="stylesheet" href="/stylesheets/index.css" />
+    <link rel="stylesheet" href="/stylesheets/about.css" />
+    <link rel="stylesheet" href="/stylesheets/contact.css" />
+    <link rel="stylesheet" href="/stylesheets/portfolio.css" />
+    <link rel="stylesheet" href="/stylesheets/strategies.css" />
+    <link rel="stylesheet" href="/stylesheets/team.css" />
 
-  <script src="https://use.fontawesome.com/1c1009ad3f.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="/js/dependencies/jquery.animateNumber.min.js"></script>
-  <script src="/js/dependencies/wow.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.plugins.min.js"></script>
-
-
-</head>
-<body>
-<!-- mobile nav menu -->
-<div class="ui right vertical menu wide sidebar">
-  <a class="item sidebar-close" style="text-align: right !important;"><i class="fa fa-times" aria-hidden="true"></i></a>
-  <a class="item home" href="/home">HOME</a>
-  <a class="item about" href="/about">ABOUT</a>
-  <a class="item strategies" href="/strategies">STRATEGIES</a>
-  <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
-  <a class="item team" href="/team">TEAM</a>
-  <a class="item contact" href="/contact">CONTACT</a>
-  <a class="item login" href="/login">LOGIN</a>
-</div>
-
-<div class="ui fluid secondary menu">
-  <div class="ui container">
-    <a class="hanover-logo" href="/"><img src="/images/hanover_logo.png"/></a>
-    <i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 2em; display: none;"></i>
-    <div class="ui right secondary menu">
+    <script src="https://use.fontawesome.com/1c1009ad3f.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/dependencies/jquery.animateNumber.min.js"></script>
+    <script src="/js/dependencies/wow.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.plugins.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- mobile nav menu -->
+    <div class="ui right vertical menu wide sidebar">
+      <a class="item sidebar-close" style="text-align: right !important;"
+        ><i class="fa fa-times" aria-hidden="true"></i
+      ></a>
       <a class="item home" href="/home">HOME</a>
       <a class="item about" href="/about">ABOUT</a>
       <a class="item strategies" href="/strategies">STRATEGIES</a>
@@ -57,125 +55,177 @@
       <a class="item contact" href="/contact">CONTACT</a>
       <a class="item login" href="/login">LOGIN</a>
     </div>
-  </div>
-</div>
-<div class="<%= page %>">
-  <div class="ui center aligned masthead basic vertical segment <%= page %>">
-    <a id="showHere"></a>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
-    <div class="ui hidden divider"></div>
-  </div>
 
-  <div class="ui stackable grid container">
-    <div class="ui hidden divider"></div>
-    <div class="row">
-      <div class="ui breadcrumb">
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/team" class="section">Team</a>
-        <div class="divider"> / </div>
-        <a class="section"><%= person.name %></a>
+    <div class="ui fluid secondary menu">
+      <div class="ui container">
+        <a class="hanover-logo" href="/"
+          ><img src="/images/hanover_logo.png"
+        /></a>
+        <i
+          class="fa fa-bars"
+          aria-hidden="true"
+          style="color: white; font-size: 2em; display: none;"
+        ></i>
+        <div class="ui right secondary menu">
+          <a class="item home" href="/home">HOME</a>
+          <a class="item about" href="/about">ABOUT</a>
+          <a class="item strategies" href="/strategies">STRATEGIES</a>
+          <a class="item portfolio" href="/portfolio">PORTFOLIO</a>
+          <a class="item team" href="/team">TEAM</a>
+          <a class="item contact" href="/contact">CONTACT</a>
+          <a class="item login" href="/login">LOGIN</a>
+        </div>
       </div>
     </div>
-    <div class="two column center aligned row">
-      <div class="four wide column">
-        <img class="ui medium bordered image" src="/images/<%= person.picture %>">
-      </div>
-      <div class="eleven wide left aligned column">
-        <div class="ui left aligned large header"><span class="tealAqua"><%= person.name %></span></div>
-        <div class="ui left aligned medium header"><span class="tealAqua"><%= person.title %></span>
-        </div>
-        <div class="ui left aligned medium header">
-          <a target="_blank" href="<%= person.linkedin %>" title="LinkedIn" target="_blank"><i
-                    class="fa fa-linkedin " aria-hidden="true" style="margin-left:2px;"></i>
-            &nbsp;&nbsp;</a>
-          <a href="<%= person.email %>" title="Email"><i class="fa fa-envelope "
-                                                                     aria-hidden="true"></i>
-            &nbsp;&nbsp;</a>
-          <%= person.phone %>
-        </div>
+    <div class="<%= page %>">
+      <div
+        class="ui center aligned masthead basic vertical segment <%= page %>"
+      >
+        <a id="showHere"></a>
         <div class="ui hidden divider"></div>
-        <%- person.bio %>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
       </div>
-    </div>
-    <div class="ui hidden divider"></div>
-  </div>
 
-
-
-
-
-
-  <div class="ui vertical footer segment">
-    <div class="ui hidden divider"></div>
-    <div class="ui stackable grid container">
-      <div class="two column row">
-        <div class="thirteen wide column desktop-group">
-          <span class="text">1888 Century Park East Suite 1110  Los Angeles, CA 90067 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;  © 2017 Hanover Financial LLC &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Website by Max Li</span>
-        </div>
-        <div class="thirteen wide column mobile-group">
-          <span class="text">1888 Century Park East Suite 1110 <br/> Los Angeles, CA 90067 </span><br/><br/><span class="text"> © 2017 Hanover Financial LLC</span><br/><span class="text"> Website by Max Li</span>
-        </div>
-        <div class="three wide column">
-          <a class="popupHelp"><span class="text"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Join Our Mailing List</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="ui hidden divider"></div>
-  </div>
-
-  <div class="ui small modal helpModal">
-    <div class="ui basic padded segment">
-      <div class="ui grid centered container">
+      <div class="ui stackable grid container">
+        <div class="ui hidden divider"></div>
         <div class="row">
-          <div class="right aligned column">
-            <span class="closeModal">X</span>
+          <div class="ui breadcrumb">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/team" class="section">Team</a>
+            <div class="divider">/</div>
+            <a class="section"><%= person.name %></a>
           </div>
         </div>
-        <div class="row">
-          <div class="sixteen wide center aligned column">
-            <div class="ui large header">
-              Thank you for your interest!<br/>
-              Please fill out the information below.
+        <div class="two column center aligned row">
+          <div class="four wide column">
+            <img
+              class="ui medium bordered image"
+              src="/images/<%= person.picture %>"
+            />
+          </div>
+          <div class="eleven wide left aligned column">
+            <div class="ui left aligned large header">
+              <span class="tealAqua"><%= person.name %></span>
+            </div>
+            <div class="ui left aligned medium header">
+              <span class="tealAqua"><%= person.title %></span>
+            </div>
+            <div class="ui left aligned medium header">
+              <a
+                target="_blank"
+                href="<%= person.linkedin %>"
+                title="LinkedIn"
+                target="_blank"
+                ><i
+                  class="fa fa-linkedin "
+                  aria-hidden="true"
+                  style="margin-left:2px;"
+                ></i>
+                &nbsp;&nbsp;</a
+              >
+              <a href="<%= person.email %>" title="Email"
+                ><i class="fa fa-envelope " aria-hidden="true"></i>
+                &nbsp;&nbsp;</a
+              >
+              <%= person.phone %>
+            </div>
+            <div class="ui hidden divider"></div>
+            <%- person.bio %>
+          </div>
+        </div>
+        <div class="ui hidden divider"></div>
+      </div>
+
+      <div class="ui vertical footer segment">
+        <div class="ui hidden divider"></div>
+        <div class="ui stackable grid container">
+          <div class="two column row">
+            <div class="thirteen wide column desktop-group">
+              <span class="text"
+                >1888 Century Park East Suite 1110 Los Angeles, CA 90067
+                &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; © 2017 Hanover Financial
+                LLC &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Website by Max
+                Li</span
+              >
+            </div>
+            <div class="thirteen wide column mobile-group">
+              <span class="text"
+                >1888 Century Park East Suite 1110 <br />
+                Los Angeles, CA 90067 </span
+              ><br /><br /><span class="text">
+                © 2017 Hanover Financial LLC</span
+              ><br /><span class="text"> Website by Max Li</span>
+            </div>
+            <div class="three wide column">
+              <a class="popupHelp"
+                ><span class="text"
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i
+                  >&nbsp;&nbsp;&nbsp;Join Our Mailing List</span
+                ></a
+              >
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="sixteen wide column">
-            <form class="ui form">
-              <div class="field">
-                <label>Name</label>
-                <input type="text" name="name" placeholder="Name">
-              </div>
-              <div class="field">
-                <label>Email</label>
-                <input type="text" name="email" placeholder="Email">
-              </div>
-              <div class="field">
-                <label>Text</label>
-                <textarea></textarea>
-              </div>
-              <button class="ui fluid button" type="submit" style="background-color:#00779f"><span
-                        style="color: #FFFFFF">Submit</span></button>
-            </form>
-          </div>
-        </div>
         <div class="ui hidden divider"></div>
       </div>
+
+      <div class="ui small modal helpModal">
+        <div class="ui basic padded segment">
+          <div class="ui grid centered container">
+            <div class="row">
+              <div class="right aligned column">
+                <span class="closeModal">X</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide center aligned column">
+                <div class="ui large header">
+                  Thank you for your interest!<br />
+                  Please fill out the information below.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <form class="ui form">
+                  <div class="field">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Name" />
+                  </div>
+                  <div class="field">
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Email" />
+                  </div>
+                  <div class="field">
+                    <label>Text</label>
+                    <textarea></textarea>
+                  </div>
+                  <button
+                    class="ui fluid button"
+                    type="submit"
+                    style="background-color:#00779f"
+                  >
+                    <span style="color: #FFFFFF">Submit</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="ui hidden divider"></div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<script src="/js/dependencies/headhesive.js"></script>
-<script src="/js/dependencies/semantic.js"></script>
+    <script src="/js/dependencies/headhesive.js"></script>
+    <script src="/js/dependencies/semantic.js"></script>
 
-<script src="/js/view.about.js"></script>
-<script src="/js/view.contact.js"></script>
-<script src="/js/view.layout.js"></script>
-<script src="/js/view.portfolio.js"></script>
-<script src="/js/view.strategies.js"></script>
-<script src="/js/view.team.js"></script>
-
-</body>
+    <script src="/js/view.about.js"></script>
+    <script src="/js/view.contact.js"></script>
+    <script src="/js/view.layout.js"></script>
+    <script src="/js/view.portfolio.js"></script>
+    <script src="/js/view.strategies.js"></script>
+    <script src="/js/view.team.js"></script>
+  </body>
 </html>

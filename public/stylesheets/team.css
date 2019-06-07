@@ -93,6 +93,9 @@ a {
 #rodiles:hover .overlay,
 #white:hover .overlay,
 #alcaine:hover .overlay,
-#galen:hover .overlay {
+#galen:hover .overlay,
+#lambert:hover .overlay,
+#xiong:hover .overlay,
+#rodrigues:hover .overlay {
   opacity: 0.7;
 }

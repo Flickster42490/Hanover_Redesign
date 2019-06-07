@@ -1253,25 +1253,45 @@ var bios = {
     bio:
       "<p>Mr. Peterson serves as a Director at Hanover Financial, LLC.  He is responsible for identifying and evaluating co-investment partnership opportunities with multi-family development sponsors and evaluating investment opportunities.  Mr. Peterson previously spent ten years as a management/engineering consultant leading a team in the design, financial modeling and performance management of commercial, residential and institutional real estate assets throughout the United States and Mainland China.</p><p>Mr. Peterson holds a Bachelor of Science in Mechanical Engineering from Messiah University and a Master of Business Administration from University of California, Berkeley, Haas School of Business.</p>"
   },
-  SaintJohn: {
-    name: "Vinnie Saint John",
-    title: "Investment Associate",
-    linkedin: "https://www.linkedin.com/in/vinnie-saint-john-3a2129a3/",
-    email: "mailto:mailto:vsaintjohn@hanoverfinancialllc.com",
-    phone: "(424) 653-2526",
-    picture: "saintJohn.jpg",
-    bio:
-      "<p>Mr. Saint John is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Saint John spent three years in public accounting at PwC within their real estate practice. Before PwC, Mr. Saint John played professional baseball within the Los Angeles Angels of Anaheim minor league organization.</p><p>Mr. Saint John holds a Bachelor of Science in Business Administration and a Master of Accounting from USC. Mr. Saint John is a Certified Public Accountant.</p>"
-  },
   Galen: {
     name: "Joshua Galen",
     title: "Investment Associate",
     linkedin: "https://www.linkedin.com/in/josh-galen-a274ba64/",
-    email: "mailto:mailto:jgalen@hanoverfinancialllc.com",
+    email: "mailto:jgalen@hanoverfinancialllc.com",
     phone: "(424) 653-2529",
     picture: "galen.jpg",
     bio:
       "<p>Mr. Galen is an Investment Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Mr. Galen spent two years at Silverpeak Argentic where he underwrote loans in fixed rate and floating rate debt.</p><p>Mr. Galen holds a Bachelor of Science in Public Policy, Planning, and Development and a Master of Science in Finance from USC.</p>"
+  },
+  Xiong: {
+    name: "Jachi Xiong",
+    title: "Senior Director, Asset Management",
+    linkedin: "https://www.linkedin.com/in/jachi-xiong-4575b7/",
+    email: "mailto:jxiong@hanoverfinancialllc.com",
+    phone: "(650) 842-2252",
+    picture: "placeholder.png",
+    bio:
+      "<p>Ms. Xiong serves as Senior Director of Asset Management at Hanover Financial, LLC overseeing the firm’s investment portfolio. Prior to joining Hanover, she served as a Vice President at AIG Global Real Estate Group with alternating roles of west coast acquisition/development and asset management of portfolios with national footprint. Ms. Xiong began her career as an Architect in P.R. China.</p><p>Ms. Xiong holds an MBA from UC Berkeley Haas School of Business and an Master of Real Estate Development (“MRED”) from University of Southern California.  Ms. Xiong graduated with a BS degree in Architecture from Zhejiang University, P.R China.  Ms. Xiong is a member of ULI.</p>"
+  },
+  Rodrigues: {
+    name: "Ryan Rodrigues",
+    title: "Analyst",
+    linkedin: "https://www.linkedin.com/in/ryan-rodrigues-70276083/",
+    email: "mailto:rrodrigues@hanoverfinancialllc.com",
+    phone: "(424) 653-2526",
+    picture: "placeholder.png",
+    bio:
+      "<p>Mr. Rodrigues is an Analyst at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team and asset management team and assists with all aspects of the deal cycle from underwriting new investment opportunities to close of escrow on existing deals. Prior to joining Hanover, Mr. Rodrigues spent two years at Colony Capital where he became a utility player and assisted teams dealing with capital markets, foreign exchange and interest rates, insurance, and corporate finance.</p><p>Mr. Rodrigues holds a Bachelor of Science from Columbia University in Financial Economics.</p>"
+  },
+  Lambert: {
+    name: "Julia Lambert",
+    title: "Analyst",
+    linkedin: "https://www.linkedin.com/in/julia-lambert-097687126/",
+    email: "mailto:jlambert@hanoverfinancialllc.com",
+    phone: "",
+    picture: "placeholder.png",
+    bio:
+      "<p>Ms. Lambert is an Analyst at Hanover Financial, LLC. She is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Ms. Lambert worked at The Concord Group where she consulted on multi-family and office development projects in a variety of US markets.</p><p>Ms. Lambert holds a Bachelor of Science in Civil Engineering, Structures and Construction Emphasis from Stanford University.</p>"
   }
 };
 

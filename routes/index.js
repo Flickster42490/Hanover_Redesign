@@ -1189,7 +1189,7 @@ var bios = {
       "Senior Director, Multifamily (San Francisco Bay Area and Pacific Northwest)",
     linkedin: "https://www.linkedin.com/in/david-white-a3593b11/",
     email: "mailto:dwhite@hanoverfinancialllc.com",
-    phone: "(415) 519-3434",
+    phone: "(415) 746-1090",
     picture: "white.jpg",
     bio:
       "<p>Mr. White serves as Senior Director at Hanover Financial, LLC overseeing the firm’s investment activities in the Bay Area and Pacific Northwest.   Prior to joining Hanover, he served as an Executive Director at PGIM Real Estate responsible for west coast acquisition activities on behalf of PGIM’s open-ended fund series.   Mr. White began his career at KPMG LLP.</p><p>Mr. White holds an MBA from UC Berkeley Haas School of Business and BS degrees in Accounting & Finance from Indiana University’s Kelly School of Business.   Mr. White is a Certified Public Accountant (inactive) and a member of ULI.</p>"
@@ -1240,7 +1240,7 @@ var bios = {
       " Associate Director, Multifamily (San Francisco Bay Area and Pacific Northwest)",
     linkedin: "https://www.linkedin.com/in/josh-samaha-89a3741a/",
     email: "mailto:jsamaha@hanoverfinancialllc.com",
-    phone: "(650) 842-2215",
+    phone: "(415) 746-1094",
     picture: "samaha.jpg",
     bio:
       "<p>Mr. Samaha is an Associate at Hanover Financial, LLC. He is responsible for working with Hanover’s acquisition team in identifying and underwriting new multifamily investment opportunities. Prior to joining Hanover, Mr. Samaha spent four years at The Concord Group consulting on multifamily development projects in the West Coast. </p> <p>Mr. Samaha holds a Bachelor of Arts in Economics from UCLA. </p>"
@@ -1251,7 +1251,7 @@ var bios = {
       "Director, Multifamily (San Francisco Bay Area and Pacific Northwest)",
     linkedin: "https://www.linkedin.com/in/johnpaulpeterson/",
     email: "mailto:jpeterson@hanoverfinancialllc.com",
-    phone: "(650) 842-2231",
+    phone: "(415) 746-1090",
     picture: "peterson.jpg",
     bio:
       "<p>Mr. Peterson serves as a Director at Hanover Financial, LLC.  He is responsible for identifying and evaluating co-investment partnership opportunities with multi-family development sponsors and evaluating investment opportunities.  Mr. Peterson previously spent ten years as a management/engineering consultant leading a team in the design, financial modeling and performance management of commercial, residential and institutional real estate assets throughout the United States and Mainland China.</p><p>Mr. Peterson holds a Bachelor of Science in Mechanical Engineering from Messiah University and a Master of Business Administration from University of California, Berkeley, Haas School of Business.</p>"
@@ -1291,7 +1291,7 @@ var bios = {
     title: "Analyst",
     linkedin: "https://www.linkedin.com/in/julia-lambert-097687126/",
     email: "mailto:jlambert@hanoverfinancialllc.com",
-    phone: "",
+    phone: "415-746-1092",
     picture: "placeholder.png",
     bio:
       "<p>Ms. Lambert is an Analyst at Hanover Financial, LLC. She is responsible for working with Hanover’s acquisition team in identifying and underwriting new investment opportunities as well as working with Hanover’s asset management team. Prior to joining Hanover, Ms. Lambert worked at The Concord Group where she consulted on multi-family and office development projects in a variety of US markets.</p><p>Ms. Lambert holds a Bachelor of Science in Civil Engineering, Structures and Construction Emphasis from Stanford University.</p>"
